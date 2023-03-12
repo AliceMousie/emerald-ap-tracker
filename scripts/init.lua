@@ -10,8 +10,6 @@ if not IS_ITEMS_ONLY then
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/events.json")
-Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")

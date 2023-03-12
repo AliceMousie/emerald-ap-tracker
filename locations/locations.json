@@ -266,6 +266,36 @@
                     {
                         "name": "Item on Beach",
                         "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item above Ledge",
+                        "access_rules": ["$fallarbor_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item behind Rock",
+                        "access_rules": ["$fallarbor_access,$can_rocksmash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Center Beach Hidden Item",
+                        "access_rules": ["$hid,$can_surf"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "North Item in Trees",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "North Item on Ridge",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "North Item up Ramp",
+                        "access_rules": ["$can_surf,$machbike"],
+                        "visibility_rules": ["op_ovw_on"]
                     }
                 ],
                 "map_locations": [
@@ -1288,6 +1318,7 @@
                     },
                     {
                         "name": "Gift from Fisherman",
+                        "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_rod_on"]
                     },
                     {
