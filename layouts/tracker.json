@@ -19,6 +19,24 @@
                                 "type": "layout",
                                 "key": "shared_item_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Events",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "event_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "setting_grid"
+                            }
                         }
                     ]
                 },
@@ -52,6 +70,30 @@
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Events",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "event_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "setting_grid"
                             }
                         }
                     ]
