@@ -303,7 +303,7 @@
                 "codes": "op_hms,op_hms_off"
             },
             {
-                "img": "images/itemfinder.png",
+                "img": "images/settings/hms_sh.png",
                 "codes": "op_hms,op_hms_sh",
                 "inherit_codes": false
             }
@@ -326,7 +326,7 @@
                 "codes": "op_bdg,op_bdg_off"
             },
             {
-                "img": "images/itemfinder.png",
+                "img": "images/settings/badges_sh.png",
                 "codes": "op_bdg,op_bdg_sh",
                 "inherit_codes": false
             }
@@ -447,11 +447,11 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/settings/if_on.png",
+                "img": "images/settings/if_off.png",
                 "codes": "op_if,op_if_off"
             },
             {
-                "img": "images/settings/if_off.png",
+                "img": "images/settings/if_on.png",
                 "codes": "op_if,op_if_on",
                 "inherit_codes": false
             }
