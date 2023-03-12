@@ -1,0 +1,12 @@
+﻿{
+    "name": "Pokémon Emerald Archipleago",
+    "game_name": "Pokémon Emerald",
+    "package_version": "0.0.0.1",
+    "package_uid": "ap_emerald",
+    "author": "AliceMousie",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker"
+        }
+    }
+}

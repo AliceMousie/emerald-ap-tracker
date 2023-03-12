@@ -1,2 +1,2 @@
-# emerald-ap-tracker
-PopTracker pack for Archipelago Pokémon Emerald
+# Emerald AP Tracker
+ autotracking coming soon™
