@@ -11,6 +11,11 @@
                         "name": "Gift from Mom",
                         "access_rules": ["balancebadge"],
                         "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Dad",
+                        "access_rules": ["becomechampion"],
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
@@ -526,7 +531,7 @@
                     },
                     {
                         "name": "Deliver Meteorite to Prof. Cozmo",
-                        "access_rules": ["meteorite"],
+                        "access_rules": ["meteorite,stealmeteor"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -699,27 +704,27 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
+                        "name": "2F - Northwest Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "2F - Northeast Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "3F - Storage Room Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
                         "name": "3F - West Item by Lava",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "4F - West Item",
+                        "name": "4F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "5F - West Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "7F - West Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "8F - Northwest Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "8F - Northeast Item",
+                        "name": "3F - After Maxie Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -797,6 +802,11 @@
                     {
                         "name": "South Item",
                         "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "South Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
                     }
                 ],
                 "map_locations": [
@@ -1489,7 +1499,7 @@
                     {
                         "name": "Across Acro Hidden Item",
                         "access_rules": ["$hid,acrobike,$mauville_access,$can_surf"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Item below Mach Bike Ramp",
