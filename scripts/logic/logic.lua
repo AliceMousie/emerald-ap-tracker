@@ -68,6 +68,10 @@ function mauville_access()
     return (can_rocksmash() or can_surf() or (has("sterngoods")))
 end
 
+function meteorfalls_access()
+    return ((can_surf()) or (mauville_access() and can_rocksmash()))
+end
+
 function fallarbor_access()
     return ((can_surf() and has("stealmeteor")) or (mauville_access() and can_rocksmash()))
 end

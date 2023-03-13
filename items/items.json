@@ -282,6 +282,18 @@
         "codes": "becomechampion"
     },
     {
+        "name": "Release Kyogre",
+        "type": "toggle",
+        "img": "/images/events/releasekyogre.png",
+        "codes": "releasekyogre"
+    },
+    {
+        "name": "Release Rayquaza",
+        "type": "toggle",
+        "img": "/images/events/releaserayquaza.png",
+        "codes": "releaserayquaza"
+    },
+    {
         "name": "Gyms Beaten",
         "type": "consumable",
         "img": "/images/items/gyms.png",

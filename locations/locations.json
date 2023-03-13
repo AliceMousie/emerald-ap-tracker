@@ -22,6 +22,22 @@
                 ]
             },
             {
+                "name": "Oldale Town",
+                "sections": [
+                    {
+                        "name": "Gift from Mart",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 44,
+                        "y": 92
+                    }
+                ]
+            },
+            {
                 "name": "Route 102",
                 "sections": [
                     {
@@ -236,16 +252,17 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
+                        
                         "name": "Gift from Boy in Southwest Building 2F",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from School Teacher",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Gift from Cutter",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
-                    },
-                    {
-                        "name": "Recover Devon Goods",
-                        "hosted_item": "recovergoods"
                     },
                     {
                         "name": "Gift from Devon Employee",
@@ -259,6 +276,10 @@
                         "name": "Gift from Mr. Stone",
                         "access_rules": ["stevenletter"],
                         "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Recover Devon Goods",
+                        "hosted_item": "recovergoods"
                     }
                 ],
                 "map_locations": [
@@ -278,12 +299,12 @@
                     },
                     {
                         "name": "Item above Ledge",
-                        "access_rules": ["$fallarbor_access"],
+                        "access_rules": ["$meteorfalls_access"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Item behind Rock",
-                        "access_rules": ["$fallarbor_access,$can_rocksmash"],
+                        "access_rules": ["$meteorfalls_access,$can_rocksmash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -317,7 +338,7 @@
             },
             {
                 "name": "Meteor Falls",
-                "access_rules": ["$fallarbor_access"],
+                "access_rules": ["$meteorfalls_access"],
                 "sections": [
                     {
                         "name": "1F 1R - Item West of Bridge",
@@ -379,9 +400,19 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
+                        "name": "Southwest of Verdanturf Item",
+                        "access_rules": ["$mauville_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
                         "name": "Glasses Man Hidden Item",
                         "access_rules": ["$hid,$mauville_access"],
                         "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Gift from Devon Employee",
+                        "access_rules": ["sterngoods"],
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
@@ -408,6 +439,10 @@
                         "name": "Northeast Item",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$mauville_access"]
+                    },
+                    {
+                        "name": "Item from Aqua Grunt",
+                        "visibility_rules": ["op_ki_on"]
                     }
                 ],
                 "map_locations": [
@@ -421,6 +456,12 @@
             {
                 "name": "Verdanturf Town",
                 "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Gift from Battle Tent Woman",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
@@ -637,7 +678,7 @@
                 "access_rules": ["$lavaridge_access"],
                 "sections": [
                     {
-                        "name": "Item from Maxie",
+                        "name": "Item from Machine",
                         "visibility_rules": ["op_ki_on"]
                     }
                 ],
@@ -726,18 +767,14 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "North Item behind Cut Tree",
-                        "access_rules": ["$can_cut"],
+                        "name": "North Item",
+                        "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "South Item",
+                        "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "South Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
                     }
                 ],
                 "map_locations": [
@@ -753,7 +790,8 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "North Item",
+                        "name": "North Item behind Cut Tree",
+                        "access_rules": ["$can_cut"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -792,13 +830,13 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Gift from Wattson (Balance Badge)",
-                        "access_rules": ["balancebadge"],
+                        "name": "Gift from Wattson (Beat Norman)",
+                        "access_rules": ["$norman_open"],
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
                         "name": "Gift from Wattson (Generator)",
-                        "access_rules": ["basementkey"],
+                        "access_rules": ["basementkey,$can_surf"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -814,7 +852,45 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 80,
+                        "x": 76,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "New Mauville",
+                "access_rules": ["$mauville_access,basementkey,$can_surf"],
+                "sections": [
+                    {
+                        "name": "Center Room Blue Switch Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "East Room Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Center Room Green Switch Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Northeast Room Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Northwest Room Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Generator Room Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 84,
                         "y": 68
                     }
                 ]
@@ -1022,22 +1098,22 @@
                     },
                     {
                         "name": "Underwater - Room 1 Item",
-                        "access_rules": "$can_dive,room1key",
+                        "access_rules": ["$can_dive,roomkey1"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Underwater - Room 1 Hidden Item",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_dive,room1key"]
+                        "access_rules": ["$hid,$can_dive,roomkey1"]
                     },
                     {
                         "name": "Underwater - Room 2 Item",
-                        "access_rules": "$can_dive,room2key",
+                        "access_rules": ["$can_dive,roomkey2"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Underwater - Room 3 Item",
-                        "access_rules": "$can_dive",
+                        "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -1048,16 +1124,16 @@
                     {
                         "name": "Underwater - Room 4 Hidden Item",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_dive,room4key"]
+                        "access_rules": ["$hid,$can_dive,roomkey4"]
                     },
                     {
                         "name": "Underwater - Room 5 Hidden Item",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_dive,room5key"]
+                        "access_rules": ["$hid,$can_dive,roomkey6"]
                     },
                     {
                         "name": "Underwater - Room 6 Item",
-                        "access_rules": "$can_dive,room6key",
+                        "access_rules": ["$can_dive,roomkey6"],
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1094,6 +1170,16 @@
             {
                 "name": "Route 109",
                 "sections": [
+                    {
+                        "name": "Seahouse Trainers Gift",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Girl",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
                     {
                         "name": "Southwest Hidden Item",
                         "visibility_rules": ["op_hid_on"],
@@ -1160,13 +1246,14 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Contest Hall Girl",
-                        "visibility_rules": ["op_npc_on"]
-                    },
-                    {
                         "name": "Deliver Devon Goods",
                         "access_rules": ["stevenletter,devongoods"],
                         "hosted_item": "sterngoods"
+                    },
+                    {
+                        "name": "Gift from Aqua Grunt",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["sterngoods"]
                     },
                     {
                         "name": "Team Aqua - Steals Submarine",
@@ -1178,7 +1265,34 @@
                     {
                         "map": "map1",
                         "x": 76,
-                        "y": 104
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "S.S. Tidal",
+                "access_rules": ["op_fer_on,ssticket,$slateport_access","op_fer_on,ssticket,$lilycove_access","op_fer_off,becomechampion"],
+                "sections": [
+                    {
+                        "name": "Storage Hidden Item",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Gift from Thief",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 76,
+                        "y": 100
+                    },
+                    {
+                        "map": "map1",
+                        "x": 156,
+                        "y": 44
                     }
                 ]
             },
@@ -1302,7 +1416,12 @@
             {
                 "name": "Pacifidlog Town",
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
-                "sections": [],
+                "sections": [
+                    {
+                        "name": "Gift from Fanclub",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "map1",
@@ -1455,17 +1574,16 @@
                         "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
-                        "name": "Item Behind Gym",
-                        "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
                         "name": "Hidden Item in front of PokéCenter",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
                         "name": "Gift from Woman in Northwestern House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Wingull Man",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1670,7 +1788,7 @@
                 "map_locations": [
                     {
                         "map": "map1",
-                        "x": 160,
+                        "x": 164,
                         "y": 44
                     }
                 ]
@@ -1740,7 +1858,7 @@
                     {
                         "map": "map1",
                         "x": 140,
-                        "y": 54
+                        "y": 56
                     }
                 ]
             },
@@ -1748,6 +1866,10 @@
                 "name": "Route 123 - East",
                 "access_rules": ["$can_surf,$lilycove_access"],
                 "sections": [
+                    {
+                        "name": "Gift from Girl",
+                        "visibility_rules": ["op_npc_on"]
+                    },
                     {
                         "name": "East Cut Hidden Items",
                         "visibility_rules": ["op_hid_on"],
@@ -1952,10 +2074,12 @@
                     {
                         "name": "Gym Battle - Juan",
                         "item_count": 2,
+                        "access_rules": ["releaserayquaza"],
                         "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
                     },
                     {
                         "name": "Gym Battle - Juan",
+                        "access_rules": ["releaserayquaza"],
                         "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
@@ -1968,7 +2092,7 @@
                     },
                     {
                         "name": "Gift from Steven",
-                        "access_rules": ["rainbadge"],
+                        "access_rules": ["releaserayquaza"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -2016,6 +2140,10 @@
                     },
                     {
                         "name": "Gift from Boy Outside Steven's House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Man in Space Center",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -2120,6 +2248,27 @@
                 ]
             },
             {
+                "name": "Seafloor Cavern",
+                "access_rules": ["$can_dive,$can_strength,$can_rocksmash$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Release Kyogre",
+                        "hosted_item": "releasekyogre"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 196,
+                        "y": 92
+                    }
+                ]
+            },
+            {
                 "name": "Route 129",
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [],
@@ -2152,6 +2301,23 @@
                         "map": "map1",
                         "x": 168,
                         "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Sky Pillar",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua,releasekyogre"],
+                "sections": [
+                    {
+                        "name": "Release Rayquaza",
+                        "hosted_item": "releaserayquaza"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 172,
+                        "y": 92
                     }
                 ]
             },
