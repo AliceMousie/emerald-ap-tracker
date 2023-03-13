@@ -152,7 +152,7 @@
     {
         "name": "Heat Badge",
         "type": "toggle",
-        "img": "/images/items/heatBadge.png",
+        "img": "/images/items/heatbadge.png",
         "codes": "heatbadge"
     },
     {

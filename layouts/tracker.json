@@ -37,6 +37,16 @@
                                 "type": "layout",
                                 "key": "setting_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "style": "wrap",
+                                "type": "recentpins",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
                         }
                     ]
                 },
@@ -94,6 +104,16 @@
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "setting_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "style": "wrap",
+                                "type": "recentpins",
+                                "orientation": "horizontal",
+                                "compact": true
                             }
                         }
                     ]
