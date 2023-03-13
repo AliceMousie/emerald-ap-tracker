@@ -73,7 +73,7 @@
                     {
                         "name": "Gift from Wally's Father",
                         "access_rules": ["$norman_open"],
-                        "visibility_rules": ["op_hms_on"]
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
                         "name": "Surf Items",
@@ -651,7 +651,7 @@
             },
             {
                 "name": "Magma Hideout",
-                "access_rules": ["$lavaridge_access,$stealmeteor,magmaemblem,$can_strength"],
+                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
                 "sections": [
                     {
                         "name": "1F - Ledge Item",
@@ -789,7 +789,7 @@
                     },
                     {
                         "name": "Gift from Man in Southeast House",
-                        "visibility_rules": ["op_hms_on"]
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
                         "name": "Gift from Wattson (Balance Badge)",
@@ -911,7 +911,7 @@
                 "sections": [
                     {
                         "name": "1F - Gift from Hiker",
-                        "visibility_rules": ["op_hms_on"]
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
                         "name": "1F - West Item",
@@ -1170,7 +1170,7 @@
                     },
                     {
                         "name": "Team Aqua - Steals Submarine",
-                        "access_rules": ["magmaclear"],
+                        "access_rules": ["clearmagma"],
                         "hosted_item": "stealsub"
                     }
                 ],
@@ -1399,7 +1399,7 @@
                     },
                     {
                         "name": "Gift from Rival",
-                        "visibility_rules": ["op_hms_on"],
+                        "visibility_rules": ["op_hms_on","op_hms_sh"],
                         "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
                     },
                     {
@@ -2020,7 +2020,7 @@
                     },
                     {
                         "name": "Gift from Steven",
-                        "visibility_rules": ["op_hms_on"]
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
                         "name": "Gift from Fisherman",
