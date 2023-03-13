@@ -1421,6 +1421,13 @@
                         "name": "Clear Weather Institute",
                         "hosted_item": "weatherins"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 100,
+                        "y": 36
+                    }
                 ]
             },
             {

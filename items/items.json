@@ -295,16 +295,16 @@
         "stages": [
             {
                 "img": "images/settings/hms_on.png",
-                "codes": "op_hms,op_hms_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/hms_off.png",
-                "codes": "op_hms,op_hms_off"
+                "codes": "op_hms,op_hms_on"
             },
             {
                 "img": "images/settings/hms_sh.png",
                 "codes": "op_hms,op_hms_sh"
+            },
+            {
+                "img": "images/settings/hms_off.png",
+                "codes": "op_hms,op_hms_off",
+                "inherit_codes": false
             }
             
         ]
@@ -317,16 +317,16 @@
         "stages": [
             {
                 "img": "images/settings/badges_on.png",
-                "codes": "op_bdg,op_bdg_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/badges_off.png",
-                "codes": "op_bdg,op_bdg_off"
+                "codes": "op_bdg,op_bdg_on"
             },
             {
                 "img": "images/settings/badges_sh.png",
                 "codes": "op_bdg,op_bdg_sh"
+            },
+            {
+                "img": "images/settings/badges_off.png",
+                "codes": "op_bdg,op_bdg_off",
+                "inherit_codes": false
             }
         ]
     },
@@ -338,12 +338,12 @@
         "stages": [
             {
                 "img": "images/settings/overworld_on.png",
-                "codes": "op_ovw,op_ovw_on",
-                "inherit_codes": false
+                "codes": "op_ovw,op_ovw_on"
             },
             {
                 "img": "images/settings/overworld_off.png",
-                "codes": "op_ovw,op_ovw_off"
+                "codes": "op_ovw,op_ovw_off",
+                "inherit_codes": false
             }
           
         ]
@@ -356,14 +356,13 @@
         "stages": [
             {
                 "img": "images/settings/npc_on.png",
-                "codes": "op_npc,op_npc_on",
-                "inherit_codes": false
+                "codes": "op_npc,op_npc_on"
             },
             {
                 "img": "images/settings/npc_off.png",
-                "codes": "op_npc,op_npc_off"
+                "codes": "op_npc,op_npc_off",
+                "inherit_codes": false
             }
-            
         ]
     },
     {
@@ -374,12 +373,12 @@
         "stages": [
             {
                 "img": "images/settings/hidden_on.png",
-                "codes": "op_hid,op_hid_on",
-                "inherit_codes": false
+                "codes": "op_hid,op_hid_on"
             },
             {
                 "img": "images/settings/hidden_off.png",
-                "codes": "op_hid,op_hid_off"
+                "codes": "op_hid,op_hid_off",
+                "inherit_codes": false
             }
         
         ]
@@ -392,12 +391,12 @@
         "stages": [
             {
                 "img": "images/settings/keyitems_on.png",
-                "codes": "op_ki,op_ki_on",
-                "inherit_codes": false
+                "codes": "op_ki,op_ki_on"
             },
             {
                 "img": "images/settings/keyitems_off.png",
-                "codes": "op_ki,op_ki_off"
+                "codes": "op_ki,op_ki_off",
+                "inherit_codes": false
             }
             
         ]
@@ -410,12 +409,12 @@
         "stages": [
             {
                 "img": "images/settings/rods_on.png",
-                "codes": "op_rod,op_rod_on",
-                "inherit_codes": false
+                "codes": "op_rod,op_rod_on"
             },
             {
                 "img": "images/settings/rods_off.png",
-                "codes": "op_rod,op_rod_off"
+                "codes": "op_rod,op_rod_off",
+                "inherit_codes": false
             }
             
         ]
@@ -428,12 +427,12 @@
         "stages": [
             {
                 "img": "images/settings/bikes_on.png",
-                "codes": "op_bik,op_bik_on",
-                "inherit_codes": false
+                "codes": "op_bik,op_bik_on"
             },
             {
                 "img": "images/settings/bikes_off.png",
-                "codes": "op_bik,op_bik_off"
+                "codes": "op_bik,op_bik_off",
+                "inherit_codes": false
             }
            
         ]
@@ -463,12 +462,12 @@
         "stages": [
             {
                 "img": "images/settings/flash_on.png",
-                "codes": "op_hm5,op_hm5_on",
-                "inherit_codes": false
+                "codes": "op_hm5,op_hm5_on"
             },
             {
                 "img": "images/settings/flash_off.png",
-                "codes": "op_hm5,op_hm5_off"
+                "codes": "op_hm5,op_hm5_off",
+                "inherit_codes": false
             }
         ]
     },
@@ -480,12 +479,12 @@
         "stages": [
             {
                 "img": "images/settings/ferry_on.png",
-                "codes": "op_fer,op_fer_on",
-                "inherit_codes": false
+                "codes": "op_fer,op_fer_on"
             },
             {
                 "img": "images/settings/ferry_off.png",
-                "codes": "op_fer,op_fer_off"
+                "codes": "op_fer,op_fer_off",
+                "inherit_codes": false
             }
         ]
     }
