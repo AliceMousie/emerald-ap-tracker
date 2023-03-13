@@ -62,12 +62,12 @@
                     {
                         "name": "Gym Battle - Norman",
                         "item_count": 2,
-                        "visibility_rules": ["op_bdg_on","op_bdg_sh"],
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"],
                         "access_rules": ["$norman_open"]
                     },
                     {
                         "name": "Gym Battle - Norman",
-                        "visibility_rules": ["op_bdg_off"],
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"],
                         "access_rules": ["$norman_open"]
                     },
                     {
@@ -222,6 +222,15 @@
             {
                 "name": "Rustboro City",
                 "sections": [
+                    {
+                        "name": "Gym Battle - Roxanne",
+                        "item_count": 2,
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                    },
+                    {
+                        "name": "Gym Battle - Roxanne",
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                    },
                     {
                         "name": "Behind Fence Southeast",
                         "visibility_rules": ["op_ovw_on"]
@@ -595,15 +604,15 @@
                     {
                         "name": "Gym Battle - Flannery",
                         "item_count": 2,
-                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
                     },
                     {
                         "name": "Gym Battle - Flannery",
-                        "visibility_rules": ["op_bdg_off"]
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
                         "name": "Post-Gym Gift from Rival",
-                        "visibility_rules": ["op_ki_off"]
+                        "visibility_rules": ["op_ki_on"]
                     },
                     {
                         "name": "Gift from Man in Herb Shop",
@@ -767,11 +776,11 @@
                     {
                         "name": "Gym Battle - Wattson",
                         "item_count": 2,
-                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
                     },
                     {
                         "name": "Gym Battle - Wattson",
-                        "visibility_rules": ["op_bdg_off"]
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
                         "name": "Bike Guy Items",
@@ -952,13 +961,13 @@
                 "access_rules": ["$dewford_access"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Wattson",
+                        "name": "Gym Battle - Brawley",
                         "item_count": 2,
-                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
                     },
                     {
-                        "name": "Gym Battle - Wattson",
-                        "visibility_rules": ["op_bdg_off"]
+                        "name": "Gym Battle - Brawly",
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
                         "name": "Gift from Fisherman",
@@ -1438,12 +1447,12 @@
                         "name": "Gym Battle - Winona",
                         "item_count": 2,
                         "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
                     },
                     {
                         "name": "Gym Battle - Winona",
                         "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_bdg_off"]
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
                     },
                     {
                         "name": "Item Behind Gym",
@@ -1941,6 +1950,15 @@
                 "access_rules": ["$lilycove_access,$can_dive,clearaqua"],
                 "sections": [
                     {
+                        "name": "Gym Battle - Juan",
+                        "item_count": 2,
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                    },
+                    {
+                        "name": "Gym Battle - Juan",
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                    },
+                    {
                         "name": "Gift from Black Belt",
                         "visibility_rules": ["op_npc_on"]
                     },
@@ -1983,6 +2001,15 @@
                 "name": "Mossdeep City",
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
+                    {
+                        "name": "Gym Battle - Tate and Liza",
+                        "item_count": 2,
+                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                    },
+                    {
+                        "name": "Gym Battle - Tate and Liza",
+                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                    },
                     {
                         "name": "Southeast Item",
                         "visibility_rules": ["op_ovw_on"]
