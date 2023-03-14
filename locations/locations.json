@@ -20,7 +20,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 44,
                         "y": 108
                     }
@@ -36,7 +36,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 44,
                         "y": 92
                     }
@@ -52,7 +52,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 32,
                         "y": 92
                     }
@@ -75,7 +75,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 60,
                         "y": 84
                     }
@@ -95,11 +95,6 @@
                         "access_rules": ["$norman_open"]
                     },
                     {
-                        "name": "HM03 from Wally's Uncle",
-                        "access_rules": ["$norman_open"],
-                        "visibility_rules": ["op_hms_on","op_hms_sh"]
-                    },
-                    {
                         "name": "Item 1",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
@@ -113,11 +108,16 @@
                         "name": "Hidden Item 1",
                         "access_rules": ["$hid,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "HM03 from Wally's Uncle",
+                        "access_rules": ["$norman_open"],
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 20,
                         "y": 92
                     }
@@ -148,7 +148,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 92
                     }
@@ -158,12 +158,22 @@
                 "name": "Petalburg Woods",
                 "sections": [
                     {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
                         "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Devon Employee",
-                        "visibility_rules": ["op_npc_on"]
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
                     },
                     {
                         "name": "Hidden Item 1",
@@ -171,12 +181,18 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
                         "name": "Hidden Item 2",
                         "access_rules": ["$hid,$can_cut"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "access_rules": ["$hid,$can_cut"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
@@ -185,29 +201,13 @@
                         "access_rules": ["$can_cut"]
                     },
                     {
-                        "name": "Item 2",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$can_cut"]
-                    },
-                    {
-                        "name": "Item 4",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$can_cut"]
-                    },
-                    {
-                        "name": "Hidden Item 3",
-                        "access_rules": ["$hid,$can_cut"],
-                        "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "Hidden Item 2",
-                        "access_rules": ["$hid"],
-                        "visibility_rules": ["op_hid_on"]
+                        "name": "Gift from Devon Employee",
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 84
                     }
@@ -221,17 +221,14 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "TM09 from Boy",
-                        "visibility_rules": ["op_npc_on"]
+                        "name": "Item 3",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Wailmer Pail from Flower Shop Lady",
-                        "visibility_rules": ["op_npc_on"]
-                    },
-                    {
-                        "name": "Gift from Lady",
-                        "access_rules": ["dynamobadge"],
-                        "visibility_rules": ["op_npc_on"]
+                        "name": "Item 4",
+                        "access_rules": ["$can_surf","$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Hidden Item 4",
@@ -244,23 +241,26 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Item 3",
-                        "access_rules": ["$can_surf"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "TM09 from Boy",
+                        "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Item 4",
-                        "access_rules": ["$can_surf","$can_cut"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "Wailmer Pail from Flower Shop Lady",
+                        "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Gift from Woman Near Berries",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Lady",
+                        "access_rules": ["dynamobadge"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 76
                     }
@@ -314,7 +314,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 64
                     }
@@ -324,7 +324,18 @@
                 "name": "Route 115",
                 "sections": [
                     {
-                        "name": "Item 5",
+                        "name": "Item 1",
+                        "access_rules": ["$meteorfalls_access,$can_rocksmash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_surf,$machbike"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -333,18 +344,7 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item 1",
-                        "access_rules": ["$meteorfalls_access,$can_rocksmash"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Hidden Item",
-                        "access_rules": ["$hid,$can_surf"],
-                        "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "Item 2",
-                        "access_rules": ["$can_surf"],
+                        "name": "Item 5",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -353,14 +353,14 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item 3",
-                        "access_rules": ["$can_surf,$machbike"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "Hidden Item",
+                        "access_rules": ["$hid,$can_surf"],
+                        "visibility_rules": ["op_hid_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 52
                     }
@@ -400,7 +400,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 40
                     }
@@ -410,6 +410,21 @@
                 "name": "Route 116",
                 "sections": [
                     {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$mauville_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
                         "name": "Item 4",
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -418,25 +433,10 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$can_cut"]
-                    },
-                    {
-                        "name": "Item 3",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$can_cut"]
-                    },
-                    {
                         "name": "Hidden Item 2",
                         "item_count": 2,
                         "access_rules": ["$hid,$can_cut"],
                         "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "Item 2",
-                        "access_rules": ["$mauville_access"],
-                        "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Hidden Item 1",
@@ -451,7 +451,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 24,
                         "y": 60
                     }
@@ -460,6 +460,11 @@
             {
                 "name": "Rusturf Tunnel",
                 "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access"]
+                    },
                     {
                         "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
@@ -470,18 +475,13 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access"]
-                    },
-                    {
                         "name": "Recover Devon Goods",
                         "visibility_rules": ["op_ki_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 36,
                         "y": 60
                     }
@@ -498,7 +498,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 44,
                         "y": 68
                     }
@@ -509,9 +509,8 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "Hidden Item 1",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Item 2",
@@ -519,18 +518,19 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Hidden Item 2",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
                         "name": "Item 3",
                         "access_rules": ["$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
                     },
                     {
                         "name": "TM05 from Roaring Man",
@@ -543,7 +543,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 20,
                         "y": 28
                     }
@@ -566,7 +566,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 36,
                         "y": 20
                     }
@@ -581,12 +581,11 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Hidden Item 3",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item 2",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -600,13 +599,14 @@
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Item 3",
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 52,
                         "y": 20
                     }
@@ -624,7 +624,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 68,
                         "y": 44
                     }
@@ -634,10 +634,6 @@
                 "name": "Route 111 - North",
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
-                    {
-                        "name": "Secret Power Gift",
-                        "visibility_rules": ["op_npc_on"]
-                    },
                     {
                         "name": "Item 1",
                         "access_rules": ["gogoggles"],
@@ -662,11 +658,15 @@
                         "name": "Hidden item 3",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Secret Power Gift",
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 20
                     }
@@ -685,22 +685,22 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Go Goggles from Rival",
-                        "visibility_rules": ["op_ki_on"]
-                    },
-                    {
-                        "name": "Gift from Man",
+                        "name": "Herb Shop - Gift from Man",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Hidden Item in Springs",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Go Goggles from Rival",
+                        "visibility_rules": ["op_ki_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 52,
                         "y": 44
                     }
@@ -717,7 +717,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 68,
                         "y": 28
                     }
@@ -762,7 +762,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 60,
                         "y": 28
                     }
@@ -789,7 +789,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 68,
                         "y": 36
                     }
@@ -812,7 +812,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 60,
                         "y": 36
                     }
@@ -839,7 +839,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 60,
                         "y": 68
                     }
@@ -891,7 +891,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 68
                     }
@@ -925,7 +925,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 84,
                         "y": 68
                     }
@@ -951,7 +951,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 54
                     }
@@ -978,7 +978,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 12,
                         "y": 108
                     }
@@ -1011,7 +1011,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 20,
                         "y": 124
                     }
@@ -1035,7 +1035,7 @@
                         "access_rules": ["$can_flash"]
                     },
                     {
-                        "name": "IB2F - tem 1",
+                        "name": "B2F - tem 1",
                         "access_rules": ["machbike,$can_flash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -1067,7 +1067,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 20,
                         "y": 132
                     }
@@ -1101,7 +1101,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 28,
                         "y": 132
                     }
@@ -1179,9 +1179,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 52,
-                        "y": 132
+                        "map": "hoennmap",
+                        "x": 56,
+                        "y": 124
                     }
                 ]
             },
@@ -1201,8 +1201,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 68,
+                        "map": "hoennmap",
+                        "x": 56,
                         "y": 132
                     }
                 ]
@@ -1246,7 +1246,7 @@
                         "access_rules": ["$hid,$slateport_access"]
                     },
                     {
-                        "name": "Item 4",
+                        "name": "Hidden Item 4",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$slateport_access"]
                     },
@@ -1263,7 +1263,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 124
                     }
@@ -1303,7 +1303,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 108
                     }
@@ -1325,12 +1325,12 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 100
                     },
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 156,
                         "y": 44
                     }
@@ -1380,7 +1380,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 76,
                         "y": 84
                     }
@@ -1401,7 +1401,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 94,
                         "y": 100
                     }
@@ -1426,7 +1426,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 112,
                         "y": 100
                     }
@@ -1447,7 +1447,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 130,
                         "y": 100
                     }
@@ -1460,11 +1460,15 @@
                     {
                         "name": "TM21 from Man in House",
                         "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM27 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 148,
                         "y": 100
                     }
@@ -1497,7 +1501,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 100,
                         "y": 68
                     }
@@ -1579,7 +1583,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 100,
                         "y": 52
                     }
@@ -1596,7 +1600,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 100,
                         "y": 36
                     }
@@ -1628,7 +1632,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 108,
                         "y": 20
                     }
@@ -1661,6 +1665,11 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
+                        "name": "Scorched Slab - Item",
+                        "access_rules": ["devonscope,$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
                         "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_cut"]
@@ -1687,7 +1696,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 116,
                         "y": 36
                     }
@@ -1729,7 +1738,6 @@
                     },
                     {
                         "name": "NE - Item",
-                        "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -1745,7 +1753,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 140,
                         "y": 36
                     }
@@ -1790,7 +1798,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 140,
                         "y": 44
                     }
@@ -1826,7 +1834,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 164,
                         "y": 44
                     }
@@ -1895,7 +1903,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 140,
                         "y": 56
                     }
@@ -1948,7 +1956,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 132,
                         "y": 68
                     }
@@ -1970,7 +1978,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 116,
                         "y": 68
                     }
@@ -2004,7 +2012,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 172,
                         "y": 36
                     }
@@ -2062,7 +2070,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 180,
                         "y": 44
                     }
@@ -2120,7 +2128,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 180,
                         "y": 60
                     }
@@ -2152,7 +2160,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 180,
                         "y": 76
                     }
@@ -2169,7 +2177,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 208,
                         "y": 44
                     }
@@ -2210,7 +2218,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 208,
                         "y": 60
                     }
@@ -2256,7 +2264,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 208,
                         "y": 76
                     }
@@ -2294,7 +2302,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 208,
                         "y": 92
                     }
@@ -2315,7 +2323,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 196,
                         "y": 92
                     }
@@ -2327,7 +2335,7 @@
                 "sections": [],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 200,
                         "y": 100
                     }
@@ -2339,7 +2347,7 @@
                 "sections": [],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 184,
                         "y": 100
                     }
@@ -2351,7 +2359,7 @@
                 "sections": [],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 168,
                         "y": 100
                     }
@@ -2368,7 +2376,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 172,
                         "y": 92
                     }
@@ -2420,7 +2428,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 228,
                         "y": 92
                     }
@@ -2437,7 +2445,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
+                        "map": "hoennmap",
                         "x": 228,
                         "y": 84
                     }
