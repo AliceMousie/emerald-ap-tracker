@@ -13,7 +13,7 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Dad",
+                        "name": "Gift from Norman",
                         "access_rules": ["becomechampion"],
                         "visibility_rules": ["op_npc_on"]
                     }
@@ -30,7 +30,7 @@
                 "name": "Oldale Town",
                 "sections": [
                     {
-                        "name": "Gift from Mart",
+                        "name": "Gift from Shop Tutorial",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -46,7 +46,7 @@
                 "name": "Route 102",
                 "sections": [
                     {
-                        "name": "Below Ledge",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -63,8 +63,12 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "Behind Cut Tree",
-                        "item_count": 2,
+                        "name": "Item 1",
+                        "access_rules": ["$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
                         "access_rules": ["$can_cut"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -81,29 +85,32 @@
                 "name": "Petalburg City",
                 "sections": [
                     {
-                        "name": "Gym Battle - Norman",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"],
+                        "name": "Gym - Balance Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"],
                         "access_rules": ["$norman_open"]
                     },
                     {
-                        "name": "Gym Battle - Norman",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"],
+                        "name": "Gym - TM42 from Norman",
+                        "visibility_rules": ["op_npc_on"],
                         "access_rules": ["$norman_open"]
                     },
                     {
-                        "name": "Gift from Wally's Father",
+                        "name": "HM03 from Wally's Uncle",
                         "access_rules": ["$norman_open"],
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Surf Items",
-                        "item_count": 2,
+                        "name": "Item 1",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Surf Hidden Item",
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -120,11 +127,21 @@
                 "name": "Route 104 - South",
                 "sections": [
                     {
-                        "name": "Item Above Ledge",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Beach Hidden Items",
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -141,7 +158,7 @@
                 "name": "Petalburg Woods",
                 "sections": [
                     {
-                        "name": "Southwest Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -149,36 +166,41 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "West Hidden Item",
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Northwest Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northeast Hidden Item",
+                        "name": "Hidden Item 2",
                         "access_rules": ["$hid,$can_cut"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Northeast Item",
+                        "name": "Gift from Lady",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_cut"]
                     },
                     {
-                        "name": "East Item",
+                        "name": "Item 4",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_cut"]
                     },
                     {
-                        "name": "East Hidden Item",
+                        "name": "Hidden Item 3",
                         "access_rules": ["$hid,$can_cut"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Southeast Hidden Item",
+                        "name": "Hidden Item 2",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -195,40 +217,44 @@
                 "name": "Route 104 - North",
                 "sections": [
                     {
-                        "name": "North of Flower Shop",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Boy Outside Flower Shop",
+                        "name": "TM09 from Boy",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Girl in Flower Shop",
+                        "name": "Wailmer Pail from Flower Shop Lady",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Girl Outside Flower Shop",
+                        "name": "Gift from Lady",
                         "access_rules": ["dynamobadge"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "North of Flower Shop Hidden",
+                        "name": "Hidden Item 4",
                         "access_rules": ["$hid"],
-                        "visibility_rules": ["op_hid_on"],
-                        "item_count": 2
+                        "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Behind Cut Tree",
-                        "access_rules": ["$can_surf","$can_cut"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "Hidden Item 5",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Surf Item",
+                        "name": "Item 3",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Old Lady",
+                        "name": "Item 4",
+                        "access_rules": ["$can_surf","$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Gift from Woman Near Berries",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -244,21 +270,20 @@
                 "name": "Rustboro City",
                 "sections": [
                     {
-                        "name": "Gym Battle - Roxanne",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "name": "Gym - Stone Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Roxanne",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                        "name": "Gym - TM39 from Roxanne",
+                        "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Behind Fence Southeast",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         
-                        "name": "Gift from Boy in Southwest Building 2F",
+                        "name": "Gift from Boy in Apartments",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -266,7 +291,7 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Cutter",
+                        "name": "HM01 from Cutter's House",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
@@ -274,17 +299,17 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Item from Mr. Stone",
+                        "name": "Recover Devon Goods",
+                        "hosted_item": "recovergoods"
+                    },
+                    {
+                        "name": "Letter from Mr. Stone",
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
-                        "name": "Gift from Mr. Stone",
+                        "name": "Exp. Share from Mr. Stone",
                         "access_rules": ["stevenletter"],
                         "visibility_rules": ["op_npc_on"]
-                    },
-                    {
-                        "name": "Recover Devon Goods",
-                        "hosted_item": "recovergoods"
                     }
                 ],
                 "map_locations": [
@@ -299,36 +324,36 @@
                 "name": "Route 115",
                 "sections": [
                     {
-                        "name": "Item on Beach",
+                        "name": "Item 5",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item above Ledge",
+                        "name": "Item 4",
                         "access_rules": ["$meteorfalls_access"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item behind Rock",
+                        "name": "Item 1",
                         "access_rules": ["$meteorfalls_access,$can_rocksmash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Center Beach Hidden Item",
+                        "name": "Hidden Item",
                         "access_rules": ["$hid,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "North Item in Trees",
+                        "name": "Item 2",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "North Item on Ridge",
+                        "name": "Item 6",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "North Item up Ramp",
+                        "name": "Item 3",
                         "access_rules": ["$can_surf,$machbike"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -346,25 +371,25 @@
                 "access_rules": ["$meteorfalls_access"],
                 "sections": [
                     {
-                        "name": "1F 1R - Item West of Bridge",
+                        "name": "1F - Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F 1R - Item East of Bridge",
+                        "name": "1F - Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F 1R - Northwestern Item",
+                        "name": "1F - Item 3",
                         "access_rules": ["$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F 1R - Southeastern Item",
+                        "name": "1F - Item 4",
                         "access_rules": ["$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1BF 2R - Item",
+                        "name": "B1F - Item 1",
                         "access_rules": ["$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -385,37 +410,41 @@
                 "name": "Route 116",
                 "sections": [
                     {
-                        "name": "Item in Grass West",
+                        "name": "Item 4",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "East Item",
+                        "name": "Item 5",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Items above Ledge",
-                        "item_count": 2,
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_cut"]
                     },
                     {
-                        "name": "Hidden Item above Ledge",
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
                         "item_count": 2,
                         "access_rules": ["$hid,$can_cut"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Southwest of Verdanturf Item",
+                        "name": "Item 2",
                         "access_rules": ["$mauville_access"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Glasses Man Hidden Item",
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid,$mauville_access"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Gift from Devon Employee",
+                        "name": "Gift from Devon Researcher",
                         "access_rules": ["sterngoods"],
                         "visibility_rules": ["op_npc_on"]
                     }
@@ -432,21 +461,21 @@
                 "name": "Rusturf Tunnel",
                 "sections": [
                     {
-                        "name": "Northwest Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Boyfriend",
+                        "name": "HM04 from Tunneler",
                         "access_rules": ["$can_rocksmash"],
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Northeast Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$mauville_access"]
                     },
                     {
-                        "name": "Item from Aqua Grunt",
+                        "name": "Recover Devon Goods",
                         "visibility_rules": ["op_ki_on"]
                     }
                 ],
@@ -463,7 +492,7 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "Gift from Battle Tent Woman",
+                        "name": "TM45 from Woman in Battle Tent",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -480,35 +509,35 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "South Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "West behind rock",
+                        "name": "Item 2",
                         "access_rules": ["$can_rocksmash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Southwest of Pond Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "North above Waterfall",
+                        "name": "Item 3",
                         "access_rules": ["$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwest of bridge",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Roaring Man",
+                        "name": "TM05 from Roaring Man",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Fossil Maniac's Brother",
+                        "name": "TM28 from Fossil Maniac",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -525,12 +554,12 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "Crater Hidden Item",
+                        "name": "Hidden Item",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Deliver Meteorite to Prof. Cozmo",
+                        "name": "TM27 from Cozmo",
                         "access_rules": ["meteorite,stealmeteor"],
                         "visibility_rules": ["op_npc_on"]
                     }
@@ -548,30 +577,30 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "Southwest Item in Trees",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwest in soot pile Hidden Item",
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "North Item by Ledge",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "North in soot pile Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Northeast in soot pile Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Northeast Item by Ledge",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -588,7 +617,7 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "Northeast Ledges Item",
+                        "name": "Item",
                         "access_rules": ["$lavaridge_access"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -606,31 +635,31 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "Gift from Secret Base Boy",
+                        "name": "Secret Power Gift",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Desert item Northwest",
+                        "name": "Item 1",
                         "access_rules": ["gogoggles"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Desert item South",
+                        "name": "Item 2",
                         "access_rules": ["gogoggles"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Desert Hidden item Northwest",
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Desert Hidden item East",
+                        "name": "Hidden item 2",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Desert Hidden item South",
+                        "name": "Hidden item 3",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -648,24 +677,23 @@
                 "access_rules": ["$lavaridge_access"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Flannery",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "name": "Gym - Heat Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Flannery",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
-                    },
-                    {
-                        "name": "Post-Gym Gift from Rival",
-                        "visibility_rules": ["op_ki_on"]
-                    },
-                    {
-                        "name": "Gift from Man in Herb Shop",
+                        "name": "Gym - TM50 from Flannery",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Hot Spings Hidden Item",
+                        "name": "Go Goggles from Rival",
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "Gift from Man",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Hidden Item in Springs",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     }
@@ -679,11 +707,11 @@
                 ]
             },
             {
-                "name": "Mt. Chimney",
+                "name": "Mt Chimney",
                 "access_rules": ["$lavaridge_access"],
                 "sections": [
                     {
-                        "name": "Item from Machine",
+                        "name": "Recover Meteorite",
                         "visibility_rules": ["op_ki_on"]
                     }
                 ],
@@ -700,31 +728,31 @@
                 "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
                 "sections": [
                     {
-                        "name": "1F - Ledge Item",
+                        "name": "1F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "2F - Northwest Item",
+                        "name": "2F - Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "2F - Northeast Item",
+                        "name": "2F - Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "3F - Storage Room Item",
+                        "name": "3F - Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "3F - West Item by Lava",
+                        "name": "3F - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "3F - Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "4F - Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "3F - After Maxie Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -745,16 +773,16 @@
                 "access_rules": ["$lavaridge_access"],
                 "sections": [
                     {
-                        "name": "Northwest Hidden Item",
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "East Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Southwest Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     }
@@ -772,12 +800,12 @@
                 "access_rules": ["$fallarbor_access"],
                 "sections": [
                     {
-                        "name": "North Item",
+                        "name": "Item 1",
                         "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "South Item",
+                        "name": "Item 2",
                         "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -795,16 +823,16 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "North Item behind Cut Tree",
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
                         "access_rules": ["$can_cut"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "South Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "South Hidden Item",
+                        "name": "Hidden Item",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     }
@@ -822,40 +850,42 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Wattson",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "name": "Gym - Dynamo Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Wattson",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                        "name": "Gym - TM34 from Wattson",
+                        "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Bike Guy Items",
-                        "visibility_rules": ["op_bik_on"],
-                        "item_count": 2
+                        "name": "Mach Bike",
+                        "visibility_rules": ["op_bik_on"]
                     },
                     {
-                        "name": "Gift from Man in Southeast House",
+                        "name": "Acro Bike",
+                        "visibility_rules": ["op_bik_on"]
+                    },
+                    {
+                        "name": "HM06 from Rock Smash Guy",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Gift from Wattson (Beat Norman)",
+                        "name": "Basement Key from Wattson",
                         "access_rules": ["$norman_open"],
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
-                        "name": "Gift from Wattson (Generator)",
-                        "access_rules": ["basementkey,$can_surf"],
+                        "name": "TM24 from Wattson",
+                        "access_rules": ["$norman_open,basementkey,$can_surf"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Harbor Mail Girl",
+                        "name": "Trade Harbor Mail with Woman in House",
                         "access_rules": ["$slateport_access"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "South Item",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -872,27 +902,23 @@
                 "access_rules": ["$mauville_access,basementkey,$can_surf"],
                 "sections": [
                     {
-                        "name": "Center Room Blue Switch Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "East Room Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Center Room Green Switch Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northeast Room Item",
+                        "name": "Item 4",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwest Room Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Generator Room Item",
+                        "name": "Item 5",
                         "visibility_rules": ["op_ovw_on"]
                     }
 
@@ -910,15 +936,15 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "South Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Winstrate Family",
+                        "name": "Reward from Winstrate Family",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Item across Pond",
+                        "name": "Item 2",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -935,17 +961,17 @@
                 "name": "Route 105",
                 "sections": [
                     {
-                        "name": "Southwest Island Item",
+                        "name": "Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "South Small Island Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_surf"]
                     },
                     {
-                        "name": "West Island Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_surf"]
                     }
@@ -963,22 +989,22 @@
                 "access_rules": ["$can_surf","$dewford_access"],
                 "sections": [
                     {
-                        "name": "East Beach Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_surf"]
-                    },
-                    {
-                        "name": "Rock on Beach Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "West Beach Hidden Item",
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_surf"]
                     },
                     {
-                        "name": "West Beach Item",
+                        "name": "Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -996,37 +1022,42 @@
                 "access_rules": ["$dewford_access"],
                 "sections": [
                     {
-                        "name": "1F - Gift from Hiker",
+                        "name": "1F - HM05 from Hiker",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "1F - West Item",
+                        "name": "1F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B1F - South Item",
+                        "name": "B1F - Item",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_flash"]
                     },
                     {
-                        "name": "B2F - Rock Hidden Item",
+                        "name": "IB2F - tem 1",
+                        "access_rules": ["machbike,$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Item 2",
+                        "access_rules": ["machbike,$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_flash"]
                     },
                     {
-                        "name": "B2F - Northwest Item",
-                        "access_rules": ["machbike,$can_flash"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "B2F - Northeast Hidden Item",
+                        "name": "B2F - Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_flash,machbike"]
                     },
                     {
-                        "name": "B2F - Northeast Item",
-                        "access_rules": ["machbike,$can_flash"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "name": "1F - TM47 from Steven",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["$can_flash"]
                     },
                     {
                         "name": "Deliver Letter",
@@ -1047,24 +1078,23 @@
                 "access_rules": ["$dewford_access"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Brawley",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "name": "Gym - Knuckle Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Brawly",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
-                    },
-                    {
-                        "name": "Gift from Fisherman",
-                        "visibility_rules": ["op_rod_on"]
-                    },
-                    {
-                        "name": "Gift from Ace Trainer",
+                        "name": "Gym - TM08 from Brawly",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift in Hall (Beat Norman)",
+                        "name": "Old Rod from Fisherman",
+                        "visibility_rules": ["op_rod_on"]
+                    },
+                    {
+                        "name": "Gift from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM36 from Sludge Bomb Man",
                         "access_rules": ["$norman_open"],
                         "visibility_rules": ["op_npc_on"]
                     }
@@ -1082,67 +1112,67 @@
                 "access_rules": ["$can_surf"],
                 "sections": [
                     {
-                        "name": "1F - Northwestern Room Item",
+                        "name": "1F - Room Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B1F - Broken Door Room Item",
+                        "name": "1F - Room Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B1F - Southwestern Room Item",
+                        "name": "B1F - Room Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F - Northern Room Item",
+                        "name": "B1F - Room Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "2F - Captain's Room Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "B1F - Storage Room Item",
+                        "name": "B1F - Room Item 3",
                         "access_rules": ["storagekey"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Underwater - Room 1 Item",
+                        "name": "Captain's Office Key",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "HF - Room 1 Item",
                         "access_rules": ["$can_dive,roomkey1"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Underwater - Room 1 Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
+                        "name": "HF - Hidden Room 4 Key",
+                        "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive,roomkey1"]
                     },
                     {
-                        "name": "Underwater - Room 2 Item",
+                        "name": "HF - Room 2 Item",
                         "access_rules": ["$can_dive,roomkey2"],
-                        "visibility_rules": ["op_ovw_on"]
+                        "visibility_rules": ["op_ki_on"]
                     },
                     {
-                        "name": "Underwater - Room 3 Item",
+                        "name": "HF - Room 3 Item",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Underwater - Room 3 Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
+                        "name": "HF - Hidden Room 1 Key",
+                        "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive"]
                     },
                     {
-                        "name": "Underwater - Room 4 Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
+                        "name": "HF - Hidden Room 6 Key",
+                        "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive,roomkey4"]
                     },
                     {
-                        "name": "Underwater - Room 5 Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
+                        "name": "HF - Hidden Room 2 Key",
+                        "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive,roomkey6"]
                     },
                     {
-                        "name": "Underwater - Room 6 Item",
+                        "name": "HF - Room 6 Item",
                         "access_rules": ["$can_dive,roomkey6"],
                         "visibility_rules": ["op_ovw_on"]
                     }
@@ -1159,14 +1189,14 @@
                 "name": "Route 108",
                 "sections": [
                     {
-                        "name": "South Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_surf"]
-                    },
-                    {
-                        "name": "North Item",
+                        "name": "Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
                     }
                 ],
                 "map_locations": [
@@ -1181,7 +1211,17 @@
                 "name": "Route 109",
                 "sections": [
                     {
-                        "name": "Seahouse Trainers Gift",
+                        "name": "Item 1",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Seashore House Reward",
                         "access_rules": ["$slateport_access"],
                         "visibility_rules": ["op_npc_on"]
                     },
@@ -1191,42 +1231,32 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Southwest Hidden Item",
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 5",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_surf"]
                     },
                     {
-                        "name": "Southeast Island Item",
-                        "access_rules": ["$can_surf"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Beach Item",
-                        "access_rules": ["$slateport_access"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Southwest Beach Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$slateport_access"]
-                    },
-                    {
-                        "name": "Southeast Beach Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$slateport_access"]
-                    },
-                    {
-                        "name": "Southwest under Umbrella Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$slateport_access"]
-                    },
-                    {
-                        "name": "West on Chair Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$slateport_access"]
-                    },
-                    {
-                        "name": "Northeast Beach Hidden Item",
+                        "name": "Hidden Item 6",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$slateport_access"]
                     }
@@ -1244,15 +1274,15 @@
                 "access_rules": ["$slateport_access"],
                 "sections": [
                     {
-                        "name": "Gift from Market Woman",
+                        "name": "Gift from Lady in Market",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Fanclub Woman",
+                        "name": "Gift from Woman in Fan Club",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Battle Tent Man",
+                        "name": "TM41 from Sailor in Battle Tent",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -1261,7 +1291,7 @@
                         "hosted_item": "sterngoods"
                     },
                     {
-                        "name": "Gift from Aqua Grunt",
+                        "name": "TM46 from Aqua Grunt in Museum",
                         "visibility_rules": ["op_npc_on"],
                         "access_rules": ["sterngoods"]
                     },
@@ -1280,16 +1310,16 @@
                 ]
             },
             {
-                "name": "S.S. Tidal",
+                "name": "SS Tidal",
                 "access_rules": ["op_fer_on,ssticket,$slateport_access","op_fer_on,ssticket,$lilycove_access","op_fer_off,becomechampion"],
                 "sections": [
                     {
-                        "name": "Storage Hidden Item",
+                        "name": "Lower Deck Hidden Item",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Gift from Thief",
+                        "name": "TM49 from Thief",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1311,39 +1341,39 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "South Path Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Island Item",
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Gift from Rival",
+                        "name": "Itemfinder from Rival",
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
-                        "name": "South Path Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Mid Path Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "West Double Battle Hidden Item",
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "North Path Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "North Path Hidden Item",
+                        "name": "Hidden Item 4",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     }
@@ -1361,11 +1391,11 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Central Island Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "East Island Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1382,15 +1412,15 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "East Island Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "South Island Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwestern Island Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1407,11 +1437,11 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Northwest Island Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Southwest Island Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1428,7 +1458,7 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Gift from Fanclub",
+                        "name": "TM21 from Man in House",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1445,24 +1475,24 @@
                 "access_rules": ["$mauville_access"],
                 "sections": [
                     {
-                        "name": "West Hidden Item",
+                        "name": "Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "East Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$can_surf"]
                     },
                     {
-                        "name": "Gift from Fisherman",
+                        "name": "Good Rod from Fisherman",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_rod_on"]
-                    },
-                    {
-                        "name": "East above Ledge Item",
-                        "access_rules": ["$can_surf"],
-                        "visibility_rules": ["op_ovw_on"]
                     }
                 ],
                 "map_locations": [
@@ -1477,70 +1507,74 @@
                 "name": "Route 119",
                 "sections": [
                     {
-                        "name": "Tall Grass West Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$mauville_access,$can_surf"]
                     },
                     {
-                        "name": "Tall Grass Center Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
                     },
                     {
-                        "name": "Tall Grass East Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$mauville_access,$can_surf"]
                     },
                     {
-                        "name": "Across River South Item",
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 6",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                    },
+                    {
+                        "name": "Item 7",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                    },
+                    {
+                        "name": "Item 8",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 9",
                         "access_rules": ["$can_surf,$mauville_access"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Across Acro Hidden Item",
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid,acrobike,$mauville_access,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Item below Mach Bike Ramp",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
-                    },
-                    {
-                        "name": "East of Steps Item",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
-                    },
-                    {
-                        "name": "Across River Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$mauville_access,$can_surf"]
                     },
                     {
-                        "name": "Item Above Southern Waterfall",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
-                    },
-                    {
-                        "name": "Below Northern Waterfall Hidden Item",
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$mauville_access,$can_surf"]
                     },
                     {
-                        "name": "Gift from Rival",
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "HM02 from Rival Battle",
                         "visibility_rules": ["op_hms_on","op_hms_sh"],
                         "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
-                    },
-                    {
-                        "name": "South of Rival Battle Item",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
-                    },
-                    {
-                        "name": "Acro Items above Northern Waterfall",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"],
-                        "item_count": 2
                     }
                 ],
                 "map_locations": [
@@ -1573,27 +1607,22 @@
                 "access_rules": ["$rt121_access"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Winona",
-                        "item_count": 2,
+                        "name": "Gym - Feather Badge",
                         "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Winona",
+                        "name": "Gym - TM40 from Winona",
                         "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
-                    },
-                    {
-                        "name": "Hidden Item in front of PokéCenter",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Gift from Woman in Northwestern House",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Wingull Man",
+                        "name": "TM10 from Hidden Power Lady",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Wingull Delivery Reward",
+                        "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1610,50 +1639,50 @@
                 "access_rules": ["$rt121_access"],
                 "sections": [
                     {
-                        "name": "Hidden Item behind North Cut Tree",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_cut"]
-                    },
-                    {
-                        "name": "Item behind Keckleon",
-                        "access_rules": ["devonscope"],
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Hidden Item in North Tall Grass",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Gift from Steven",
-                        "visibility_rules": ["op_ki_on"]
-                    },
-                    {
-                        "name": "Item in Puddle",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Grass Maze Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Maze Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Hidden Item across Pond",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_surf"]
-                    },
-                    {
-                        "name": "Item across Pond",
+                        "name": "Item 1",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item by Southern Tall Grass",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["devonscope"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 4" ,
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Devon Scope from Steven",
+                        "visibility_rules": ["op_ki_on"]
                     }
                 ],
                 "map_locations": [
@@ -1669,49 +1698,49 @@
                 "access_rules": ["$rt121_access,pokeblock"],
                 "sections": [
                     {
-                        "name": "Area 2 - Item across Pond",
+                        "name": "SW - Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Area 3 - Item across Pond",
+                        "name": "NW - Item",
                         "access_rules": ["$can_surf,machbike"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Area 4 - Northwest Corner",
+                        "name": "NE - Item",
                         "access_rules": ["acrobike"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Area 5 - Hidden by PokéBlock Stand",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Area 5 - Southeast Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Area 5 - Item at top of Waterfall",
+                        "name": "SE- Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Area 6 - North Rocks Hidden Item",
+                        "name": "SE - Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Area 5 - Southeast Hidden Item",
+                        "name": "SE - Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Area 5 - Item between Ledges",
+                        "name": "NE - Item",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "NE - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "NE - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
                     }
                 ],
                 "map_locations": [
@@ -1727,36 +1756,36 @@
                 "access_rules": ["$rt121_access"],
                 "sections": [
                     {
-                        "name": "West Fence Hidden Item",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
-                    },
-                    {
-                        "name": "Item Northeast of Pier",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Fence Maze Central Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Fence Maze Western Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "North of Fence Maze Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Fence Northeast Maze Hidden Item",
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf","$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Fence East Maze Hidden Item",
+                        "name": "Hidden Item 4",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "access_rules": ["$hid,$can_cut"]
                     }
                 ],
                 "map_locations": [
@@ -1772,26 +1801,26 @@
                 "access_rules": ["$lilycove_access"],
                 "sections": [
                     {
-                        "name": "Southeast Item by Monument",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Western Beach Hidden Item",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Southeastern Beach Hidden Item",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Hidden Item by Aqua Hideout",
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Gift from Man in Eastern House",
+                        "name": "TM44 from Man in House",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1804,63 +1833,63 @@
                 ]
             },
             {
-                "name": "Mt. Pyre",
+                "name": "Mt Pyre",
                 "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "1F - Gift from Old Lady",
+                        "name": "1F - Gift from Woman in NE Corner",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "2F - Southwestern Item",
+                        "name": "2F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "3F - West Item",
+                        "name": "3F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "4F - Southwestern Item",
+                        "name": "4F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "5F - Southern Item",
+                        "name": "5F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "6F - Southern Item",
+                        "name": "6F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Ext. - Second Ledge Item",
+                        "name": "Ext. - Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Ext. - Fourth Ledge Item",
+                        "name": "Ext. - Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Ext. - Fourth Ledge Gravestone Hidden Item",
+                        "name": "Ext. - Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Ext. - NW Gravestone Hidden Item",
+                        "name": "Ext. - Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Summit - Southeastern Gravestone Hidden",
+                        "name": "Summit - Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Summit - Northeastern Hidden Item",
+                        "name": "Summit - Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Summit - Gift from Old Lady",
+                        "name": "Summit - Magma Emblem from Old Lady",
                         "visibility_rules": ["op_ki_on"]
                     }
                 ],
@@ -1877,39 +1906,43 @@
                 "access_rules": ["$can_surf,$lilycove_access"],
                 "sections": [
                     {
-                        "name": "Gift from Girl",
+                        "name": "TM19 from Girl near Berries",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "East Cut Hidden Items",
-                        "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_cut"],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Hidden Item in Rock",
+                        "name": "Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Hidden Item in Northern Grass Patch",
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "First Ledge Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Second Ledge Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Third Ledge Item",
+                        "name": "Item 3",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item by Pond",
+                        "name": "Item 4",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1926,12 +1959,12 @@
                 "access_rules": ["$mauville_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "North of Berries Hidden Item",
+                        "name": "Hidden Item",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "South Item Behind Fence",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -1949,16 +1982,19 @@
                 "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "B1F - Central Room Items",
-                        "visibility_rules": ["op_ovw_on"],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "B1F - East Room Item",
+                        "name": "B1F - Master Ball",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B2F - West Item",
+                        "name": "B1F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -1979,47 +2015,47 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Southwestern Item",
+                        "name": "Item 1",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northeastern Item",
+                        "name": "Item 2",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwestern Item",
+                        "name": "Item 3",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "UW - Center Seaweed Hidden Item",
+                        "name": "UW - Hidden Item 1",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - North Dive Spot Hidden Item",
+                        "name": "UW - Hidden Item 2",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Central Dive Spot Hidden Item",
+                        "name": "UW - Hidden Item 3",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Southwest Dive Spot Hidden Item",
+                        "name": "UW - Hidden Item 4",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - East Dive Spot Hidden Item",
+                        "name": "UW - Hidden Item 5",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - West Dive Spot Hidden Item",
+                        "name": "UW - Hidden Item 6",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -2037,36 +2073,49 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Southwestern Item",
+                        "name": "Item",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "UW - North Hidden Item",
+                        "name": "UW - Hidden Item 1",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Northwestern Hidden Item",
+                        "name": "UW - Hidden Item 2",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Northeastern Hidden Item",
+                        "name": "UW - Hidden Item 3",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - West Hidden Items",
+                        "name": "UW - Hidden Item 4",
                         "access_rules": ["$hid,$can_dive"],
-                        "visibility_rules": ["op_hid_on"],
-                        "item_count": 3
+                        "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Southeast Hidden Items",
+                        "name": "UW - Hidden Item 5",
                         "access_rules": ["$hid,$can_dive"],
-                        "visibility_rules": ["op_hid_on"],
-                        "item_count": 2
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 6",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 7",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 8",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
                     }
                 ],
                 "map_locations": [
@@ -2082,28 +2131,23 @@
                 "access_rules": ["$lilycove_access,$can_dive,clearaqua"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Juan",
-                        "item_count": 2,
+                        "name": "Gym - Rain Badge",
                         "access_rules": ["releaserayquaza"],
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Juan",
+                        "name": "Gym - TM03 from Juan",
                         "access_rules": ["releaserayquaza"],
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
+                        "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Black Belt",
+                        "name": "TM31 from Black Belt in House",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Eastern House Girl",
-                        "visibility_rules": ["op_npc_on"]
-                    },
-                    {
-                        "name": "Gift from Steven",
+                        "name": "HM07 from Wallace",
                         "access_rules": ["releaserayquaza"],
-                        "visibility_rules": ["op_npc_on"]
+                        "visibility_rules": ["op_hms_on"]
                     }
                 ],
                 "map_locations": [
@@ -2136,24 +2180,23 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Gym Battle - Tate and Liza",
-                        "item_count": 2,
-                        "visibility_rules": ["op_bdg_on,op_npc_on","op_bdg_shop_npc_on"]
+                        "name": "Gym - Mind Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
-                        "name": "Gym Battle - Tate and Liza",
-                        "visibility_rules": ["op_bdg_off,op_npc_on","op_bdg_on,op_npc_off"]
-                    },
-                    {
-                        "name": "Southeast Item",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Gift from Boy Outside Steven's House",
+                        "name": "Gym - TM04 from Tate and Liza",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Man in Space Center",
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Gift from Kid",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Man in Museum",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -2161,7 +2204,7 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
-                        "name": "Gift from Fisherman",
+                        "name": "Super Rod from Fisherman in House",
                         "visibility_rules": ["op_rod_on"]
                     }
                 ],
@@ -2178,35 +2221,35 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Northwestern Item",
+                        "name": "Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Northwestern Trees Item",
+                        "name": "Item 2",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "East Item",
+                        "name": "Item 3",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "UW - West Hidden Item",
+                        "name": "UW - Hidden Item 1",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Center Hidden Item",
+                        "name": "UW - Hidden Item 2",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Center Rock Hidden Item",
+                        "name": "UW - Rock Hidden Item 3",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - East Hidden Item",
+                        "name": "UW - Hidden Item 4",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -2224,27 +2267,27 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Southwestern Hidden Item",
+                        "name": "Hidden Item 1",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "North Hidden Item",
+                        "name": "Hidden Item 2",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Center Hidden Item",
+                        "name": "Hidden Item 3",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Center Rock Hidden Item",
+                        "name": "UW - Hidden Item 1",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - East Rock Hidden Item",
+                        "name": "UW - Hidden Item 2",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -2336,43 +2379,43 @@
                 "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "1F - East Item",
+                        "name": "1F - Item 1",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F - Southeastern Item",
+                        "name": "1F - Item 2",
                         "access_rules": ["$can_flash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "1F - Southeastern Hidden Item",
+                        "name": "1F - Hidden Item",
                         "access_rules": ["$hid,$can_flash"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "B1F - Northeastern Item",
+                        "name": "B1F - Item 1",
                         "access_rules": ["$can_flash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B1F - North Item",
+                        "name": "B1F - Item 2",
                         "access_rules": ["$can_flash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "B2F - Northeast of First Waterfall Hidden",
+                        "name": "B2F - Item 1",
+                        "access_rules": ["$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 1",
                         "access_rules": ["$hid,$can_flash"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "B2F - Northeast Hidden Item",
+                        "name": "B2F - Hidden Item 2",
                         "access_rules": ["$hid,$can_flash"],
                         "visibility_rules": ["op_hid_on"]
-                    },
-                    {
-                        "name": "B2F - At top of Waterfalls",
-                        "access_rules": ["$can_flash"],
-                        "visibility_rules": ["op_ovw_on"]
                     }
                 ],
                 "map_locations": [
