@@ -1,2 +1,3 @@
 # Emerald AP Tracker
- autotracking coming soon™
+
+PopTracker pack for Archipelago Pokémon Emerald with Autotracking
