@@ -132,6 +132,12 @@
         "codes": "basementkey"
     },
     {
+        "name": "Harbor Mail",
+        "type": "toggle",
+        "img": "/images/items/harbormail.png",
+        "codes": "harbormail"
+    },
+    {
         "name": "Stone Badge",
         "type": "toggle",
         "img": "/images/items/stonebadge.png",

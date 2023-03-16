@@ -1132,6 +1132,108 @@
             },
             {
                 "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "High Tide 1F - Item 1",
+                        "ref": "Hoenn/Shoal Cave/High Tide 1F - Item 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 664,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "High Tide 1F - Item 2",
+                        "ref": "Hoenn/Shoal Cave/High Tide 1F - Item 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 424,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Low Tide B1F - Item",
+                        "ref": "Hoenn/Shoal Cave/Low Tide B1F - Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 1528,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Low Tide B2F - Item 1",
+                        "ref": "Hoenn/Shoal Cave/Low Tide B2F - Item 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 1685,
+                        "y": 496
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Low Tide B2F - Item 2",
+                        "ref": "Hoenn/Shoal Cave/Low Tide B2F - Item 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 1689,
+                        "y": 275
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Low Tide B1F - Gift from Black Belt",
+                        "ref": "Hoenn/Shoal Cave/Low Tide B1F - Gift from Black Belt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoalcave",
+                        "x": 1496,
+                        "y": 916
+                    }
+                ]
+            },
+            {
+                "name": "",
                 "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
                 "sections": [
                     {

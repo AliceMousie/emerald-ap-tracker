@@ -876,7 +876,7 @@
                     },
                     {
                         "name": "Trade Harbor Mail with Woman in House",
-                        "access_rules": ["$slateport_access"],
+                        "access_rules": ["harbormail"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -1279,6 +1279,11 @@
                     {
                         "name": "TM41 from Sailor in Battle Tent",
                         "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Buy Harbor Mail",
+                        "visibility_rules": ["op_npc_on"],
+                        "hosted_item": "harbormail"
                     },
                     {
                         "name": "Deliver Devon Goods",
@@ -2204,11 +2209,11 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Low Tide 1F - Item 2" ,
+                        "name": "Low Tide B2F - Item 2" ,
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "LOw Tide B1F - Gift from Black Belt",
+                        "name": "Low Tide B1F - Gift from Black Belt",
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],

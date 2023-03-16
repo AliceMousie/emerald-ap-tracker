@@ -7,32 +7,32 @@
     },
     {
         "name": "granitecave",
-        "location_size": 18,
-        "location_border_thickness": 2,
+        "location_size": 24,
+        "location_border_thickness": 3,
         "img": "images/maps/granitecave.png"
     },
     {
         "name": "meteorfalls",
-        "location_size": 15,
-        "location_border_thickness": 2,
+        "location_size": 25,
+        "location_border_thickness": 3,
         "img": "images/maps/meteorfalls.png"
     },
     {
         "name": "magmahideout",
-        "location_size": 15,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/magmahideout.png"
     },
     {
         "name": "abandonedship",
-        "location_size": 15,
+        "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/abandonedship.png"
     },
     {
         "name": "safari",
-        "location_size": 24,
-        "location_border_thickness": 4,
+        "location_size": 40,
+        "location_border_thickness": 6,
         "img": "images/maps/safari.png"
     },
     {
@@ -43,14 +43,14 @@
     },
     {
         "name": "mtpyre_ext",
-        "location_size": 15,
-        "location_border_thickness": 2,
+        "location_size": 25,
+        "location_border_thickness": 3,
         "img": "images/maps/mtpyre_ext.png"
     },
     {
         "name": "aquahideout",
-        "location_size": 15,
-        "location_border_thickness": 2,
+        "location_size": 22,
+        "location_border_thickness": 3,
         "img": "images/maps/aquahideout.png"
     },
     {

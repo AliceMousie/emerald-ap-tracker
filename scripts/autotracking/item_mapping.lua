@@ -39,5 +39,6 @@ ITEM_MAPPING = {
     [3860268] = {"wailmerpail", "toggle"},
     [3860262] = {"oldrod", "toggle"},
     [3860263] = {"goodrod", "toggle"},
-    [3860264] = {"superrod", "toggle"}
+    [3860264] = {"superrod", "toggle"},
+    [3860122] = {"harbormail", "toggle"}
 }
