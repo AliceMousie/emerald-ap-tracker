@@ -49,20 +49,20 @@
     },
     {
         "name": "aquahideout",
-        "location_size": 22,
+        "location_size": 20,
         "location_border_thickness": 3,
         "img": "images/maps/aquahideout.png"
     },
     {
         "name": "shoalcave",
-        "location_size": 26,
+        "location_size": 30,
         "location_border_thickness": 4,
         "img": "images/maps/shoalcave.png"
     },
     {
         "name": "victoryroad",
         "location_size": 26,
-        "location_border_thickness": 4,
+        "location_border_thickness": 3,
         "img": "images/maps/victoryroad.png"
     }
 ]
