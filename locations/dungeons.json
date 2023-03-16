@@ -6,13 +6,9 @@
         "children": [
             {
                 "name": "",
-                "access_rules": ["$dewford_access"],
-                "parent": "Hoenn/Granite Cave",
                 "sections": [
                     {
-                        "name": "1F - HM05 from Hiker",
-                        "ref": "Hoenn/Granite Cave/1F - HM05 from Hiker",
-                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                        "ref": "Hoenn/Granite Cave/1F - HM05 from Hiker"
                     }
                 ],
                 "map_locations": [
@@ -25,11 +21,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item",
                         "ref": "Hoenn/Granite Cave/1F - Item"
                     }
                 ],
@@ -43,11 +36,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,$can_flash"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B1F - Item",
                         "ref": "Hoenn/Granite Cave/B1F - Item"
                     }
                 ],
@@ -61,11 +51,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,machbike,$can_flash"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B2F - Item 1",
                         "ref": "Hoenn/Granite Cave/B2F - Item 1"
                     }
                 ],
@@ -79,11 +66,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,machbike,$can_flash"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B2F - Item 2",
                         "ref": "Hoenn/Granite Cave/B2F - Item 2"
                     }
                 ],
@@ -97,11 +81,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,$can_flash,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "B2F - Hidden Item 1",
                         "ref": "Hoenn/Granite Cave/B2F - Hidden Item 1"
                     }
                 ],
@@ -115,11 +96,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,machbike,$can_flash,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "B2F - Hidden Item 2",
                         "ref": "Hoenn/Granite Cave/B2F - Hidden Item 2"
                     }
                 ],
@@ -133,17 +111,12 @@
             },
             {
                 "name": "",
-                "access_rules": ["$dewford_access,$can_flash"],
                 "sections": [
                     {
-                        "name": "1F - TM47 from Steven",
-                        "visibility_rules": ["op_npc_on"],
                         "ref": "Hoenn/Granite Cave/1F - TM47 from Steven"
                     },
                     {
-                        "name": "Deliver Letter",
-                        "access_rules": ["recovergoods,letter"],
-                        "hosted_item": "stevenletter"
+                        "ref": "Hoenn/Granite Cave/Deliver Letter"
                     }
                 ],
                 "map_locations": [
@@ -156,11 +129,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item 1",
                         "ref": "Hoenn/Meteor Falls/1F - Item 1"
                     }
                 ],
@@ -174,11 +144,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item 2",
                         "ref": "Hoenn/Meteor Falls/1F - Item 2"
                     }
                 ],
@@ -192,11 +159,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access,$can_waterfall"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item 3",
                         "ref": "Hoenn/Meteor Falls/1F - Item 3"
                     }
                 ],
@@ -210,11 +174,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access,$can_waterfall"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item 4",
                         "ref": "Hoenn/Meteor Falls/1F - Item 4"
                     }
                 ],
@@ -228,11 +189,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access,$can_waterfall"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B1F - Item 1",
                         "ref": "Hoenn/Meteor Falls/B1F - Item 1"
                     }
                 ],
@@ -246,11 +204,9 @@
             },
             {
                 "name": "",
-                "access_rules": ["$meteorfalls_access"],
                 "sections": [
                     {
-                        "name": "Team Magma - Steals Meteorite",
-                        "hosted_item": "stealmeteor"
+                        "ref": "Hoenn/Meteor Falls/Team Magma - Steals Meteorite"
                     }
                 ],
                 "map_locations": [
@@ -263,11 +219,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Item",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 1F - Item"
                     }
                 ],
@@ -281,11 +234,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "2F - Item 1",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 2F - Item 1"
                     }
                 ],
@@ -299,11 +249,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "2F - Item 2",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 2F - Item 2"
                     }
                 ],
@@ -317,11 +264,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "3F - Item 1",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 3F - Item 1"
                     }
                 ],
@@ -335,11 +279,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "3F - Item 2",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 3F - Item 2"
                     }
                 ],
@@ -353,11 +294,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "3F - Item 3",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 3F - Item 3"
                     }
                 ],
@@ -371,11 +309,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "4F - Item",
                         "ref": "Hoenn/Jagged Pass/Magma Hideout 4F - Item"
                     }
                 ],
@@ -389,11 +324,9 @@
             },
             {
                 "name": "",
-                "access_rules": ["$lavaridge_access,stealmeteor,magmaemblem,$can_strength"],
                 "sections": [
                     {
-                        "name": "Team Magma - Clear Hideout",
-                        "hosted_item": "clearmagma"
+                        "ref": "Hoenn/Jagged Pass/Team Magma - Clear Hideout"
                     }
                 ],
                 "map_locations": [
@@ -406,11 +339,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Room Item 1",
                         "ref": "Hoenn/Abandoned Ship/1F - Room Item 1"
                     }
                 ],
@@ -424,11 +354,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "1F - Room Item 2",
                         "ref": "Hoenn/Abandoned Ship/1F - Room Item 2"
                     }
                 ],
@@ -442,11 +369,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B1F - Room Item 1",
                         "ref": "Hoenn/Abandoned Ship/B1F - Room Item 1"
                     }
                 ],
@@ -460,11 +384,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B1F - Room Item 2",
                         "ref": "Hoenn/Abandoned Ship/B1F - Room Item 2"
                     }
                 ],
@@ -478,11 +399,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "Captain's Office Key",
                         "ref": "Hoenn/Abandoned Ship/Captain's Office Key"
                     }
                 ],
@@ -496,11 +414,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,storagekey"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "B1F - Room Item 3",
                         "ref": "Hoenn/Abandoned Ship/B1F - Room Item 3"
                     }
                 ],
@@ -514,18 +429,11 @@
             },
             {
                 "name": "Room 1",
-                "access_rules": ["$can_dive,roomkey1"],
-                "visibility_rules": ["op_ovw_on","op_ki_on"],
                 "sections": [
                     {
-                        "name": "HF - Room 1 Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Abandoned Ship/HF - Room 1 Item"
                     },
                     {
-                        "name": "HF - Hidden Room 4 Key",
-                        "visibility_rules": ["op_ki_on"],
-                        "access_rules": ["$hid"],
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Room 4 Key"
                     }
                 ],
@@ -539,12 +447,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_dive,roomkey2"],
-                "visibility_rules": ["op_ki_on"],
                 "sections": [
                     {
-                        "name": "HF - Room 2 Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Abandoned Ship/HF - Room 2 Item"
                     }
                 ],
@@ -558,18 +462,11 @@
             },
             {
                 "name": "Room 3",
-                "access_rules": ["$can_dive"],
-                "visibility_rules": ["op_ki_on"],
                 "sections": [
                     {
-                        "name": "HF - Room 3 Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Abandoned Ship/HF - Room 3 Item"
                     },
                     {
-                        "name": "HF - Hidden Room 1 Key",
-                        "visibility_rules": ["op_ki_on"],
-                        "access_rules": ["$hid"],
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Room 1 Key"
                     }
                 ],
@@ -583,13 +480,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_dive,roomkey4"],
-                "visibility_rules": ["op_ki_on"],
                 "sections": [
                     {
-                        "name": "HF - Hidden Room 6 Key",
-                        "visibility_rules": ["op_ki_on"],
-                        "access_rules": ["$hid"],
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Room 6 Key"
                     }
                 ],
@@ -603,18 +495,11 @@
             },
             {
                 "name": "Room 6",
-                "access_rules": ["$can_dive,room6key"],
-                "visibility_rules": ["op_ki_on"],
                 "sections": [
                     {
-                        "name": "HF - Room 6 Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Abandoned Ship/HF - Room 6 Item"
                     },
                     {
-                        "name": "HF - Hidden Room 2 Key",
-                        "visibility_rules": ["op_ki_on"],
-                        "access_rules": ["$hid"],
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Room 2 Key"
                     }
                 ],
@@ -628,11 +513,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "N - Item",
                         "ref": "Hoenn/Safari Zone/N - Item"
                     }
                 ],
@@ -646,11 +528,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "SW - Item",
                         "ref": "Hoenn/Safari Zone/SW - Item"
                     }
                 ],
@@ -664,11 +543,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$can_surf,machbike"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "NW - Item",
                         "ref": "Hoenn/Safari Zone/NW - Item"
                     }
                 ],
@@ -682,11 +558,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$can_surf"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "SE - Item",
                         "ref": "Hoenn/Safari Zone/SE - Item"
                     }
                 ],
@@ -700,11 +573,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "SE - Hidden Item 1",
                         "ref": "Hoenn/Safari Zone/SE - Hidden Item 1"
                     }
                 ],
@@ -718,12 +588,9 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "SE - Hidden Item 2",
-                         "ref": "Hoenn/Safari Zone/SE - Hidden Item 2"
+                        "ref": "Hoenn/Safari Zone/SE - Hidden Item 2"
                     }
                 ],
                 "map_locations": [
@@ -736,11 +603,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock"],
-                "visibility_rules": ["op_ovw_on"],
                 "sections": [
                     {
-                        "name": "NE - Item",
                         "ref": "Hoenn/Safari Zone/NE - Item"
                     }
                 ],
@@ -754,11 +618,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "NE - Hidden Item 1",
                         "ref": "Hoenn/Safari Zone/NE - Hidden Item 1"
                     }
                 ],
@@ -772,11 +633,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,pokeblock,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "NE - Hidden Item 2",
                         "ref": "Hoenn/Safari Zone/NE - Hidden Item 2"
                     }
                 ],
@@ -790,12 +648,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
-                "visibility_rules": ["op_npc_on"],
                 "sections": [
                     {
-                        "name": "1F - Gift from Woman in NE Corner",
-                        "visibility_rules": ["op_npc_on"],
                         "ref": "Hoenn/Mt Pyre/1F - Gift from Woman in NE Corner"
                     }
                 ],
@@ -809,11 +663,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "1F - Gift from Woman in NE Corner",
-                        "visibility_rules": ["op_npc_on"],
                         "ref": "Hoenn/Mt Pyre/1F - Gift from Woman in NE Corner"
                     }
                 ],
@@ -827,11 +678,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "2F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/2F - Item"
                     }
                 ],
@@ -845,11 +693,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "3F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/3F - Item"
                     }
                 ],
@@ -863,11 +708,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "4F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/4F - Item"
                     }
                 ],
@@ -881,11 +723,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "5F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/5F - Item"
                     }
                 ],
@@ -899,11 +738,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "6F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/6F - Item"
                     }
                 ],
@@ -917,11 +753,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "Ext. - Item 1",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/Ext. - Item 1"
                     }
                 ],
@@ -935,11 +768,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "Ext. - Item 2",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Mt Pyre/Ext. - Item 2"
                     }
                 ],
@@ -953,11 +783,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "Ext. - Hidden Item 1",
                         "ref": "Hoenn/Mt Pyre/Ext. - Hidden Item 1"
                     }
                 ],
@@ -971,11 +798,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "Ext. - Hidden Item 2",
                         "ref": "Hoenn/Mt Pyre/Ext. - Hidden Item 2"
                     }
                 ],
@@ -989,11 +813,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "Summit - Hidden Item 1",
                         "ref": "Hoenn/Mt Pyre/Summit - Hidden Item 1"
                     }
                 ],
@@ -1007,11 +828,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "Summit - Hidden Item 2",
                         "ref": "Hoenn/Mt Pyre/Summit - Hidden Item 2"
                     }
                 ],
@@ -1025,11 +843,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$rt121_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "Summit - Magma Emblem from Old Lady",
-                        "visibility_rules": ["op_ki_on"],
                         "ref": "Hoenn/Mt Pyre/Summit - Magma Emblem from Old Lady"
                     }
                 ],
@@ -1043,11 +858,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "B1F - Master Ball",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Aqua Hideout/B1F - Master Ball"
                     }
                 ],
@@ -1061,11 +873,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "B1F - Item 1",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Aqua Hideout/B1F - Item 1"
                     }
                 ],
@@ -1079,11 +888,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "B1F - Item 2",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Aqua Hideout/B1F - Item 2"
                     }
                 ],
@@ -1097,11 +903,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "B2F - Item",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Aqua Hideout/B2F - Item"
                     }
                 ],
@@ -1115,11 +918,9 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
                 "sections": [
                     {
-                        "name": "Team Aqua - Clear Hideout",
-                        "hosted_item": "clearaqua"
+                        "ref": "Hoenn/Aqua Hideout/Team Aqua - Clear Hideout"
                     }
                 ],
                 "map_locations": [
@@ -1132,10 +933,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "High Tide 1F - Item 1",
                         "ref": "Hoenn/Shoal Cave/High Tide 1F - Item 1"
                     }
                 ],
@@ -1149,10 +948,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "High Tide 1F - Item 2",
                         "ref": "Hoenn/Shoal Cave/High Tide 1F - Item 2"
                     }
                 ],
@@ -1166,10 +963,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Low Tide B1F - Item",
                         "ref": "Hoenn/Shoal Cave/Low Tide B1F - Item"
                     }
                 ],
@@ -1183,10 +978,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Low Tide B2F - Item 1",
                         "ref": "Hoenn/Shoal Cave/Low Tide B2F - Item 1"
                     }
                 ],
@@ -1200,10 +993,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Low Tide B2F - Item 2",
                         "ref": "Hoenn/Shoal Cave/Low Tide B2F - Item 2"
                     }
                 ],
@@ -1217,10 +1008,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Low Tide B1F - Gift from Black Belt",
                         "ref": "Hoenn/Shoal Cave/Low Tide B1F - Gift from Black Belt"
                     }
                 ],
@@ -1234,11 +1023,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "1F - Item 1",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Victory Road/1F - Item 1"
                     }
                 ],
@@ -1252,11 +1038,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua,$can_flash"],
                 "sections": [
                     {
-                        "name": "1F - Item 2",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Victory Road/1F - Item 2"
                     }
                 ],
@@ -1270,11 +1053,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua,$can_flash,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "1F - Hidden Item",
                         "ref": "Hoenn/Victory Road/1F - Hidden Item"
                     }
                 ],
@@ -1288,11 +1068,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "B1F - Item 1",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Victory Road/B1F - Item 1"
                     }
                 ],
@@ -1306,11 +1083,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua,$can_flash"],
                 "sections": [
                     {
-                        "name": "B1F - Item 2",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Victory Road/B1F - Item 2"
                     }
                 ],
@@ -1324,11 +1098,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "B2F - Item 1",
-                        "visibility_rules": ["op_ovw_on"],
                         "ref": "Hoenn/Victory Road/B2F - Item 1"
                     }
                 ],
@@ -1342,11 +1113,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua,$can_flash,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "B2F - Hidden Item 1",
                         "ref": "Hoenn/Victory Road/B2F - Hidden Item 1"
                     }
                 ],
@@ -1360,11 +1128,8 @@
             },
             {
                 "name": "",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua,$can_flash,$hid"],
-                "visibility_rules": ["op_hid_on"],
                 "sections": [
                     {
-                        "name": "B2F - Hidden Item 2",
                         "ref": "Hoenn/Victory Road/B2F - Hidden Item 2"
                     }
                 ],
