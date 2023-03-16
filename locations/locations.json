@@ -1,0 +1,2493 @@
+[
+    {
+        "name": "Hoenn",
+        "chest_unopened_img": "/images/items/pokeball.png",
+        "chest_opened_img": "/images/items/pokeball_gray.png",
+        "children": [
+            {
+                "name": "Littleroot Town",
+                "sections": [
+                    {
+                        "name": "Gift from Mom",
+                        "access_rules": ["balancebadge"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Norman",
+                        "access_rules": ["becomechampion"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "Oldale Town",
+                "sections": [
+                    {
+                        "name": "Gift from Shop Tutorial",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Route 102",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 32,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Route 103",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 60,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "Petalburg City",
+                "sections": [
+                    {
+                        "name": "Gym - Balance Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"],
+                        "access_rules": ["$norman_open"]
+                    },
+                    {
+                        "name": "Gym - TM42 from Norman",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["$norman_open"]
+                    },
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid,$can_surf"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "HM03 from Wally's Uncle",
+                        "access_rules": ["$norman_open"],
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Route 104 - South",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Petalburg Woods",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "access_rules": ["$hid,$can_cut"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "access_rules": ["$hid,$can_cut"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Gift from Lady",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Gift from Devon Employee",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "Route 104 - North",
+                "sections": [
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "access_rules": ["$can_surf","$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 5",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "TM09 from Boy",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Wailmer Pail from Flower Shop Lady",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Woman Near Berries",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Lady",
+                        "access_rules": ["dynamobadge"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 76
+                    }
+                ]
+            },
+            {
+                "name": "Rustboro City",
+                "sections": [
+                    {
+                        "name": "Gym - Stone Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM39 from Roxanne",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        
+                        "name": "Gift from Boy in Apartments",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from School Teacher",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "HM01 from Cutter's House",
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "Gift from Devon Employee",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Recover Devon Goods",
+                        "hosted_item": "recovergoods"
+                    },
+                    {
+                        "name": "Letter from Mr. Stone",
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "Exp. Share from Mr. Stone",
+                        "access_rules": ["stevenletter"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 64
+                    }
+                ]
+            },
+            {
+                "name": "Route 115",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$meteorfalls_access,$can_rocksmash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_surf,$machbike"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "access_rules": ["$meteorfalls_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 6",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item",
+                        "access_rules": ["$hid,$can_surf"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Meteor Falls",
+                "access_rules": ["$meteorfalls_access"],
+                "sections": [
+                    {
+                        "name": "1F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Item 3",
+                        "access_rules": ["$can_waterfall"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Item 4",
+                        "access_rules": ["$can_waterfall"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item 1",
+                        "access_rules": ["$can_waterfall"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Team Magma - Steals Meteorite",
+                        "hosted_item": "stealmeteor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "Route 116",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$mauville_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_cut"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "item_count": 2,
+                        "access_rules": ["$hid,$can_cut"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid,$mauville_access"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Gift from Devon Researcher",
+                        "access_rules": ["sterngoods"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 24,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Rusturf Tunnel",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "HM04 from Tunneler",
+                        "access_rules": ["$can_rocksmash"],
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "Recover Devon Goods",
+                        "visibility_rules": ["op_ki_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 36,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Verdanturf Town",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "TM45 from Woman in Battle Tent",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Route 114",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_rocksmash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_waterfall"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "TM05 from Roaring Man",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM28 from Fossil Maniac",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 28
+                    }
+                ]
+            },
+            {
+                "name": "Fallarbor Town",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "TM27 from Cozmo",
+                        "access_rules": ["meteorite,stealmeteor"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 36,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Route 113",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 52,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Route 112",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$lavaridge_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 68,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Route 111 - North",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["gogoggles"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "access_rules": ["gogoggles"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid,gogoggles"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden item 2",
+                        "access_rules": ["$hid,gogoggles"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden item 3",
+                        "access_rules": ["$hid,gogoggles"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Secret Power Gift",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Lavaridge Town",
+                "access_rules": ["$lavaridge_access"],
+                "sections": [
+                    {
+                        "name": "Gym - Heat Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM50 from Flannery",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Herb Shop - Gift from Man",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Hidden Item in Springs",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Go Goggles from Rival",
+                        "visibility_rules": ["op_ki_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 52,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Mt Chimney",
+                "access_rules": ["$lavaridge_access"],
+                "sections": [
+                    {
+                        "name": "Recover Meteorite",
+                        "visibility_rules": ["op_ki_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 68,
+                        "y": 28
+                    }
+                ]
+            },
+            {
+                "name": "Jagged Pass",
+                "access_rules": ["$lavaridge_access"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Magma Hideout 1F - Item",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 2F - Item 1",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 2F - Item 2",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 3F - Item 1",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 3F - Item 2",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 3F - Item 3",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Magma Hideout 4F - Item",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Team Magma - Clear Hideout",
+                        "access_rules": ["magmaemblem,$can_strength"],
+                        "hosted_item": "clearmagma"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 68,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Fiery Path",
+                "access_rules": ["$fallarbor_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_strength"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 60,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Route 117",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_cut"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 60,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Mauville City",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Gym - Dynamo Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM34 from Wattson",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Mach Bike",
+                        "visibility_rules": ["op_bik_on"]
+                    },
+                    {
+                        "name": "Acro Bike",
+                        "visibility_rules": ["op_bik_on"]
+                    },
+                    {
+                        "name": "HM06 from Rock Smash Guy",
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "Basement Key from Wattson",
+                        "access_rules": ["$norman_open"],
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "TM24 from Wattson",
+                        "access_rules": ["$norman_open,basementkey,$can_surf"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Trade Harbor Mail with Woman in House",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "New Mauville",
+                "access_rules": ["$mauville_access,basementkey,$can_surf"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 84,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Route 111 - South",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Reward from Winstrate Family",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 54
+                    }
+                ]
+            },
+            {
+                "name": "Route 105",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "Route 106",
+                "access_rules": ["$can_surf","$dewford_access"],
+                "sections": [
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Granite Cave",
+                "access_rules": ["$dewford_access"],
+                "sections": [
+                    {
+                        "name": "1F - HM05 from Hiker",
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "1F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$can_flash"]
+                    },
+                    {
+                        "name": "B2F - Item 1",
+                        "access_rules": ["machbike,$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Item 2",
+                        "access_rules": ["machbike,$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_flash"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_flash,machbike"]
+                    },
+                    {
+                        "name": "1F - TM47 from Steven",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["$can_flash"]
+                    },
+                    {
+                        "name": "Deliver Letter",
+                        "access_rules": ["recovergoods,letter,$can_flash"],
+                        "hosted_item": "stevenletter"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Dewford Town",
+                "access_rules": ["$dewford_access"],
+                "sections": [
+                    {
+                        "name": "Gym - Knuckle Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM08 from Brawly",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Old Rod from Fisherman",
+                        "visibility_rules": ["op_rod_on"]
+                    },
+                    {
+                        "name": "Gift from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM36 from Sludge Bomb Man",
+                        "access_rules": ["$norman_open"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 28,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Ship",
+                "access_rules": ["$can_surf"],
+                "sections": [
+                    {
+                        "name": "1F - Room Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Room Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Room Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Room Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Room Item 3",
+                        "access_rules": ["storagekey"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Captain's Office Key",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "HF - Room 1 Item",
+                        "access_rules": ["$can_dive,roomkey1"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "HF - Hidden Room 4 Key",
+                        "visibility_rules": ["op_ki_on"],
+                        "access_rules": ["$hid,$can_dive,roomkey1"]
+                    },
+                    {
+                        "name": "HF - Room 2 Item",
+                        "access_rules": ["$can_dive,roomkey2"],
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "HF - Room 3 Item",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "HF - Hidden Room 1 Key",
+                        "visibility_rules": ["op_ki_on"],
+                        "access_rules": ["$hid,$can_dive"]
+                    },
+                    {
+                        "name": "HF - Hidden Room 6 Key",
+                        "visibility_rules": ["op_ki_on"],
+                        "access_rules": ["$hid,$can_dive,roomkey4"]
+                    },
+                    {
+                        "name": "HF - Hidden Room 2 Key",
+                        "visibility_rules": ["op_ki_on"],
+                        "access_rules": ["$hid,$can_dive,roomkey6"]
+                    },
+                    {
+                        "name": "HF - Room 6 Item",
+                        "access_rules": ["$can_dive,roomkey6"],
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 56,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Route 108",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 56,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Route 109",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Seashore House Reward",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Girl",
+                        "access_rules": ["$slateport_access"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    },
+                    {
+                        "name": "Hidden Item 5",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 6",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$slateport_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Slateport City",
+                "access_rules": ["$slateport_access"],
+                "sections": [
+                    {
+                        "name": "Gift from Lady in Market",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Woman in Fan Club",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM41 from Sailor in Battle Tent",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Deliver Devon Goods",
+                        "access_rules": ["stevenletter,devongoods"],
+                        "hosted_item": "sterngoods"
+                    },
+                    {
+                        "name": "TM46 from Aqua Grunt in Museum",
+                        "visibility_rules": ["op_npc_on"],
+                        "access_rules": ["sterngoods"]
+                    },
+                    {
+                        "name": "Team Aqua - Steals Submarine",
+                        "access_rules": ["clearmagma"],
+                        "hosted_item": "stealsub"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "SS Tidal",
+                "access_rules": ["op_fer_on,ssticket,$slateport_access","op_fer_on,ssticket,$lilycove_access","op_fer_off,becomechampion"],
+                "sections": [
+                    {
+                        "name": "Lower Deck Hidden Item",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "TM49 from Thief",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 100
+                    },
+                    {
+                        "map": "hoennmap",
+                        "x": 156,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Route 110",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Itemfinder from Rival",
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "Route 134",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 94,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 133",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 112,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 132",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 130,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Pacifidlog Town",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "TM21 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM27 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 148,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 118",
+                "access_rules": ["$mauville_access"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Good Rod from Fisherman",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_rod_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 100,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Route 119",
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 6",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                    },
+                    {
+                        "name": "Item 7",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                    },
+                    {
+                        "name": "Item 8",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item 9",
+                        "access_rules": ["$can_surf,$mauville_access"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid,acrobike,$mauville_access,$can_surf"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                    },
+                    {
+                        "name": "HM02 from Rival Battle",
+                        "visibility_rules": ["op_hms_on","op_hms_sh"],
+                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 100,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Weather Institute",
+                "access_rules": ["$mauville_access,$can_surf"],
+                "sections": [
+                    {
+                        "name": "Clear Weather Institute",
+                        "hosted_item": "weatherins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 100,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Fortree City",
+                "access_rules": ["$rt121_access"],
+                "sections": [
+                    {
+                        "name": "Gym - Feather Badge",
+                        "access_rules": ["devonscope"],
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM40 from Winona",
+                        "access_rules": ["devonscope"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM10 from Hidden Power Lady",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Wingull Delivery Reward",
+                        "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 108,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Route 120",
+                "access_rules": ["$rt121_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["devonscope"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Scorched Slab - Item",
+                        "access_rules": ["devonscope,$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 4" ,
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Devon Scope from Steven",
+                        "visibility_rules": ["op_ki_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 116,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Safari Zone",
+                "access_rules": ["$rt121_access,pokeblock"],
+                "sections": [
+                    {
+                        "name": "SW - Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "NW - Item",
+                        "access_rules": ["$can_surf,machbike"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "N - Item",
+                        "access_rules": ["acrobike"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "SE - Item",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "SE - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "SE - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "NE - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "NE - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "NE - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 140,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Route 121",
+                "access_rules": ["$rt121_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_surf","$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 140,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Lilycove City",
+                "access_rules": ["$lilycove_access"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "TM44 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 164,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Mt Pyre",
+                "access_rules": ["$rt121_access,$can_surf"],
+                "sections": [
+                    {
+                        "name": "1F - Gift from Woman in NE Corner",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "2F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "3F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "4F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "5F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "6F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Ext. - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Ext. - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Ext. - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Ext. - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Summit - Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Summit - Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Summit - Magma Emblem from Old Lady",
+                        "visibility_rules": ["op_ki_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 140,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Route 123 - East",
+                "access_rules": ["$can_surf,$lilycove_access"],
+                "sections": [
+                    {
+                        "name": "TM19 from Girl near Berries",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Hidden Item 1",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid,$can_cut"]
+                    },
+                    {
+                        "name": "Hidden Item 4",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 132,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Route 123 - West",
+                "access_rules": ["$mauville_access,$can_surf"],
+                "sections": [
+                    {
+                        "name": "Hidden Item",
+                        "visibility_rules": ["op_hid_on"],
+                        "access_rules": ["$hid"]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 116,
+                        "y": 68
+                    }
+                ]
+            },
+
+            {
+                "name": "Aqua Hideout",
+                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
+                "sections": [
+                    {
+                        "name": "B1F - Master Ball",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Team Aqua - Clear Hideout",
+                        "hosted_item": "clearaqua"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 172,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Route 124",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 1",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 2",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 3",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 4",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 5",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 6",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 7",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 180,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Route 126",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 1",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 2",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 3",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 4",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 5",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 6",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 7",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 8",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 180,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Sootopolis",
+                "access_rules": ["$lilycove_access,$can_dive,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Gym - Rain Badge",
+                        "access_rules": ["releaserayquaza"],
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM03 from Juan",
+                        "access_rules": ["releaserayquaza"],
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM31 from Black Belt in House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "HM07 from Wallace",
+                        "access_rules": ["releaserayquaza"],
+                        "visibility_rules": ["op_hms_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 180,
+                        "y": 76
+                    }
+                ]
+            },
+            {
+                "name": "Route 125",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Island Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Shoal Cave",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "High Tide 1F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "High Tide 1F - Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Low Tide B1F - Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Low Tide B2F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Low Tide 1F - Item 2" ,
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "LOw Tide B1F - Gift from Black Belt",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Mossdeep City",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Gym - Mind Badge",
+                        "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "Gym - TM04 from Tate and Liza",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Gift from Kid",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Man in Museum",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Gift from Steven",
+                        "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "Super Rod from Fisherman in House",
+                        "visibility_rules": ["op_rod_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Route 127",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "access_rules": ["$can_dive"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 1",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 2",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Rock Hidden Item 3",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 4",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 76
+                    }
+                ]
+            },
+            {
+                "name": "Route 128",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Hidden Item 1",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 2",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "Hidden Item 3",
+                        "access_rules": ["$hid"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 1",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "UW - Hidden Item 2",
+                        "access_rules": ["$hid,$can_dive"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Seafloor Cavern",
+                "access_rules": ["$can_dive,$can_strength,$can_rocksmash$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Release Kyogre",
+                        "hosted_item": "releasekyogre"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 196,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Route 129",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 200,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 130",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 184,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 131",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "sections": [],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 168,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Sky Pillar",
+                "access_rules": ["$can_surf,$lilycove_access,clearaqua,releasekyogre"],
+                "sections": [
+                    {
+                        "name": "Release Rayquaza",
+                        "hosted_item": "releaserayquaza"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 172,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road",
+                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
+                "sections": [
+                    {
+                        "name": "1F - Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Item 2",
+                        "access_rules": ["$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "1F - Hidden Item",
+                        "access_rules": ["$hid,$can_flash"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B1F - Item 1",
+                        "access_rules": ["$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B1F - Item 2",
+                        "access_rules": ["$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Item 1",
+                        "access_rules": ["$can_flash"],
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 1",
+                        "access_rules": ["$hid,$can_flash"],
+                        "visibility_rules": ["op_hid_on"]
+                    },
+                    {
+                        "name": "B2F - Hidden Item 2",
+                        "access_rules": ["$hid,$can_flash"],
+                        "visibility_rules": ["op_hid_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 228,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Elite Four",
+                "access_rules": ["$elite_four"],
+                "sections": [
+                    {
+                        "name": "Become Champion",
+                        "hosted_item": "becomechampion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 228,
+                        "y": 84
+                    }
+                ]
+            }
+        ]
+    }
+]
