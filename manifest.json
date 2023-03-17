@@ -8,6 +8,10 @@
         "standard": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
+        },
+        "maps-u": {
+            "display_name": "Unlabelled Maps",
+            "flags": ["ap"]
         }
     }
 }

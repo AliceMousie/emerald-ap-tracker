@@ -1,9 +1,16 @@
+local variant = Tracker.ActiveVariantUID
+IS_UNLABELLED = variant:find("maps-u")
+
 Tracker:AddItems("items/items.json")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Maps
-Tracker:AddMaps("maps/maps.json")    
+if Tracker.ActiveVariantUID == "maps-u" then
+    Tracker:AddMaps("maps/maps-u.json")  
+else
+    Tracker:AddMaps("maps/maps.json")  
+end  
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 if PopVersion and PopVersion >= "0.23.0" then

@@ -335,7 +335,7 @@
                     },
                     {
                         "name": "Item 3",
-                        "access_rules": ["$can_surf,$machbike"],
+                        "access_rules": ["$can_surf,machbike"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -354,7 +354,7 @@
                     },
                     {
                         "name": "Hidden Item",
-                        "access_rules": ["$hid,$can_surf"],
+                        "access_rules": ["$hid,$can_surf","$hid,$meteorfalls_access"],
                         "visibility_rules": ["op_hid_on"]
                     }
                 ],
@@ -989,14 +989,14 @@
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Hidden Item 3",
+                        "name": "Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Hidden Item 2",
+                        "name": "Hidden Item 3",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_surf"]
+                        "access_rules": ["$hid"]
                     },
                     {
                         "name": "Item",
@@ -1967,12 +1967,12 @@
                 "access_rules": ["$mauville_access,$can_surf"],
                 "sections": [
                     {
-                        "name": "Hidden Item",
+                        "name": "Hidden Item 4",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Item",
+                        "name": "Item 5",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
