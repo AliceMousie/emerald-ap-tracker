@@ -53,7 +53,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Granite Cave/B2F - Item 1"
+                        "ref": "Hoenn/Granite Cave/B2F - Item 2"
                     }
                 ],
                 "map_locations": [
@@ -68,7 +68,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Granite Cave/B2F - Item 2"
+                        "ref": "Hoenn/Granite Cave/B2F - Item 1"
                     }
                 ],
                 "map_locations": [
@@ -643,21 +643,6 @@
                         "map": "safari",
                         "x": 1624,
                         "y": 88
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "sections": [
-                    {
-                        "ref": "Hoenn/Mt Pyre/1F - Gift from Woman in NE Corner"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "mtpyre_int",
-                        "x": 296,
-                        "y": 40
                     }
                 ]
             },

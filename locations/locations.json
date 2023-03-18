@@ -105,7 +105,7 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Hidden Item 1",
+                        "name": "Hidden Item",
                         "access_rules": ["$hid,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
                     },
@@ -141,7 +141,7 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Hidden Item 3",
+                        "name": "Hidden Item 4",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     }
@@ -182,7 +182,7 @@
                     },
                     {
                         "name": "Hidden Item 2",
-                        "access_rules": ["$hid,$can_cut"],
+                        "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
@@ -192,7 +192,7 @@
                     },
                     {
                         "name": "Hidden Item 4",
-                        "access_rules": ["$hid"],
+                        "access_rules": ["$hid,$can_cut"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
@@ -231,7 +231,7 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Hidden Item 4",
+                        "name": "Hidden Item 3",
                         "access_rules": ["$hid"],
                         "visibility_rules": ["op_hid_on"]
                     },
@@ -650,12 +650,12 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Hidden item 2",
+                        "name": "Hidden Item 2",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "Hidden item 3",
+                        "name": "Hidden Item 3",
                         "access_rules": ["$hid,gogoggles"],
                         "visibility_rules": ["op_hid_on"]
                     },
@@ -1042,16 +1042,16 @@
                     {
                         "name": "B2F - Hidden Item 1",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_flash"]
+                        "access_rules": ["$hid,$can_flash,machbike"]
                     },
                     {
                         "name": "B2F - Hidden Item 2",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_flash,machbike"]
+                        "access_rules": ["$hid,$can_flash"]
                     },
                     {
                         "name": "1F - TM47 from Steven",
-                        "visibility_rules": ["op_npc_on"],
+                        "visibility_rules": ["recovergoods,letter,op_npc_on"],
                         "access_rules": ["$can_flash"]
                     },
                     {
@@ -1933,7 +1933,7 @@
                         "access_rules": ["$hid,$can_cut"]
                     },
                     {
-                        "name": "Hidden Item 4",
+                        "name": "Hidden Item 5",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     },
@@ -2140,7 +2140,7 @@
                 ]
             },
             {
-                "name": "Sootopolis",
+                "name": "Sootopolis City",
                 "access_rules": ["$lilycove_access,$can_dive,clearaqua"],
                 "sections": [
                     {
@@ -2176,7 +2176,7 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Island Item",
+                        "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     }
                 ],
@@ -2250,7 +2250,7 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Gift from Steven",
+                        "name": "HM08 from Steven's House",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
@@ -2294,7 +2294,7 @@
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
-                        "name": "UW - Rock Hidden Item 3",
+                        "name": "UW - Hidden Item 3",
                         "access_rules": ["$hid,$can_dive"],
                         "visibility_rules": ["op_hid_on"]
                     },
@@ -2352,7 +2352,7 @@
             },
             {
                 "name": "Seafloor Cavern",
-                "access_rules": ["$can_dive,$can_strength,$can_rocksmash$lilycove_access,clearaqua"],
+                "access_rules": ["$can_dive,$can_strength,$can_rocksmash,$lilycove_access,clearaqua"],
                 "sections": [
                     {
                         "name": "Item",
