@@ -1830,6 +1830,10 @@
                     {
                         "name": "TM44 from Man in House",
                         "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "Pokeblock Case from Contest Hall",
+                        "visibility_rules": ["op_npc_on"]
                     }
                 ],
                 "map_locations": [
