@@ -142,6 +142,42 @@ function onClear(slot_data)
             obj.CurrentStage = 2 - slot_data['badges']
         end
     end
+
+    if slot_data['norman_requirement'] then
+        local obj = Tracker:FindObjectForCode("op_norm")
+        if obj then
+            if slot_data['norman_requirement'] == "option_badges" then
+                obj.CurrentStage = 1
+            else
+                obj.CurrentStage = 0
+            end
+        end
+    end
+
+    if slot_data['norman_count'] then
+        local obj = Tracker:FindObjectForCode("normanreq")
+        if obj then
+            obj.AcquiredCount = slot_data['norman_count']
+        end
+    end
+
+    if slot_data['elite_four_requirement'] then
+        local obj = Tracker:FindObjectForCode("op_e4")
+        if obj then
+            if slot_data['elite_four_requirement'] == "option_badges" then
+                obj.CurrentStage = 1
+            else
+                obj.CurrentStage = 0
+            end
+        end
+    end
+
+    if slot_data['elite_four_count'] then
+        local obj = Tracker:FindObjectForCode("e4req")
+        if obj then
+            obj.AcquiredCount = slot_data['elite_four_count']
+        end
+    end
 end
 
 -- called when an item gets collected

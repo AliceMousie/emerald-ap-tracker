@@ -27,6 +27,12 @@
                                 "op_rod"
                             ],
                             [
+                                "op_norm",
+                                "normanreq",
+                                "op_e4",
+                                "e4req"
+                            ],
+                            [
                                 "op_fer",
                                 "op_if",
                                 "op_hm5"

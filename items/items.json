@@ -300,6 +300,60 @@
         "codes": "releaserayquaza"
     },
     {
+        "name": "Norman Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/norman_gym.png",
+                "codes": "op_norm,op_norm_gym"
+            },
+            {
+                "img": "images/settings/norman_bdg.png",
+                "codes": "op_norm,op_norm_bdg",
+                "inherit_codes": false
+            }
+          
+        ]
+    },
+    {
+        "name": "Norman Requirement",
+        "type": "consumable",
+        "img": "/images/settings/norman.png",
+        "min_quantity": 1,
+        "max_quantity": 8,
+        "initial_quantity": 4,
+        "codes": "normanreq"
+    },
+    {
+        "name": "Elite 4 Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/e4_gym.png",
+                "codes": "op_e4,op_e4_gym"
+            },
+            {
+                "img": "images/settings/e4_bdg.png",
+                "codes": "op_e4,op_e4_bdg",
+                "inherit_codes": false
+            }
+          
+        ]
+    },
+    {
+        "name": "Elite 4 Requirement",
+        "type": "consumable",
+        "min_quantity": 1,
+        "max_quantity": 8,
+        "initial_quantity": 8,
+        "img": "/images/events/becomechampion.png",
+        "codes": "e4req"
+    },
+    {
         "name": "Gyms Beaten",
         "type": "consumable",
         "img": "/images/items/gyms.png",

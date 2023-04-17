@@ -8,12 +8,22 @@ function has(item, amount)
     end
 end
 
+function badges()
+    return Tracker:ProviderCountForCode("stonebadge") + Tracker:ProviderCountForCode("knucklebadge") + Tracker:ProviderCountForCode("dynamobadge") + Tracker:ProviderCountForCode("heatbadge") + Tracker:ProviderCountForCode("balancebadge") + Tracker:ProviderCountForCode("featherbadge") + Tracker:ProviderCountForCode("rainbadge") + Tracker:ProviderCountForCode("mindbadge")
+end
+
 function norman_open()
-    local gyms = Tracker:ProviderCountForCode('gyms')
-    if gyms >= 4 then
-        return 1
+    if (has("op_norm_bdg")) then
+        return badges() >= Tracker:ProviderCountForCode('normanreq')
     end
-    return 0
+    return  Tracker:ProviderCountForCode('gyms') >= Tracker:ProviderCountForCode('normanreq')
+end
+
+function e4_open()
+    if (has("op_e4_bdg")) then
+        return badges() >= Tracker:ProviderCountForCode('e4req')
+    end
+    return Tracker:ProviderCountForCode('gyms') >= Tracker:ProviderCountForCode('e4req')
 end
 
 function hid()
@@ -88,10 +98,6 @@ function rt121_access()
     return (mauville_access() and can_surf() and has("weatherins")) or (slateport_access() and has("op_fer_on") and has("ssticket") and (can_surf() or can_cut()))
 end
 
-function e4_badges()
-    return has("stonebadge") and has("knucklebadge") and has("dynamobadge") and has("heatbadge") and has("balancebadge") and has("featherbadge") and has("mindbadge") and has("rainbadge")
-end
-
 function elite_four()
-    return e4_badges() and lilycove_access() and can_waterfall() and can_flash() and can_strength() and can_rocksmash()
+    return e4_open() and lilycove_access() and can_waterfall() and can_flash() and can_strength() and can_rocksmash()
 end
