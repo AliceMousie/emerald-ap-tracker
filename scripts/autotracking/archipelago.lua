@@ -146,11 +146,7 @@ function onClear(slot_data)
     if slot_data['norman_requirement'] then
         local obj = Tracker:FindObjectForCode("op_norm")
         if obj then
-            if slot_data['norman_requirement'] == "option_badges" then
-                obj.CurrentStage = 1
-            else
-                obj.CurrentStage = 0
-            end
+            obj.CurrentStage = 1 - slot_data['norman_requirement']
         end
     end
 
@@ -164,11 +160,7 @@ function onClear(slot_data)
     if slot_data['elite_four_requirement'] then
         local obj = Tracker:FindObjectForCode("op_e4")
         if obj then
-            if slot_data['elite_four_requirement'] == "option_badges" then
-                obj.CurrentStage = 1
-            else
-                obj.CurrentStage = 0
-            end
+            obj.CurrentStage = 1 - slot_data['elite_four_requirement']
         end
     end
 

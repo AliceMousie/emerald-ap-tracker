@@ -410,12 +410,12 @@
                 "name": "Route 116",
                 "sections": [
                     {
-                        "name": "Item Tree Maze 1",
+                        "name": "Item in Tree Maze 1",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_cut"]
                     },
                     {
-                        "name": "Item Tree Maze 2",
+                        "name": "Item in Tree Maze 2",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$can_cut"]
                     },
@@ -598,7 +598,7 @@
                         "access_rules": ["$hid"]
                     },
                     {
-                        "name": "Hidden Item West of Workshop",
+                        "name": "Hidden Item Mound West of Workshop",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid"]
                     }
@@ -1731,7 +1731,7 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "SE - Item in Gras",
+                        "name": "SE - Item in Grass",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -1781,7 +1781,7 @@
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
-                        "name": "Item Item Near Safari Zone",
+                        "name": "Item Near Safari Zone",
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -2099,7 +2099,7 @@
                 "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
                 "sections": [
                     {
-                        "name": "Item  in Separated Area",
+                        "name": "Item in Separated Area",
                         "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
