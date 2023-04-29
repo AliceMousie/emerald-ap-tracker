@@ -1297,12 +1297,12 @@
                     {
                         "name": "Deep Sea Scale from Capt. Stern",
                         "visibility_rules": ["op_npc_on"],
-                        "access_rules": ["scanner"]
+                        "access_rules": ["scanner,sterngoods"]
                     },
                     {
                         "name": "Deep Sea Tooth from Capt. Stern",
                         "visibility_rules": ["op_npc_on"],
-                        "access_rules": ["scanner"]
+                        "access_rules": ["scanner,sterngoods"]
                     },
                     {
                         "name": "Team Aqua - Steals Submarine",
