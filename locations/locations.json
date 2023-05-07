@@ -9,7 +9,7 @@
                 "sections": [
                     {
                         "name": "Amulet Coin from Mom",
-                        "access_rules": ["balancebadge"],
+                        "access_rules": ["balancebadge,recovergoods"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
