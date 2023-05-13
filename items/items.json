@@ -288,6 +288,12 @@
         "codes": "becomechampion"
     },
     {
+        "name": "Defeat Steven",
+        "type": "toggle",
+        "img": "/images/events/steven.png",
+        "codes": "defeatsteven"
+    },
+    {
         "name": "Release Kyogre",
         "type": "toggle",
         "img": "/images/events/releasekyogre.png",
@@ -322,7 +328,7 @@
         "type": "consumable",
         "img": "/images/settings/norman.png",
         "min_quantity": 1,
-        "max_quantity": 8,
+        "max_quantity": 7,
         "initial_quantity": 4,
         "codes": "normanreq"
     },
@@ -341,7 +347,6 @@
                 "codes": "op_e4,op_e4_bdg",
                 "inherit_codes": false
             }
-          
         ]
     },
     {
@@ -556,6 +561,217 @@
             {
                 "img": "images/settings/ferry_off.png",
                 "codes": "op_fer,op_fer_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Fly Without Badge",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/featherbadge.png",
+                "img_mods": "@disabled",
+                "codes": "op_fwb,op_fwb_off"
+            },
+            {
+                "img": "images/items/featherbadge.png",
+                "codes": "op_fwb,op_fwb_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Extra Strength Boulders",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/op_es_on.png",
+                "img_mods": "@disabled",
+                "codes": "op_es,op_es_off"
+            },
+            {
+                "img": "images/settings/op_es_on.png",
+                "codes": "op_es,op_es_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Free Fly Location",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/fly0.png",
+                "codes": "op_ff,op_ff_0"
+            },
+            {
+                "img": "images/settings/fly5.png",
+                "codes": "op_ff,op_ff_5",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly6.png",
+                "codes": "op_ff,op_ff_6",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly7.png",
+                "codes": "op_ff,op_ff_7",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly8.png",
+                "codes": "op_ff,op_ff_8",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly9.png",
+                "codes": "op_ff,op_ff_9",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly10.png",
+                "codes": "op_ff,op_ff_10",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly11.png",
+                "codes": "op_ff,op_ff_11",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly12.png",
+                "codes": "op_ff,op_ff_12",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly13.png",
+                "codes": "op_ff,op_ff_13",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fly15.png",
+                "codes": "op_ff,op_ff_15",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Remove Rt.110 Grunts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_sp.png",
+                "img_mods": "@disabled",
+                "codes": "pass_sp,pass_sp_off"
+            },
+            {
+                "img": "images/settings/pass_sp.png",
+                "codes": "pass_sp,pass_sp_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+    ,
+    {
+        "name": "Remove Rt.112 Grunts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_cc.png",
+				"img_mods": "@disabled",
+				"codes": "pass_cc,pass_cc_off"
+            },
+            {
+                "img": "images/settings/pass_cc.png",
+                "codes": "pass_cc,pass_cc_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+    ,
+    {
+        "name": "Remove Rt.119 Grunts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_wi.png",
+				"img_mods": "@disabled",
+				"codes": "pass_wi,pass_wi_off"
+            },
+            {
+                "img": "images/settings/pass_wi.png",
+                "codes": "pass_wi,pass_wi_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+    ,
+    {
+        "name": "Remove Safari Wardens",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_sa.png",
+				"img_mods": "@disabled",
+				"codes": "pass_sa,pass_sa_off"
+            },
+            {
+                "img": "images/settings/pass_sa.png",
+                "codes": "pass_sa,pass_sa_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+    ,
+    {
+        "name": "Remove Aqua Hideout Grunts",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_hi.png",
+				"img_mods": "@disabled",
+				"codes": "pass_hi,pass_hi_off"
+            },
+            {
+                "img": "images/settings/pass_hi.png",
+                "codes": "pass_hi,pass_hi_on",
+                "inherit_codes": false
+            }
+        ]
+    }
+    ,
+    {
+        "name": "Remove Lilycove Wailmer",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_wa.png",
+				"img_mods": "@disabled",
+				"codes": "pass_wa,pass_wa_off"
+            },
+            {
+                "img": "images/settings/pass_wa.png",
+                "codes": "pass_wa,pass_wa_on",
                 "inherit_codes": false
             }
         ]

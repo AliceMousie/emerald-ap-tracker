@@ -396,6 +396,11 @@
                     {
                         "name": "Team Magma - Steals Meteorite",
                         "hosted_item": "stealmeteor"
+                    },
+                    {
+                        "name": "Defeat Steven",
+                        "access_rules": ["becomechampion"],
+                        "hosted_item": "defeatsteven"
                     }
                 ],
                 "map_locations": [
@@ -1297,12 +1302,12 @@
                     {
                         "name": "Deep Sea Scale from Capt. Stern",
                         "visibility_rules": ["op_npc_on"],
-                        "access_rules": ["scanner,sterngoods"]
+                        "access_rules": ["scanner,stealsub,mindbadge"]
                     },
                     {
                         "name": "Deep Sea Tooth from Capt. Stern",
                         "visibility_rules": ["op_npc_on"],
-                        "access_rules": ["scanner,sterngoods"]
+                        "access_rules": ["scanner,stealsub,mindbadge"]
                     },
                     {
                         "name": "Team Aqua - Steals Submarine",
@@ -1522,72 +1527,72 @@
                     {
                         "name": "Item East of Mud Slope",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
+                        "access_rules": ["$rt119_south_access"]
                     },
                     {
                         "name": "Item on River Bank",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
+                        "access_rules": ["$rt119_south_access","$rt121_access"]
                     },
                     {
                         "name": "Item in South Tall Grass 2",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
+                        "access_rules": ["$rt119_south_access"]
                     },
                     {
                         "name": "Item Near Mud Slope",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
+                        "access_rules": ["$rt119_south_access"]
                     },
                     {
                         "name": "Item Near South Waterfall",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
+                        "access_rules": ["$rt119_south_access,$can_surf"]
                     },
                     {
                         "name": "Item Above North Waterfall 1",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                        "access_rules": ["$rt119_south_access,$can_waterfall,acrobike","$rt121_access,$can_waterfall,acrobike"]
                     },
                     {
                         "name": "Item Above North Waterfall 2",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_waterfall,acrobike"]
+                        "access_rules": ["$rt119_south_access,$can_waterfall,acrobike","$rt121_access,$can_waterfall,acrobike"]
                     },
                     {
                         "name": "Item in South Tall Grass 1",
                         "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$mauville_access,$can_surf"]
+                        "access_rules": ["$rt119_south_access"]
                     },
                     {
                         "name": "Item Across River South",
-                        "access_rules": ["$can_surf,$mauville_access"],
+                        "access_rules": ["$can_surf,$rt119_south_access"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Hidden Item Across South Rail",
-                        "access_rules": ["$hid,acrobike,$mauville_access,$can_surf"],
+                        "access_rules": ["$hid,acrobike,$rt119_south_access"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "Hidden Item in South Tall Grass",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                        "access_rules": ["$hid,$rt119_south_access"]
                     },
                     {
                         "name": "Hidden Item Next to Waterfall",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                        "access_rules": ["$hid,$rt119_south_access,$can_surf", "$hid,$rt121_access,$can_surf"]
                     },
                     {
                         "name": "Hidden Item in East Tall Grass",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$mauville_access,$can_surf"]
+                        "access_rules": ["$hid,$rt119_south_access,$can_surf"]
                     },
                     {
                         "name": "HM02 from Rival Battle",
                         "visibility_rules": ["op_hms_on","op_hms_sh"],
-                        "access_rules": ["$mauville_access,$can_surf","$lilycove_access,$can_cut"]
+                        "access_rules": ["$rt119_south_access","$rt121_access"]
                     }
                 ],
                 "map_locations": [
@@ -1600,7 +1605,7 @@
             },
             {
                 "name": "Weather Institute",
-                "access_rules": ["$mauville_access,$can_surf"],
+                "access_rules": ["$rt119_south_access"],
                 "sections": [
                     {
                         "name": "Clear Weather Institute",
@@ -1732,32 +1737,33 @@
                     },
                     {
                         "name": "SE - Item in Grass",
-                        "access_rules": ["$can_surf"],
+                        "access_rules": ["$can_surf,$pass_safari"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "SE - Hidden Item in South Grass 1",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "access_rules": ["$hid,$pass_safari"]
                     },
                     {
                         "name": "SE - Hidden Item in South Grass 2",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "access_rules": ["$hid,$pass_safari"]
                     },
                     {
                         "name": "NE - Item on Ledge",
+                        "access_rules": ["$pass_safari"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "NE - Hidden Item East",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "access_rules": ["$hid,$pass_safari"]
                     },
                     {
                         "name": "NE - Hidden Item North",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid"]
+                        "access_rules": ["$hid,$pass_safari"]
                     }
                 ],
                 "map_locations": [
@@ -1977,7 +1983,7 @@
             },
             {
                 "name": "Route 123 - West",
-                "access_rules": ["$mauville_access,$can_surf"],
+                "access_rules": ["$rt119_south_access"],
                 "sections": [
                     {
                         "name": "Hidden Item Behind House",
@@ -2000,7 +2006,7 @@
 
             {
                 "name": "Aqua Hideout",
-                "access_rules": ["$can_surf,$lilycove_access,stealsub"],
+                "access_rules": ["$can_surf,$lilycove_access,$pass_hideout"],
                 "sections": [
                     {
                         "name": "B1F - Item in Center Room 1",
@@ -2033,7 +2039,7 @@
             },
             {
                 "name": "Route 124",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "Item in Southwest Area",
@@ -2096,7 +2102,7 @@
             },
             {
                 "name": "Route 126",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "Item in Separated Area",
@@ -2154,7 +2160,7 @@
             },
             {
                 "name": "Sootopolis City",
-                "access_rules": ["$lilycove_access,$can_dive,clearaqua"],
+                "access_rules": ["$sootopolis_access"],
                 "sections": [
                     {
                         "name": "Gym - Rain Badge",
@@ -2186,7 +2192,7 @@
             },
             {
                 "name": "Route 125",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "Item Between Trainers",
@@ -2203,7 +2209,7 @@
             },
             {
                 "name": "Shoal Cave",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "High Tide 1F - Item on Ledge",
@@ -2240,7 +2246,7 @@
             },
             {
                 "name": "Mossdeep City",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$mossdeep_access"],
                 "sections": [
                     {
                         "name": "Gym - Mind Badge",
@@ -2281,7 +2287,7 @@
             },
             {
                 "name": "Route 127",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "Item East",
@@ -2327,7 +2333,7 @@
             },
             {
                 "name": "Route 128",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [
                     {
                         "name": "Hidden Item North Island",
@@ -2365,7 +2371,7 @@
             },
             {
                 "name": "Seafloor Cavern",
-                "access_rules": ["$can_dive,$can_strength,$can_rocksmash,$lilycove_access,clearaqua"],
+                "access_rules": ["$can_dive,$can_strength,$can_rocksmash,$rt124_access"],
                 "sections": [
                     {
                         "name": "Item Before Kyogre",
@@ -2386,7 +2392,7 @@
             },
             {
                 "name": "Route 129",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [],
                 "map_locations": [
                     {
@@ -2398,7 +2404,7 @@
             },
             {
                 "name": "Route 130",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [],
                 "map_locations": [
                     {
@@ -2410,7 +2416,7 @@
             },
             {
                 "name": "Route 131",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+                "access_rules": ["$rt124_access"],
                 "sections": [],
                 "map_locations": [
                     {
@@ -2422,7 +2428,7 @@
             },
             {
                 "name": "Sky Pillar",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua,releasekyogre"],
+                "access_rules": ["$rt124_access,releasekyogre"],
                 "sections": [
                     {
                         "name": "Release Rayquaza",
@@ -2439,7 +2445,7 @@
             },
             {
                 "name": "Victory Road",
-                "access_rules": ["$can_waterfall,$lilycove_access,clearaqua"],
+                "access_rules": ["$victory_road_access"],
                 "sections": [
                     {
                         "name": "1F - Item East",
@@ -2447,37 +2453,37 @@
                     },
                     {
                         "name": "1F - Item on Southeast Ledge",
-                        "access_rules": ["$can_flash"],
+                        "access_rules": ["$can_flash,$can_strength,$can_rocksmash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "1F - Hidden Item on Southeast Ledge",
-                        "access_rules": ["$hid,$can_flash"],
+                        "access_rules": ["$hid,$can_flash,$can_strength,$can_rocksmash"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "B1F - Item Behind Boulders",
-                        "access_rules": ["$can_flash"],
+                        "access_rules": ["$can_flash,$can_strength,$can_rocksmash"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "B1F - Item on Northeast Ledge",
-                        "access_rules": ["$can_flash"],
+                        "access_rules": ["$can_flash,$can_strength,$can_rocksmash,$can_surf"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "B2F - Item Above Waterfall",
-                        "access_rules": ["$can_flash"],
+                        "access_rules": ["$can_flash,$can_strength,$can_rocksmash,$can_waterfall"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "B2F - Hidden Item Above Waterfall",
-                        "access_rules": ["$hid,$can_flash"],
+                        "access_rules": ["$hid,$can_flash,$can_strength,$can_rocksmash,$can_waterfall"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "B2F - Hidden Item in Northeast Corner",
-                        "access_rules": ["$hid,$can_flash"],
+                        "access_rules": ["$hid,$can_flash,$can_strength,$can_rocksmash,$can_surf"],
                         "visibility_rules": ["op_hid_on"]
                     }
                 ],

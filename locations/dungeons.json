@@ -251,7 +251,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Jagged Pass/Magma Hideout 2F - Item 2 on East Platform"
+                        "ref": "Hoenn/Jagged Pass/Magma Hideout 2F - Item on East Platform"
                     }
                 ],
                 "map_locations": [
@@ -371,7 +371,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Abandoned Ship/B1F - Room Item in North Rooms"
+                        "ref": "Hoenn/Abandoned Ship/B1F - Item in North Rooms"
                     }
                 ],
                 "map_locations": [
@@ -386,7 +386,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Abandoned Ship/B1F - Room Item in South Rooms"
+                        "ref": "Hoenn/Abandoned Ship/B1F - Item in South Rooms"
                     }
                 ],
                 "map_locations": [
@@ -740,7 +740,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Mt Pyre/Ext. - Item 1"
+                        "ref": "Hoenn/Mt Pyre/Ext. - Item 2"
                     }
                 ],
                 "map_locations": [
@@ -755,14 +755,14 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Mt Pyre/Ext. - Item 2"
+                        "ref": "Hoenn/Mt Pyre/Ext. - Item 1"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "mtpyre_ext",
                         "x": 304,
-                        "y": 607
+                        "y": 644
                     }
                 ]
             },
@@ -800,7 +800,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Mt Pyre/Summit - Hidden Item Item in Grass"
+                        "ref": "Hoenn/Mt Pyre/Summit - Hidden Item in Grass"
                     }
                 ],
                 "map_locations": [
@@ -815,7 +815,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Hoenn/Mt Pyre/Summit - Hidden Item Item Grave"
+                        "ref": "Hoenn/Mt Pyre/Summit - Hidden Item Grave"
                     }
                 ],
                 "map_locations": [

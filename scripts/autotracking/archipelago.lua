@@ -170,6 +170,30 @@ function onClear(slot_data)
             obj.AcquiredCount = slot_data['elite_four_count']
         end
     end
+
+    if slot_data['extra_boulders'] then
+        local obj = Tracker:FindObjectForCode("op_es")
+        if obj then
+            obj.CurrentStage = slot_data['extra_boulders']
+        end
+    end
+
+    if slot_data['fly_without_badge'] then
+        local obj = Tracker:FindObjectForCode("op_fwb")
+        if obj then
+            obj.CurrentStage = slot_data['fly_without_badge']
+        end
+    end
+
+    if slot_data['free_fly_location_id'] then
+        local locs = {[0]=0,[5]=1,[6]=2,[7]=3,[8]=4,[9]=5,[10]=6,[11]=7,[12]=8,[13]=9,[15]=10}
+        -- lua is the worst fucking programming language i have ever used. 
+        -- this could just be an indexOf on a 0-based array if it had either of those "luxuries"
+        local obj = Tracker:FindObjectForCode("op_ff")
+        if obj then
+            obj.CurrentStage = locs[slot_data['free_fly_location_id']]
+        end
+    end
 end
 
 -- called when an item gets collected
