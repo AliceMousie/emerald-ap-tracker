@@ -875,12 +875,12 @@
                     },
                     {
                         "name": "Basement Key from Wattson",
-                        "access_rules": ["$defeatnorman"],
+                        "access_rules": ["defeatnorman"],
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
                         "name": "TM24 from Wattson",
-                        "access_rules": ["$defeatnorman,basementkey,$can_surf"],
+                        "access_rules": ["defeatnorman,basementkey,$can_surf"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -1099,7 +1099,7 @@
                     },
                     {
                         "name": "TM36 from Sludge Bomb Man",
-                        "access_rules": ["$defeatnorman"],
+                        "access_rules": ["defeatnorman"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
