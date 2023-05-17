@@ -282,6 +282,12 @@
         "codes": "clearaqua"
     },
     {
+        "name": "Defeat Norman",
+        "type": "toggle",
+        "img": "/images/settings/norman.png",
+        "codes": "defeatnorman"
+    },
+    {
         "name": "Become Champion",
         "type": "toggle",
         "img": "/images/events/becomechampion.png",
@@ -290,8 +296,14 @@
     {
         "name": "Defeat Steven",
         "type": "toggle",
-        "img": "/images/events/steven.png",
+        "img": "/images/events/defeatsteven.png",
         "codes": "defeatsteven"
+    },
+    {
+        "name": "Clear Space Center",
+        "type": "toggle",
+        "img": "/images/events/spacecenter.png",
+        "codes": "spacecenter"
     },
     {
         "name": "Release Kyogre",
@@ -721,7 +733,7 @@
     }
     ,
     {
-        "name": "Remove Safari Wardens",
+        "name": "Remove Safari Workers",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
@@ -772,6 +784,24 @@
             {
                 "img": "images/settings/pass_wa.png",
                 "codes": "pass_wa,pass_wa_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Remove Seafloor Cavern Grunt",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/pass_sf.png",
+				"img_mods": "@disabled",
+				"codes": "pass_sf,pass_sf_off"
+            },
+            {
+                "img": "images/settings/pass_sf.png",
+                "codes": "pass_sf,pass_sf_on",
                 "inherit_codes": false
             }
         ]

@@ -20,11 +20,13 @@
                                 "pass_wi",
                                 "pass_sa",
                                 "pass_hi",
-                                "pass_wa"
+                                "pass_wa",
+                                "pass_sf"
                             ],           
                             [
                                 "op_ovw",
                                 "op_hid",
+                                "op_if",
                                 "op_ki",
                                 "op_hms",
                                 "op_bdg",
@@ -33,14 +35,13 @@
                             [
                                 "op_bik",
                                 "op_rod",
+                                "op_fer",
                                 "op_norm",
                                 "normanreq",
                                 "op_e4",
                                 "e4req"
                             ],
                             [
-                                "op_fer",
-                                "op_if",
                                 "op_hm5",
                                 "op_fwb",
                                 "op_es"

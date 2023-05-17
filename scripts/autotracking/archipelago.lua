@@ -11,6 +11,17 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+function has_value (tab, val)
+    for index, value in ipairs(tab) do
+        if value == val then
+            return 1
+        end
+    end
+
+    return 0
+end
+
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         --print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -193,6 +204,23 @@ function onClear(slot_data)
         if obj then
             obj.CurrentStage = locs[slot_data['free_fly_location_id']]
         end
+    end
+
+    if slot_data['remove_roadblocks'] then
+        local obj_sp = Tracker:FindObjectForCode("pass_sp")
+        local obj_cc = Tracker:FindObjectForCode("pass_cc")
+        local obj_wi = Tracker:FindObjectForCode("pass_wi")
+        local obj_hi = Tracker:FindObjectForCode("pass_hi")
+        local obj_wa = Tracker:FindObjectForCode("pass_wa")
+        local obj_sa = Tracker:FindObjectForCode("pass_sa")
+        local obj_sf = Tracker:FindObjectForCode("pass_sf")
+        obj_sp.CurrentStage = has_value(slot_data['remove_roadblocks'],"Route 110 Aqua Grunts")
+        obj_cc.CurrentStage = has_value(slot_data['remove_roadblocks'],"Route 112 Magma Grunts")
+        obj_wi.CurrentStage = has_value(slot_data['remove_roadblocks'],"Route 119 Aqua Grunts")
+        obj_sa.CurrentStage = has_value(slot_data['remove_roadblocks'],"Safari Zone Construction Workers")
+        obj_wa.CurrentStage = has_value(slot_data['remove_roadblocks'],"Lilycove City Wailmer")
+        obj_hi.CurrentStage = has_value(slot_data['remove_roadblocks'],"Aqua Hideout Grunts")
+        obj_sf.CurrentStage = has_value(slot_data['remove_roadblocks'],"Seafloor Cavern Aqua Grunt")
     end
 end
 

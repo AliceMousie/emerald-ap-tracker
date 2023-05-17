@@ -85,6 +85,11 @@
                 "name": "Petalburg City",
                 "sections": [
                     {
+                        "name": "Defeat Norman",
+                        "hosted_item": "defeatnorman",
+                        "access_rules": ["$norman_open"]
+                    },
+                    {
                         "name": "Gym - Balance Badge",
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"],
                         "access_rules": ["$norman_open"]
@@ -111,7 +116,7 @@
                     },
                     {
                         "name": "HM03 from Wally's Uncle",
-                        "access_rules": ["$norman_open"],
+                        "access_rules": ["defeatnorman"],
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     }
                 ],
@@ -870,12 +875,12 @@
                     },
                     {
                         "name": "Basement Key from Wattson",
-                        "access_rules": ["$norman_open"],
+                        "access_rules": ["$defeatnorman"],
                         "visibility_rules": ["op_ki_on"]
                     },
                     {
                         "name": "TM24 from Wattson",
-                        "access_rules": ["$norman_open,basementkey,$can_surf"],
+                        "access_rules": ["$defeatnorman,basementkey,$can_surf"],
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
@@ -1094,7 +1099,7 @@
                     },
                     {
                         "name": "TM36 from Sludge Bomb Man",
-                        "access_rules": ["$norman_open"],
+                        "access_rules": ["$defeatnorman"],
                         "visibility_rules": ["op_npc_on"]
                     }
                 ],
@@ -1319,7 +1324,7 @@
                     {
                         "map": "hoennmap",
                         "x": 76,
-                        "y": 108
+                        "y": 104
                     }
                 ]
             },
@@ -1340,13 +1345,13 @@
                 "map_locations": [
                     {
                         "map": "hoennmap",
-                        "x": 76,
-                        "y": 100
+                        "x": 84,
+                        "y": 104
                     },
                     {
                         "map": "hoennmap",
-                        "x": 156,
-                        "y": 44
+                        "x": 160,
+                        "y": 52
                     }
                 ]
             },
@@ -1776,7 +1781,7 @@
             },
             {
                 "name": "Route 121",
-                "access_rules": ["$rt121_access"],
+                "access_rules": ["$lilycove_access"],
                 "sections": [
                     {
                         "name": "Item in Maze 1",
@@ -1803,7 +1808,7 @@
                     {
                         "name": "Hidden Item West of Grunts",
                         "visibility_rules": ["op_hid_on"],
-                        "access_rules": ["$hid,$can_surf","$hid,$can_cut"]
+                        "access_rules": ["$hid,$rt121_access","$hid,$rt121_access"]
                     },
                     {
                         "name": "Hidden Item Behind Tree",
@@ -1854,14 +1859,14 @@
                 "map_locations": [
                     {
                         "map": "hoennmap",
-                        "x": 164,
+                        "x": 160,
                         "y": 44
                     }
                 ]
             },
             {
                 "name": "Mt Pyre",
-                "access_rules": ["$rt121_access,$can_surf"],
+                "access_rules": ["$lilycove_access,$can_surf"],
                 "sections": [
                     {
                         "name": "1F - Cleanse Tag from Woman in NE Corner",
@@ -2225,10 +2230,12 @@
                     },
                     {
                         "name": "Low Tide B2F - Item 1",
+                        "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Low Tide B2F - Item 2" ,
+                        "access_rules": ["$can_strength"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -2257,6 +2264,10 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
+                        "name": "Clear Space Center",
+                        "hosted_item": "spacecenter"
+                    },
+                    {
                         "name": "Item",
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -2270,6 +2281,7 @@
                     },
                     {
                         "name": "HM08 from Steven's House",
+                        "access_rules": ["spacecenter"],
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
@@ -2291,11 +2303,11 @@
                 "sections": [
                     {
                         "name": "Item East",
+                        "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
                         "name": "Item North",
-                        "access_rules": ["$can_dive"],
                         "visibility_rules": ["op_ovw_on"]
                     },
                     {
@@ -2371,7 +2383,7 @@
             },
             {
                 "name": "Seafloor Cavern",
-                "access_rules": ["$can_dive,$can_strength,$can_rocksmash,$rt124_access"],
+                "access_rules": ["$can_dive,$can_strength,$can_rocksmash,$rt124_access,$pass_seafloor"],
                 "sections": [
                     {
                         "name": "Item Before Kyogre",

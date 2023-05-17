@@ -66,12 +66,16 @@ function can_bike()
     return (has("machbike") or has("acrobike"))
 end
 
-function can_flreefly(id)
+function can_freefly(id)
     return (can_fly() and has("op_ff_"..id))
 end
 
-function can_ferry()
+function ferry_from_slateport()
     return slateport_access() and has("op_fer_on") and has("ssticket")
+end
+
+function ferry_from_lilycove()
+    return (can_freefly("11") or can_freefly("10")) and has("op_fer_on") and has("ssticket")
 end
 
 function dewford_access()
@@ -95,23 +99,27 @@ function pass_hideout()
 end
 
 function pass_wailmers()
-    return can_surf() and (has("pass_wa_on") or has("clearaqua"))
+    return (can_surf() and (has("pass_wa_on") or has("clearaqua")))
 end
 
 function pass_safari()
     return (has("pass_sa_on") or has("becomechampion"))
 end
 
+function pass_seafloor()
+    return (has("pass_sf_on") or has("spacecenter"))
+end
+
 function slateport_access()
-    return (can_flreefly("5") or has("stevenletter") or can_surf() or (can_rocksmash() and pass_slateport()))
+    return (can_freefly("5") or has("stevenletter") or can_surf() or ferry_from_lilycove() or ((can_freefly("6") or can_freefly("7") or can_rocksmash()) and pass_slateport()))
 end
 
 function mauville_access()
-    return (can_flreefly("6") or can_flreefly("7") or can_rocksmash() or can_surf() or (slateport_access() and pass_slateport()))
+    return (can_freefly("6") or can_freefly("7") or can_rocksmash() or can_surf() or (slateport_access() and pass_slateport()))
 end
 
 function fallarbor_access()
-    return (can_flreefly("8") or can_flreefly("9") or (can_surf() and has("stealmeteor")) or (mauville_access() and can_rocksmash()))
+    return (can_freefly("8") or can_freefly("9") or (has("stealmeteor")) or (mauville_access() and can_rocksmash()))
 end
 
 function meteorfalls_access()
@@ -119,7 +127,7 @@ function meteorfalls_access()
 end
 
 function lavaridge_access()
-    return (can_flreefly("9") or (pass_cablecar() and fallarbor_access()))
+    return (can_freefly("9") or (pass_cablecar() and fallarbor_access()))
 end
 
 function rt119_south_access()
@@ -127,7 +135,7 @@ function rt119_south_access()
 end
 
 function fortree_side_access()
-    return can_flreefly("10") or (mauville_access() and can_surf() and pass_weatherins())
+    return can_freefly("10") or (mauville_access() and can_surf() and pass_weatherins())
 end
 
 function rt121_access()
@@ -135,11 +143,11 @@ function rt121_access()
 end
 
 function fly_to_rt124()
-    return can_surf() and (can_flreefly("12") or can_flreefly("15") or (can_flreefly("13") and can_dive()))
+    return can_surf() and (can_freefly("12") or can_freefly("15") or (can_freefly("13") and can_dive()))
 end
 
 function lilycove_access()
-    return can_flreefly("11") or fortree_side_access() or can_ferry() or (fly_to_rt124() and pass_wailmers())
+    return can_freefly("11") or fortree_side_access() or ferry_from_slateport() or (fly_to_rt124() and pass_wailmers())
 end
 
 function rt124_access()
@@ -147,15 +155,15 @@ function rt124_access()
 end
 
 function mossdeep_access()
-    return can_flreefly("12") or rt124_access()
+    return can_freefly("12") or rt124_access()
 end
 
 function sootopolis_access()
-    return can_flreefly("13") or (rt124_access() and can_dive())
+    return can_freefly("13") or (rt124_access() and can_dive())
 end
 
 function victory_road_access()
-    return can_flreefly("15") or (rt124_access() and can_waterfall())
+    return can_freefly("15") or (rt124_access() and can_waterfall())
 end
 
 function elite_four()
