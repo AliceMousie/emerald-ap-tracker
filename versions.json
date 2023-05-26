@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "6.9.6.9",
+            "download_url": "https://media.discordapp.net/attachments/775075025777721427/1007707728866717838/unknown.png",
+            "sha256": "", // integrity check very necessary for a tracker
+            "changelog": [
+                "added raytracing"
+            ]
+        }
+    ]
+}
