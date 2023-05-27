@@ -77,12 +77,12 @@
         "img": "/images/items/scanner.png",
         "codes": "scanner"
     },
-    {
-        "name": "Wailmer Pail",
-        "type": "toggle",
-        "img": "/images/items/wailmerpail.png",
-        "codes": "wailmerpail,pail"
-    },
+    // {
+    //     "name": "Wailmer Pail",
+    //     "type": "toggle",
+    //     "img": "/images/items/wailmerpail.png",
+    //     "codes": "wailmerpail,pail"
+    // },
     {
         "name": "Devon Scope",
         "type": "toggle",

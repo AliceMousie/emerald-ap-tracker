@@ -50,8 +50,9 @@
                                 "meteorite",
                                 "magmaemblem",
                                 "scanner",
-                                "wailmerpail",
+                                //"wailmerpail",
                                 "devonscope",
+                                "ssticket",
                                 "harbormail"
                             ],
                             [
@@ -60,8 +61,7 @@
                                 "roomkey4",
                                 "roomkey6",
                                 "basementkey",
-                                "storagekey",
-                                "ssticket"
+                                "storagekey"
                             ]
                         ]
                     }

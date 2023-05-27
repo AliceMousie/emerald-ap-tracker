@@ -6,7 +6,7 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "margin": "0,0",
                 "content": [
                     {
@@ -47,13 +47,14 @@
                                 "op_es"
                             ]
                         ]
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_size": 192,
-                        "rows": [["op_ff"]]
                     }
                 ]
+            },
+            {
+                "type": "item",
+                "item_size": "178,24",
+                "v_alignment": "top",
+                "item": "op_ff"
             }
         ]
     }

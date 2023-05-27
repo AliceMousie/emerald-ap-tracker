@@ -11,6 +11,50 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+EVENT_FLAGS = {"FLAG_RECEIVED_POKENAV",
+"FLAG_DELIVERED_STEVEN_LETTER",
+"FLAG_DELIVERED_DEVON_GOODS",
+"FLAG_HIDE_ROUTE_119_TEAM_AQUA",
+"FLAG_MET_ARCHIE_METEOR_FALLS",
+"FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT",
+"FLAG_MET_TEAM_AQUA_HARBOR",
+"FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE",
+"FLAG_DEFEATED_MAGMA_SPACE_CENTER",
+"FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN",
+"FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA",
+"FLAG_OMIT_DIVE_FROM_STEVEN_LETTER",
+"FLAG_IS_CHAMPION",
+"FLAG_DEFEATED_RUSTBORO_GYM",
+"FLAG_DEFEATED_DEWFORD_GYM",
+"FLAG_DEFEATED_MAUVILLE_GYM",
+"FLAG_DEFEATED_LAVARIDGE_GYM",
+"FLAG_DEFEATED_PETALBURG_GYM",
+"FLAG_DEFEATED_FORTREE_GYM",
+"FLAG_DEFEATED_MOSSDEEP_GYM",
+"FLAG_DEFEATED_SOOTOPOLIS_GYM"}
+
+TRACKED_EVENTS = {FLAG_RECEIVED_POKENAV=0,
+FLAG_DELIVERED_STEVEN_LETTER=0,
+FLAG_DELIVERED_DEVON_GOODS=0,
+FLAG_HIDE_ROUTE_119_TEAM_AQUA=0,
+FLAG_MET_ARCHIE_METEOR_FALLS=0,
+FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT=0,
+FLAG_MET_TEAM_AQUA_HARBOR=0,
+FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE=0,
+FLAG_DEFEATED_MAGMA_SPACE_CENTER=0,
+FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN=0,
+FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA=0,
+FLAG_OMIT_DIVE_FROM_STEVEN_LETTER=0,
+FLAG_IS_CHAMPION=0,
+FLAG_DEFEATED_RUSTBORO_GYM=0,
+FLAG_DEFEATED_DEWFORD_GYM=0,
+FLAG_DEFEATED_MAUVILLE_GYM=0,
+FLAG_DEFEATED_LAVARIDGE_GYM=0,
+FLAG_DEFEATED_PETALBURG_GYM=0,
+FLAG_DEFEATED_FORTREE_GYM=0,
+FLAG_DEFEATED_MOSSDEEP_GYM=0,
+FLAG_DEFEATED_SOOTOPOLIS_GYM=0}
+
 function has_value (tab, val)
     for index, value in ipairs(tab) do
         if value == val then
@@ -71,6 +115,9 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
+    Archipelago:SetNotify(EVENT_FLAGS)
+    Archipelago:Get(EVENT_FLAGS)
 
     if SLOT_DATA == nil  then
         print("its fucked")
@@ -283,9 +330,6 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
 end
 
 --called when a location gets cleared
@@ -312,27 +356,48 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a locations is scouted
-function onScout(location_id, location_name, item_id, item_name, item_player)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
+function onEvent(key, value, old_value)
+    print("-----onEvent-----")
+    if value ~= nil then
+        print("KEY "..key.." CHANGED TO "..value)
+        TRACKED_EVENTS[key] = value
+        updateEvents()
+    else 
+        print ("KEY "..key..": null")
     end
-    -- not implemented yet :(
 end
 
--- called when a bounce message is received 
-function onBounce(json)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
+function onEventsLaunch(key, value)
+    print("-----onEventsLaunch-----")
+    if value ~= nil then
+        print("KEY "..key.." CHANGED TO "..value)
+        TRACKED_EVENTS[key] = value
+        updateEvents()
+    else 
+        print ("KEY "..key..": null")
     end
-    -- your code goes here
 end
 
--- add AP callbacks
--- un-/comment as needed
+function updateEvents()
+    local gyms = TRACKED_EVENTS.FLAG_DEFEATED_RUSTBORO_GYM + TRACKED_EVENTS.FLAG_DEFEATED_DEWFORD_GYM + TRACKED_EVENTS.FLAG_DEFEATED_MAUVILLE_GYM + TRACKED_EVENTS.FLAG_DEFEATED_LAVARIDGE_GYM + TRACKED_EVENTS.FLAG_DEFEATED_PETALBURG_GYM + TRACKED_EVENTS.FLAG_DEFEATED_FORTREE_GYM + TRACKED_EVENTS.FLAG_DEFEATED_SOOTOPOLIS_GYM + TRACKED_EVENTS.FLAG_DEFEATED_MOSSDEEP_GYM 
+    Tracker:FindObjectForCode("gyms").AcquiredCount = gyms
+    Tracker:FindObjectForCode("recovergoods").Active = TRACKED_EVENTS.FLAG_RECEIVED_POKENAV
+    Tracker:FindObjectForCode("stevenletter").Active = TRACKED_EVENTS.FLAG_DELIVERED_STEVEN_LETTER
+    Tracker:FindObjectForCode("sterngoods").Active = TRACKED_EVENTS.FLAG_DELIVERED_DEVON_GOODS
+    Tracker:FindObjectForCode("stealmeteor").Active = TRACKED_EVENTS.FLAG_MET_ARCHIE_METEOR_FALLS
+    Tracker:FindObjectForCode("weatherins").Active = TRACKED_EVENTS.FLAG_HIDE_ROUTE_119_TEAM_AQUA
+    Tracker:FindObjectForCode("clearmagma").Active = TRACKED_EVENTS.FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT
+    Tracker:FindObjectForCode("stealsub").Active = TRACKED_EVENTS.FLAG_MET_TEAM_AQUA_HARBOR
+    Tracker:FindObjectForCode("clearaqua").Active = TRACKED_EVENTS.FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
+    Tracker:FindObjectForCode("spacecenter").Active = TRACKED_EVENTS.FLAG_DEFEATED_MAGMA_SPACE_CENTER
+    Tracker:FindObjectForCode("releasekyogre").Active = TRACKED_EVENTS.FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN
+    Tracker:FindObjectForCode("releaserayquaza").Active = TRACKED_EVENTS.FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA
+    Tracker:FindObjectForCode("defeatnorman").Active = TRACKED_EVENTS.FLAG_DEFEATED_PETALBURG_GYM
+    Tracker:FindObjectForCode("becomechampion").Active = TRACKED_EVENTS.FLAG_IS_CHAMPION
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("event handler", onEvent)
+Archipelago:AddRetrievedHandler("event launch handler", onEventsLaunch)
