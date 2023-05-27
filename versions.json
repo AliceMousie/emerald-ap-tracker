@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"package_version": "0.0.1.4",
-			"download_url": "https://github.com/AliceMousie/emerald-ap-tracker/archive/refs/tags/v0.0.1.4.zip",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.4",
 			"sha256": "d152bc0874e6e4959965d241fa7217cf26cb14982fedb260cbba747d328ff3b4",
 			"changelog": [
 				"Supports autotracking for events!",
