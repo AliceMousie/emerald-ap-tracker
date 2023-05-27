@@ -370,11 +370,11 @@ end
 function onEventsLaunch(key, value)
     print("-----onEventsLaunch-----")
     if value ~= nil then
-        print("KEY "..key.." CHANGED TO "..value)
+        --print("KEY "..key.." CHANGED TO "..value)
         TRACKED_EVENTS[key] = value
         updateEvents()
     else 
-        print ("KEY "..key..": null")
+        --print ("KEY "..key..": null")
     end
 end
 
