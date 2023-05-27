@@ -1,12 +1,16 @@
 {
-    "versions": [
-        {
-            "package_version": "6.9.6.9",
-            "download_url": "https://media.discordapp.net/attachments/775075025777721427/1007707728866717838/unknown.png",
-            "sha256": "", // integrity check very necessary for a tracker
-            "changelog": [
-                "added raytracing"
-            ]
-        }
-    ]
+	"versions": [
+		{
+			"package_version": "0.0.1.4",
+			"download_url": "https://github.com/AliceMousie/emerald-ap-tracker/archive/refs/tags/v0.0.1.4.zip",
+			"sha256": "d152bc0874e6e4959965d241fa7217cf26cb14982fedb260cbba747d328ff3b4",
+			"changelog": [
+				"Supports autotracking for events!",
+				" - (Ensure you are using an up to date commit of the rando for this)",
+				"Remade Free Fly Location assets",
+				"Pack now automatically checks for new releases",
+				"Wailmer Pail is no more"
+			]
+		}
+	]
 }
