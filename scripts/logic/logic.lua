@@ -150,17 +150,8 @@ end
 
 function meteorfalls_access()
     return (
-        (
-            can_surf() 
-            or fallarbor_access()
-        ) 
-        and (
-            has("op_es_off") 
-            or (
-                has("op_es_on") 
-                and can_strength()
-            )
-        )
+        fallarbor_access() or
+        (can_surf() and (has("op_es_off") or can_strength()))
     )
 end
 

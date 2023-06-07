@@ -1,6 +1,3 @@
-local variant = Tracker.ActiveVariantUID
-IS_UNLABELLED = variant:find("maps-u")
-
 Tracker:AddItems("items/items.json")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")

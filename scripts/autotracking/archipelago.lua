@@ -70,9 +70,6 @@ function onClear(slot_data)
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
         if v[1] and v[2] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
-            end
             local obj = Tracker:FindObjectForCode(v[1])
             if obj then
                 if v[2] == "toggle" then
@@ -82,16 +79,12 @@ function onClear(slot_data)
                     obj.Active = false
                 elseif v[2] == "consumable" then
                     obj.AcquiredCount = 0
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: could not find object for code %s", v[1]))
             end
         end
     end
 
-    Archipelago:SetNotify({"events"}) --change to whatever
+    Archipelago:SetNotify({"events"})
     Archipelago:Get({"events"})
 
     if slot_data == nil  then
@@ -170,8 +163,6 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     else
         print(string.format("onItem: could not find object for code %s", v[1]))
@@ -207,7 +198,6 @@ end
 
 function updateEvents(value)
     if value ~= nil then
-        print("EVENTS: "..value)
         local gyms = 0
         for i, code in ipairs(FLAG_CODES) do
             local bit = value >> (i - 1) & 1
@@ -218,7 +208,8 @@ function updateEvents(value)
                 Tracker:FindObjectForCode(code).Active = bit
             end
         end
-        Tracker:FindObjectForCode("gyms").AcquiredCount = gyms
+        local gymObj = Tracker:FindObjectForCode("gyms")
+        gymObj.AcquiredCount = gyms
     end
 end
 
