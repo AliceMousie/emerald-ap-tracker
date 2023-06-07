@@ -6,6 +6,7 @@
 			"sha256": "b45283988fb92cbbacfacc6d956d69a9e468809c384bb1cb078989a98da066b9",
 			"changelog": [
 				"Updated events autotracking to work with latest rando commit",
+				"!! THIS BREAKS COMPATIBILITY WITH OLD VERSIONS OF THE RANDO !!",
 				"Added Steven Gift event",
 				"Remade several assets",
 				"Progression items are now directly hosted when not randomised",
