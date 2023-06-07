@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.1.5",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.5",
+			"sha256": "b45283988fb92cbbacfacc6d956d69a9e468809c384bb1cb078989a98da066b9",
+			"changelog": [
+				"Updated events autotracking to work with latest rando commit",
+				"Added Steven Gift event",
+				"Remade several assets",
+				"Progression items are now directly hosted when not randomised",
+				"Added pack variant to disable all hosted items"
+			]
+		},
+		{
 			"package_version": "0.0.1.4",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.4",
 			"sha256": "d152bc0874e6e4959965d241fa7217cf26cb14982fedb260cbba747d328ff3b4",
