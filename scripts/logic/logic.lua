@@ -109,7 +109,7 @@ function pass_safari()
 end
 
 function pass_seafloor()
-    return (has("pass_sf_on") or has("spacecenter"))
+    return (has("pass_sf_on") or has("stevendive"))
 end
 
 function slateport_access()

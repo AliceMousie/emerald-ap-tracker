@@ -12,6 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
+                        "item_h_alignment": "center",
                         "h_alignment": "left",
                         "rows": [             
                             [
@@ -21,30 +22,28 @@
                                 "pass_sa",
                                 "pass_hi",
                                 "pass_wa",
-                                "pass_sf"
+                                "pass_sf",
+                                "op_fer"
                             ],           
                             [
-                                "op_ovw",
-                                "op_hid",
-                                "op_if",
+                                "op_ovw",                        
                                 "op_ki",
                                 "op_hms",
                                 "op_bdg",
-                                "op_npc"
+                                "op_hid",
+                                "op_npc",
+                                "op_bik",
+                                "op_rod"
                             ],
                             [
-                                "op_bik",
-                                "op_rod",
-                                "op_fer",
+                                "op_if",
+                                "op_hm5",
+                                "op_fwb",
+                                "op_es",
                                 "op_norm",
                                 "normanreq",
                                 "op_e4",
                                 "e4req"
-                            ],
-                            [
-                                "op_hm5",
-                                "op_fwb",
-                                "op_es"
                             ]
                         ]
                     }

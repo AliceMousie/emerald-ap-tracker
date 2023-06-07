@@ -2,7 +2,7 @@
     {
         "name": "Hoenn",
         "chest_unopened_img": "/images/items/pokeball.png",
-        "chest_opened_img": "/images/items/pokeball_gray.png",
+        "chest_opened_img": "/images/items/pokeball_open.png",
         "children": [
             {
                 "name": "Littleroot Town",
@@ -15,7 +15,13 @@
                     {
                         "name": "S.S. Ticket from Norman",
                         "access_rules": ["becomechampion"],
-                        "visibility_rules": ["op_npc_on"]
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​S.S. Ticket from Norman",
+                        "access_rules": ["becomechampion"],
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "ssticket"
                     }
                 ],
                 "map_locations": [
@@ -87,12 +93,19 @@
                     {
                         "name": "Defeat Norman",
                         "hosted_item": "defeatnorman",
+                        "visibility_rules": ["hosted_items"],
                         "access_rules": ["$norman_open"]
                     },
                     {
                         "name": "Gym - Balance Badge",
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"],
                         "access_rules": ["$norman_open"]
+                    },
+                    {
+                        "name": "​Gym - Balance Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "access_rules": ["$norman_open"],
+                        "hosted_item": "balancebadge"
                     },
                     {
                         "name": "Gym - TM42 from Norman",
@@ -118,6 +131,12 @@
                         "name": "HM03 from Wally's Uncle",
                         "access_rules": ["defeatnorman"],
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "​HM03 from Wally's Uncle",
+                        "access_rules": ["defeatnorman"],
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm03"
                     }
                 ],
                 "map_locations": [
@@ -279,6 +298,11 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Stone Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "stonebadge"
+                    },
+                    {
                         "name": "Gym - TM39 from Roxanne",
                         "visibility_rules": ["op_npc_on"]
                     },
@@ -300,16 +324,27 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
+                        "name": "​HM01 from Cutter's House",
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm01"
+                    },
+                    {
                         "name": "Gift from Devon Employee",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Recover Devon Goods",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "recovergoods"
                     },
                     {
                         "name": "Letter from Mr. Stone",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Letter from Mr. Stone",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "letter"
                     },
                     {
                         "name": "Exp. Share from Mr. Stone",
@@ -400,11 +435,13 @@
                     },
                     {
                         "name": "Team Magma - Steals Meteorite",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "stealmeteor"
                     },
                     {
                         "name": "Defeat Steven",
                         "access_rules": ["becomechampion"],
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "defeatsteven"
                     }
                 ],
@@ -484,8 +521,19 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
+                        "name": "​HM04 from Tunneler",
+                        "access_rules": ["$can_rocksmash"],
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm04"
+                    },
+                    {
                         "name": "Recover Devon Goods",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Recover Devon Goods",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "devongoods"
                     }
                 ],
                 "map_locations": [
@@ -690,6 +738,11 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Heat Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "heatbadge"
+                    },
+                    {
                         "name": "Gym - TM50 from Flannery",
                         "visibility_rules": ["op_npc_on"]
                     },
@@ -705,6 +758,11 @@
                     {
                         "name": "Go Goggles from Rival",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Go Goggles from Rival",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "gogoggles"
                     }
                 ],
                 "map_locations": [
@@ -722,6 +780,11 @@
                     {
                         "name": "Meteorite from Machine",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Meteorite from Machine",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "meteorite"
                     }
                 ],
                 "map_locations": [
@@ -788,6 +851,7 @@
                     {
                         "name": "Team Magma - Clear Hideout",
                         "access_rules": ["magmaemblem,$can_strength"],
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "clearmagma"
                     }
                 ],
@@ -858,6 +922,11 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Dynamo Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "dynamobadge"
+                    },
+                    {
                         "name": "Gym - TM34 from Wattson",
                         "visibility_rules": ["op_npc_on"]
                     },
@@ -870,13 +939,30 @@
                         "visibility_rules": ["op_bik_on"]
                     },
                     {
+                        "name": "Acro Bike & Mach Bike",
+                        "visibility_rules": ["op_bik_off,hosted_items"],
+                        "clear_as_group": true,
+                        "hosted_item": "acrobike,machbike"
+                    },
+                    {
                         "name": "HM06 from Rock Smash Guy",
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
+                    },
+                    {
+                        "name": "​HM06 from Rock Smash Guy",
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm06"
                     },
                     {
                         "name": "Basement Key from Wattson",
                         "access_rules": ["defeatnorman"],
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Basement Key from Wattson",
+                        "access_rules": ["defeatnorman"],
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "basementkey"
                     },
                     {
                         "name": "TM24 from Wattson",
@@ -1030,6 +1116,11 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
+                        "name": "​1F - HM05 from Hiker",
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm05"
+                    },
+                    {
                         "name": "1F - Item Before Ladder",
                         "visibility_rules": ["op_ovw_on"]
                     },
@@ -1066,6 +1157,7 @@
                     {
                         "name": "Deliver Letter",
                         "access_rules": ["recovergoods,letter,$can_flash"],
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "stevenletter"
                     }
                 ],
@@ -1086,12 +1178,22 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Knuckle Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "knucklebadge"
+                    },
+                    {
                         "name": "Gym - TM08 from Brawly",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Old Rod from Fisherman",
                         "visibility_rules": ["op_rod_on"]
+                    },
+                    {
+                        "name": "​Old Rod from Fisherman",
+                        "visibility_rules": ["op_rod_off,hosted_items"],
+                        "hosted_item": "oldrod"
                     },
                     {
                         "name": "Silk Scarf from Man in House",
@@ -1138,7 +1240,12 @@
                     },
                     {
                         "name": "Captain's Office Key",
-                        "visibility_rules": ["op_ovw_on"]
+                        "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Captain's Office Key",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "storagekey"
                     },
                     {
                         "name": "HF - Item in Room 1",
@@ -1151,9 +1258,21 @@
                         "access_rules": ["$hid,$can_dive,roomkey1"]
                     },
                     {
+                        "name": "​HF - Hidden Item in Room 1",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "access_rules": ["$hid,$can_dive,roomkey1"],
+                        "hosted_item": "roomkey4"
+                    },
+                    {
                         "name": "HF - Item in Room 2",
                         "access_rules": ["$can_dive,roomkey2"],
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​HF - Item in Room 2",
+                        "access_rules": ["$can_dive,roomkey2"],
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "scanner"
                     },
                     {
                         "name": "HF - Item in Room 3",
@@ -1166,14 +1285,32 @@
                         "access_rules": ["$hid,$can_dive"]
                     },
                     {
+                        "name": "​HF - Hidden Item in Room 3",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "access_rules": ["$hid,$can_dive"],
+                        "hosted_item": "roomkey1"
+                    },
+                    {
                         "name": "HF - Hidden Item in Room 4",
                         "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive,roomkey4"]
                     },
                     {
+                        "name": "​HF - Hidden Item in Room 4",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "access_rules": ["$hid,$can_dive,roomkey4"],
+                        "hosted_item": "roomkey6"
+                    },
+                    {
                         "name": "HF - Hidden Item in Room 5",
                         "visibility_rules": ["op_ki_on"],
                         "access_rules": ["$hid,$can_dive,roomkey6"]
+                    },
+                    {
+                        "name": "​HF - Hidden Item in Room 5",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "access_rules": ["$hid,$can_dive,roomkey6"],
+                        "hosted_item": "roomkey2"
                     },
                     {
                         "name": "HF - Item in Room 6",
@@ -1290,13 +1427,14 @@
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
-                        "name": "Buy Harbor Mail",
-                        "visibility_rules": ["op_npc_on"],
+                        "name": "Buy Harbor Mail in Mart (For Coin Case Lady)",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
                         "hosted_item": "harbormail"
                     },
                     {
                         "name": "Deliver Devon Goods",
                         "access_rules": ["stevenletter,devongoods"],
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "sterngoods"
                     },
                     {
@@ -1317,6 +1455,7 @@
                     {
                         "name": "Team Aqua - Steals Submarine",
                         "access_rules": ["clearmagma"],
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "stealsub"
                     }
                 ],
@@ -1375,6 +1514,11 @@
                     {
                         "name": "Itemfinder from Rival",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Itemfinder from Rival",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "itemfinder"
                     },
                     {
                         "name": "Hidden Item South of Rival",
@@ -1516,6 +1660,12 @@
                         "name": "Good Rod from Fisherman",
                         "access_rules": ["$can_surf"],
                         "visibility_rules": ["op_rod_on"]
+                    },
+                    {
+                        "name": "​Good Rod from Fisherman",
+                        "access_rules": ["$can_surf"],
+                        "visibility_rules": ["op_rod_off,hosted_items"],
+                        "hosted_item": "goodrod"
                     }
                 ],
                 "map_locations": [
@@ -1598,6 +1748,12 @@
                         "name": "HM02 from Rival Battle",
                         "visibility_rules": ["op_hms_on","op_hms_sh"],
                         "access_rules": ["$rt119_south_access","$rt121_access"]
+                    },
+                    {
+                        "name": "​HM02 from Rival Battle",
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "access_rules": ["$rt119_south_access","$rt121_access"],
+                        "hosted_item": "hm02"
                     }
                 ],
                 "map_locations": [
@@ -1614,6 +1770,7 @@
                 "sections": [
                     {
                         "name": "Clear Weather Institute",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "weatherins"
                     }
                 ],
@@ -1633,6 +1790,12 @@
                         "name": "Gym - Feather Badge",
                         "access_rules": ["devonscope"],
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
+                    },
+                    {
+                        "name": "​Gym - Feather Badge",
+                        "access_rules": ["devonscope"],
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "featherbadge"
                     },
                     {
                         "name": "Gym - TM40 from Winona",
@@ -1711,6 +1874,11 @@
                     {
                         "name": "Devon Scope from Steven",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Devon Scope from Steven",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "devonscope"
                     }
                 ],
                 "map_locations": [
@@ -1854,6 +2022,11 @@
                     {
                         "name": "Pokeblock Case from Contest Hall",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Pokeblock Case from Contest Hall",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "pokeblock"
                     }
                 ],
                 "map_locations": [
@@ -1923,6 +2096,11 @@
                     {
                         "name": "Summit - Magma Emblem from Old Lady",
                         "visibility_rules": ["op_ki_on"]
+                    },
+                    {
+                        "name": "​Summit - Magma Emblem from Old Lady",
+                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "hosted_item": "magmaemblem"
                     }
                 ],
                 "map_locations": [
@@ -2031,6 +2209,7 @@
                     },
                     {
                         "name": "Team Aqua - Clear Hideout",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "clearaqua"
                     }
                 ],
@@ -2173,6 +2352,12 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Rain Badge",
+                        "access_rules": ["releaserayquaza"],
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "rainbadge"
+                    },
+                    {
                         "name": "Gym - TM03 from Juan",
                         "access_rules": ["releaserayquaza"],
                         "visibility_rules": ["op_npc_on"]
@@ -2185,6 +2370,12 @@
                         "name": "HM07 from Wallace",
                         "access_rules": ["releaserayquaza"],
                         "visibility_rules": ["op_hms_on"]
+                    },
+                    {
+                        "name": "​HM07 from Wallace",
+                        "access_rules": ["releaserayquaza"],
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm07"
                     }
                 ],
                 "map_locations": [
@@ -2260,11 +2451,17 @@
                         "visibility_rules": ["op_bdg_on","op_bdg_sh"]
                     },
                     {
+                        "name": "​Gym - Mind Badge",
+                        "visibility_rules": ["op_bdg_off,hosted_items"],
+                        "hosted_item": "mindbadge"
+                    },
+                    {
                         "name": "Gym - TM04 from Tate and Liza",
                         "visibility_rules": ["op_npc_on"]
                     },
                     {
                         "name": "Clear Space Center",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "spacecenter"
                     },
                     {
@@ -2285,8 +2482,19 @@
                         "visibility_rules": ["op_hms_on","op_hms_sh"]
                     },
                     {
+                        "name": "​HM08 from Steven's House",
+                        "access_rules": ["spacecenter"],
+                        "visibility_rules": ["op_hms_off,hosted_items"],
+                        "hosted_item": "hm08"
+                    },
+                    {
                         "name": "Super Rod from Fisherman in House",
                         "visibility_rules": ["op_rod_on"]
+                    },
+                    {
+                        "name": "​Super Rod from Fisherman in House",
+                        "visibility_rules": ["op_rod_off,hosted_items"],
+                        "hosted_item": "superrod"
                     }
                 ],
                 "map_locations": [
@@ -2391,6 +2599,7 @@
                     },
                     {
                         "name": "Release Kyogre",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "releasekyogre"
                     }
                 ],
@@ -2444,6 +2653,7 @@
                 "sections": [
                     {
                         "name": "Release Rayquaza",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "releaserayquaza"
                     }
                 ],
@@ -2513,6 +2723,7 @@
                 "sections": [
                     {
                         "name": "Become Champion",
+                        "visibility_rules": ["hosted_items"],
                         "hosted_item": "becomechampion"
                     }
                 ],

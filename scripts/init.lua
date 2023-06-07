@@ -4,12 +4,11 @@ IS_UNLABELLED = variant:find("maps-u")
 Tracker:AddItems("items/items.json")
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+Tracker:AddMaps("maps/maps.json")
 
 -- Maps
-if Tracker.ActiveVariantUID == "maps-u" then
-    Tracker:AddMaps("maps/maps-u.json")  
-else
-    Tracker:AddMaps("maps/maps.json")  
+if Tracker.ActiveVariantUID ~= "zzzno_hosted" then
+    Tracker:AddItems("items/enable_hosted_items.json")
 end  
 -- Locations
 Tracker:AddLocations("locations/locations.json")

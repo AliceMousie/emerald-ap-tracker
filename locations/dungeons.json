@@ -2,13 +2,16 @@
     {
         "name": "Dungeons",
         "chest_unopened_img": "/images/items/pokeball.png",
-        "chest_opened_img": "/images/items/pokeball_gray.png",
+        "chest_opened_img": "/images/items/pokeball_open.png",
         "children": [
             {
                 "name": "",
                 "sections": [
                     {
                         "ref": "Hoenn/Granite Cave/1F - HM05 from Hiker"
+                    },
+                    {
+                        "ref": "Hoenn/Granite Cave/​1F - HM05 from Hiker"
                     }
                 ],
                 "map_locations": [
@@ -402,6 +405,9 @@
                 "sections": [
                     {
                         "ref": "Hoenn/Abandoned Ship/Captain's Office Key"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​Captain's Office Key"
                     }
                 ],
                 "map_locations": [
@@ -435,6 +441,9 @@
                     },
                     {
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Item in Room 1"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​HF - Hidden Item in Room 1"
                     }
                 ],
                 "map_locations": [
@@ -446,10 +455,13 @@
                 ]
             },
             {
-                "name": "",
+                "name": "Room 2",
                 "sections": [
                     {
                         "ref": "Hoenn/Abandoned Ship/HF - Item in Room 2"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​HF - Item in Room 2"
                     }
                 ],
                 "map_locations": [
@@ -468,6 +480,9 @@
                     },
                     {
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Item in Room 3"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​HF - Hidden Item in Room 3"
                     }
                 ],
                 "map_locations": [
@@ -479,10 +494,13 @@
                 ]
             },
             {
-                "name": "",
+                "name": "Room 4",
                 "sections": [
                     {
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Item in Room 4"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​HF - Hidden Item in Room 4"
                     }
                 ],
                 "map_locations": [
@@ -501,6 +519,9 @@
                     },
                     {
                         "ref": "Hoenn/Abandoned Ship/HF - Hidden Item in Room 5"
+                    },
+                    {
+                        "ref": "Hoenn/Abandoned Ship/​HF - Hidden Item in Room 5"
                     }
                 ],
                 "map_locations": [
@@ -831,13 +852,16 @@
                 "sections": [
                     {
                         "ref": "Hoenn/Mt Pyre/Summit - Magma Emblem from Old Lady"
+                    },
+                    {
+                        "ref": "Hoenn/Mt Pyre/​Summit - Magma Emblem from Old Lady"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "mtpyre_int",
-                        "x": 296,
-                        "y": 40
+                        "map": "mtpyre_ext",
+                        "x": 984,
+                        "y": 126
                     }
                 ]
             },

@@ -13,6 +13,7 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "left",
+                        "item_h_alignment": "center",
                         "rows": [
                             [
                                 "recovergoods",
@@ -28,14 +29,15 @@
                             ],
                             [
                                 "spacecenter",
+                                "stevendive",
                                 "releasekyogre",
-                                "releaserayquaza",
-                                "gyms"
+                                "releaserayquaza"
                             ],
                             [
                                 "defeatnorman",
                                 "becomechampion",
-                                "defeatsteven"
+                                "defeatsteven",
+                                "gyms"
                             ]
                         ]
                     }

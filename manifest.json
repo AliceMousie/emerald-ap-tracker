@@ -1,7 +1,7 @@
 ﻿{
     "name": "Pokémon Emerald Archipleago",
     "game_name": "Pokémon Emerald",
-    "package_version": "0.0.1.4",
+    "package_version": "0.0.1.5",
     "package_uid": "ap_emerald",
     "author": "AliceMousie",
     "variants": {
@@ -9,8 +9,8 @@
             "display_name": "Map Tracker",
             "flags": ["ap"]
         },
-        "maps-u": {
-            "display_name": "Unlabelled Maps",
+        "zzzno_hosted": {
+            "display_name": "Disable Hosted Items",
             "flags": ["ap"]
         }
     },
