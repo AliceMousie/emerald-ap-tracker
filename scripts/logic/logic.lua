@@ -8,22 +8,26 @@ function has(item, amount)
     end
 end
 
+function progCount(code)
+    return Tracker:FindObjectForCode(code).CurrentStage
+end
+
 function badges()
     return Tracker:ProviderCountForCode("stonebadge") + Tracker:ProviderCountForCode("knucklebadge") + Tracker:ProviderCountForCode("dynamobadge") + Tracker:ProviderCountForCode("heatbadge") + Tracker:ProviderCountForCode("balancebadge") + Tracker:ProviderCountForCode("featherbadge") + Tracker:ProviderCountForCode("rainbadge") + Tracker:ProviderCountForCode("mindbadge")
 end
 
 function norman_open()
     if (has("op_norm_bdg")) then
-        return badges() >= Tracker:ProviderCountForCode('normanreq')
+        return badges() >= progCount('normanreq')
     end
-    return Tracker:ProviderCountForCode('gyms') >= Tracker:ProviderCountForCode('normanreq')
+    return progCount('gyms') >= progCount('normanreq')
 end
 
 function e4_open()
     if (has("op_e4_bdg")) then
-        return badges() >= Tracker:ProviderCountForCode('e4req')
+        return badges() >= progCount('e4req')
     end
-    return Tracker:ProviderCountForCode('gyms') >= Tracker:ProviderCountForCode('e4req')
+    return progCount('gyms') >= progCount('e4req')
 end
 
 function hid()
@@ -236,8 +240,8 @@ end
 function elite_four()
     return e4_open() 
     and victory_road_access() 
-    and can_waterfall() 
-    and can_flash() 
-    and can_strength() 
+    and can_waterfall()
+    and can_flash()
+    and can_strength()
     and can_rocksmash()
 end

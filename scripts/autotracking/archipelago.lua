@@ -2,6 +2,8 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
+PLAYER_ID = -1
+TEAM_NUMBER = 0
 --SLOT_DATA = nil
 
 FLAG_CODES = {
@@ -84,18 +86,20 @@ function onClear(slot_data)
         end
     end
 
-    Archipelago:SetNotify({"events"})
-    Archipelago:Get({"events"})
-
     if slot_data == nil  then
         print("its fucked")
         return
     end
 
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+
     mapToggle={[0]=0,[1]=1}
     mapToggleReverse={[0]=1,[1]=0}
     mapTripleReverse={[0]=2,[1]=1,[2]=0}
     mapFreeFly={[0]=0,[5]=1,[6]=2,[7]=3,[8]=4,[9]=5,[10]=6,[11]=7,[12]=8,[13]=9,[15]=10}
+    mapBadges={}
+    for i=0,8 do mapBadges[i]=i end
 
     slotCodes = {hidden_items={code="op_hid", mapping=mapToggle},
         npc_gifts={code="op_npc", mapping=mapToggle},
@@ -113,8 +117,8 @@ function onClear(slot_data)
         extra_boulders={code="op_es", mapping=mapToggle},
         fly_without_badge={code="op_fwb", mapping=mapToggleReverse},
         free_fly_location_id={code="op_ff", mapping=mapFreeFly},
-        norman_count={code="normanreq", mapping=nil},
-        elite_four_count={code="e4req", mapping=nil}
+        norman_count={code="normanreq", mapping=mapBadges},
+        elite_four_count={code="e4req", mapping=mapBadges}
     }
 
     roadblockCodes={["Route 110 Aqua Grunts"]="pass_sp",
@@ -132,11 +136,15 @@ function onClear(slot_data)
             for r,c in pairs(roadblockCodes) do
                 Tracker:FindObjectForCode(c).CurrentStage = has_value(slot_data['remove_roadblocks'],r)
             end
-        elseif k == "norman_count" or k == "elite_four_count" then
-            Tracker:FindObjectForCode(slotCodes[k].code).AcquiredCount = v
         elseif slotCodes[k] then
             Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage = slotCodes[k].mapping[v]
         end
+    end
+
+    if PLAYER_ID>-1 then
+        local eventId="pokemon_emerald_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({eventId})
+        Archipelago:Get({eventId})
     end
 end
 
@@ -208,8 +216,7 @@ function updateEvents(value)
                 Tracker:FindObjectForCode(code).Active = bit
             end
         end
-        local gymObj = Tracker:FindObjectForCode("gyms")
-        gymObj.AcquiredCount = gyms
+        Tracker:FindObjectForCode("gyms").CurrentStage = gyms
     end
 end
 

@@ -1428,7 +1428,7 @@
                     },
                     {
                         "name": "Buy Harbor Mail in Mart (For Coin Case Lady)",
-                        "visibility_rules": ["op_ki_off,hosted_items"],
+                        "visibility_rules": ["op_ki_on,hosted_items"],
                         "hosted_item": "harbormail"
                     },
                     {
@@ -1550,94 +1550,6 @@
                 ]
             },
             {
-                "name": "Route 134",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
-                "sections": [
-                    {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Item 2",
-                        "visibility_rules": ["op_ovw_on"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hoennmap",
-                        "x": 94,
-                        "y": 100
-                    }
-                ]
-            },
-            {
-                "name": "Route 133",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
-                "sections": [
-                    {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Item 2",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Item 3",
-                        "visibility_rules": ["op_ovw_on"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hoennmap",
-                        "x": 112,
-                        "y": 100
-                    }
-                ]
-            },
-            {
-                "name": "Route 132",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
-                "sections": [
-                    {
-                        "name": "Item 1",
-                        "visibility_rules": ["op_ovw_on"]
-                    },
-                    {
-                        "name": "Item 2",
-                        "visibility_rules": ["op_ovw_on"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hoennmap",
-                        "x": 130,
-                        "y": 100
-                    }
-                ]
-            },
-            {
-                "name": "Pacifidlog Town",
-                "access_rules": ["$can_surf,$lilycove_access,clearaqua"],
-                "sections": [
-                    {
-                        "name": "TM21 from Man in House",
-                        "visibility_rules": ["op_npc_on"]
-                    },
-                    {
-                        "name": "TM27 from Man in House",
-                        "visibility_rules": ["op_npc_on"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hoennmap",
-                        "x": 148,
-                        "y": 100
-                    }
-                ]
-            },
-            {
                 "name": "Route 118",
                 "access_rules": ["$mauville_access"],
                 "sections": [
@@ -1683,11 +1595,6 @@
                         "name": "Item East of Mud Slope",
                         "visibility_rules": ["op_ovw_on"],
                         "access_rules": ["$rt119_south_access"]
-                    },
-                    {
-                        "name": "Item on River Bank",
-                        "visibility_rules": ["op_ovw_on"],
-                        "access_rules": ["$rt119_south_access","$rt121_access"]
                     },
                     {
                         "name": "Item in South Tall Grass 2",
@@ -1743,6 +1650,11 @@
                         "name": "Hidden Item in East Tall Grass",
                         "visibility_rules": ["op_hid_on"],
                         "access_rules": ["$hid,$rt119_south_access,$can_surf"]
+                    },
+                    {
+                        "name": "Item on River Bank",
+                        "visibility_rules": ["op_ovw_on"],
+                        "access_rules": ["$rt119_south_access","$rt121_access"]
                     },
                     {
                         "name": "HM02 from Rival Battle",
@@ -2662,6 +2574,94 @@
                         "map": "hoennmap",
                         "x": 172,
                         "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Route 134",
+                "access_rules": ["$rt124_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 94,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 133",
+                "access_rules": ["$rt124_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 112,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Route 132",
+                "access_rules": ["$rt124_access"],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": ["op_ovw_on"]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": ["op_ovw_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 130,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Pacifidlog Town",
+                "access_rules": ["$rt124_access"],
+                "sections": [
+                    {
+                        "name": "TM21 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    },
+                    {
+                        "name": "TM27 from Man in House",
+                        "visibility_rules": ["op_npc_on"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 148,
+                        "y": 100
                     }
                 ]
             },
