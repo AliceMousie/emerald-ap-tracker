@@ -1,6 +1,20 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.1.6",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.6",
+			"sha256": "5fad154a66a9d581dcadc3de05249e9483794b0ed47e240b5972fa837bad1ba9",
+			"changelog": [
+				"Updated events tracking again",
+				"!!Compatibility is broken again, events will not track on older rando builds!!",
+				"Updated more assets",
+				"Fixed Meteor Falls access logic with extra boulders enabled",
+				"Fixed Pacifidog and Rt. 132-134 access logic",
+				"Fixed Norman and E4 settings to allow a requirement of 0",
+				"Fixed events not clearing when connecting to AP"
+			]
+		},
+		{
 			"package_version": "0.0.1.5",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.5",
 			"sha256": "b45283988fb92cbbacfacc6d956d69a9e468809c384bb1cb078989a98da066b9",
