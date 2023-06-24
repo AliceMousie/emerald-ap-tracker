@@ -142,6 +142,7 @@ function onClear(slot_data)
     end
 
     if PLAYER_ID>-1 then
+        updateEvents(0)
         local eventId="pokemon_emerald_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({eventId})
         Archipelago:Get({eventId})

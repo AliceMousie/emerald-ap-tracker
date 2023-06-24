@@ -1433,7 +1433,7 @@
                     },
                     {
                         "name": "Deliver Devon Goods",
-                        "access_rules": ["stevenletter,devongoods"],
+                        "access_rules": ["devongoods"],
                         "visibility_rules": ["hosted_items"],
                         "hosted_item": "sterngoods"
                     },
