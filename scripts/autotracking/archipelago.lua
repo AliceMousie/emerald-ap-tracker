@@ -144,8 +144,8 @@ function onClear(slot_data)
     if PLAYER_ID>-1 then
         updateEvents(0)
         local eventId="pokemon_emerald_events_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({eventId})
-        Archipelago:Get({eventId})
+        Archipelago:SetNotify({eventId, "pokemon_trades"})
+        Archipelago:Get({eventId, "pokemon_trades"})
     end
 end
 
@@ -198,11 +198,21 @@ function onLocation(location_id, location_name)
 end
 
 function onEvent(key, value, old_value)
-    updateEvents(value)
+    if key == "pokemon_trades" then
+        print(dump_table(value))
+        updateTrades(value)
+    else
+        updateEvents(value)
+    end
 end
 
 function onEventsLaunch(key, value)
-    updateEvents(value)
+    if key == "pokemon_trades" then
+        print(dump_table(value))
+        updateTrades(value)
+    else
+        updateEvents(value)
+    end
 end
 
 function updateEvents(value)
@@ -219,6 +229,25 @@ function updateEvents(value)
         end
         Tracker:FindObjectForCode("gyms").CurrentStage = gyms
     end
+end
+
+function updateTrades(value)
+    h = ScriptHost:CreateLuaItem()
+    h.Icon = ImageReference:FromPackRelativePath("/images/trade/bellsprout.png")
+    h.Name = "Bellsprout"
+    h:Set("code", "slot0trade")
+    -- for i=0,9 do 
+    --     local str = tostring(i)
+    --     local pkmn = value[str]
+    --     if pkmn ~= "null" then
+    --         local a, b = string.find(pkmn, '"species": ')
+    --         local c = string.find(pkmn, ",", b)
+    --         local species = tonumber(string.sub(pkmn, b+1, c-1))
+    --         Tracker:FindObjectForCode("slot".. str .. "trade").CurrentStage = species
+    --     else
+    --         Tracker:FindObjectForCode("slot".. str .. "trade").CurrentStage = 0
+    --     end
+    -- end
 end
 
 Archipelago:AddClearHandler("clear handler", onClear)

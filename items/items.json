@@ -1,990 +1,979 @@
 [
-    {
-        "name": "Acro Bike",
-        "type": "toggle",
-        "img": "/images/items/acrobike.png",
-        "codes": "acrobike,acro"
-    },
-    {
-        "name": "Mach Bike",
-        "type": "toggle",
-        "img": "/images/items/machbike.png",
-        "codes": "mach,machbike"
-    },
-    {
-        "name": "Letter",
-        "type": "toggle",
-        "img": "/images/items/letter.png",
-        "codes": "letter"
-    },
-    {
-        "name": "Devon Goods",
-        "type": "toggle",
-        "img": "/images/items/devongoods.png",
-        "codes": "devongoods,goods"
-    },
-    {
-        "name": "Old Rod",
-        "type": "toggle",
-        "img": "/images/items/oldrod.png",
-        "codes": "oldrod"
-    },
-    {
-        "name": "Good Rod",
-        "type": "toggle",
-        "img": "/images/items/goodrod.png",
-        "codes": "goodrod"
-    },
-    {
-        "name": "Super Rod",
-        "type": "toggle",
-        "img": "/images/items/superrod.png",
-        "codes": "superrod"
-    },
-    {
-        "name": "PokéBlock Case",
-        "type": "toggle",
-        "img": "/images/items/pokeblock.png",
-        "codes": "pokeblock"
-    },
-    {
-        "name": "Item Finder",
-        "type": "toggle",
-        "img": "/images/items/itemfinder.png",
-        "codes": "itemfinder"
-    },
-    {
-        "name": "Go-Goggles",
-        "type": "toggle",
-        "img": "/images/items/gogoggles.png",
-        "codes": "gogoggles,goggles"
-    },
-    {
-        "name": "Meteorite",
-        "type": "toggle",
-        "img": "/images/items/meteorite.png",
-        "codes": "meteorite,meteor"
-    },
-    {
-        "name": "Magma Emblem",
-        "type": "toggle",
-        "img": "/images/items/magmaemblem.png",
-        "codes": "magmaemblem,emblem"
-    },
-    {
-        "name": "Scanner",
-        "type": "toggle",
-        "img": "/images/items/scanner.png",
-        "codes": "scanner"
-    },
-    // {
-    //     "name": "Wailmer Pail",
-    //     "type": "toggle",
-    //     "img": "/images/items/wailmerpail.png",
-    //     "codes": "wailmerpail,pail"
-    // },
-    {
-        "name": "Devon Scope",
-        "type": "toggle",
-        "img": "/images/items/devonscope.png",
-        "codes": "devonscope,scope"
-    },
-    {
-        "name": "S.S. Ticket",
-        "type": "toggle",
-        "img": "/images/items/ssticket.png",
-        "codes": "ssticket"
-    },
-    {
-        "name": "Room Key 1",
-        "type": "toggle",
-        "img": "/images/items/roomkey1.png",
-        "codes": "roomkey1"
-    },
-    {
-        "name": "Room Key 2",
-        "type": "toggle",
-        "img": "/images/items/roomkey2.png",
-        "codes": "roomkey2"
-    },
-    {
-        "name": "Room Key 4",
-        "type": "toggle",
-        "img": "/images/items/roomkey4.png",
-        "codes": "roomkey4"
-    },
-    {
-        "name": "Room Key 6",
-        "type": "toggle",
-        "img": "/images/items/roomkey6.png",
-        "codes": "roomkey6"
-    },
-    {
-        "name": "Storage Key",
-        "type": "toggle",
-        "img": "/images/items/storagekey.png",
-        "codes": "storagekey"
-    },
-    {
-        "name": "Basement Key",
-        "type": "toggle",
-        "img": "/images/items/basementkey.png",
-        "codes": "basementkey"
-    },
-    {
-        "name": "Harbor Mail",
-        "type": "toggle",
-        "img": "/images/items/harbormail.png",
-        "codes": "harbormail"
-    },
-    {
-        "name": "Stone Badge",
-        "type": "toggle",
-        "img": "/images/items/stonebadge.png",
-        "codes": "stonebadge"
-    },
-    {
-        "name": "Knuckle Badge",
-        "type": "toggle",
-        "img": "/images/items/knucklebadge.png",
-        "codes": "knucklebadge"
-    },
-    {
-        "name": "Dynamo Badge",
-        "type": "toggle",
-        "img": "/images/items/dynamobadge.png",
-        "codes": "dynamobadge"
-    },
-    {
-        "name": "Heat Badge",
-        "type": "toggle",
-        "img": "/images/items/heatbadge.png",
-        "codes": "heatbadge"
-    },
-    {
-        "name": "Balance Badge",
-        "type": "toggle",
-        "img": "/images/items/balancebadge.png",
-        "codes": "balancebadge"
-    },
-    {
-        "name": "Feather Badge",
-        "type": "toggle",
-        "img": "/images/items/featherbadge.png",
-        "codes": "featherbadge"
-    },
-    {
-        "name": "Mind Badge",
-        "type": "toggle",
-        "img": "/images/items/mindbadge.png",
-        "codes": "mindbadge"
-    },
-    {
-        "name": "Rain Badge",
-        "type": "toggle",
-        "img": "/images/items/rainbadge.png",
-        "codes": "rainbadge"
-    },
-    {
-        "name": "HM01 - Cut",
-        "type": "toggle",
-        "img": "/images/items/hm01.png",
-        "codes": "hm01"
-    },
-    {
-        "name": "HM02 - Fly",
-        "type": "toggle",
-        "img": "/images/items/hm02.png",
-        "codes": "hm02"
-    },
-    {
-        "name": "HM03 - Surf",
-        "type": "toggle",
-        "img": "/images/items/hm03.png",
-        "codes": "hm03"
-    },
-    {
-        "name": "HM04 - Strength",
-        "type": "toggle",
-        "img": "/images/items/hm04.png",
-        "codes": "hm04"
-    },
-    {
-        "name": "HM05 - Flash",
-        "type": "toggle",
-        "img": "/images/items/hm05.png",
-        "codes": "hm05"
-    },
-    {
-        "name": "HM06 - Rock Smash",
-        "type": "toggle",
-        "img": "/images/items/hm06.png",
-        "codes": "hm06"
-    },
-    {
-        "name": "HM07 - Waterfall",
-        "type": "toggle",
-        "img": "/images/items/hm07.png",
-        "codes": "hm07"
-    },
-    {
-        "name": "HM08 - Dive",
-        "type": "toggle",
-        "img": "/images/items/hm08.png",
-        "codes": "hm08"
-    },
-    {
-        "name": "Recover Goods",
-        "type": "toggle",
-        "img": "/images/events/recovergoods.png",
-        "codes": "recovergoods"
-    },
-    {
-        "name": "Deliver Letter",
-        "type": "toggle",
-        "img": "/images/events/stevenletter.png",
-        "codes": "stevenletter"
-    },
-    {
-        "name": "Deliver Goods",
-        "type": "toggle",
-        "img": "/images/events/sterngoods.png",
-        "codes": "sterngoods"
-    },
-    {
-        "name": "Magma - Steal Meteorite",
-        "type": "toggle",
-        "img": "/images/events/stealmeteor.png",
-        "codes": "stealmeteor"
-    },
-    {
-        "name": "Magma - Clear Base",
-        "type": "toggle",
-        "img": "/images/events/clearmagma.png",
-        "codes": "clearmagma"
-    },
-    {
-        "name": "Clear Weather Institute",
-        "type": "toggle",
-        "img": "/images/events/weatherins.png",
-        "codes": "weatherins"
-    },
-    {
-        "name": "Aqua - Steal Submarine",
-        "type": "toggle",
-        "img": "/images/events/stealsub.png",
-        "codes": "stealsub"
-    },
-    {
-        "name": "Aqua - Clear Base",
-        "type": "toggle",
-        "img": "/images/events/clearaqua.png",
-        "codes": "clearaqua"
-    },
-    {
-        "name": "Defeat Norman",
-        "type": "toggle",
-        "img": "/images/settings/norman.png",
-        "codes": "defeatnorman"
-    },
-    {
-        "name": "Become Champion",
-        "type": "toggle",
-        "img": "/images/events/becomechampion.png",
-        "codes": "becomechampion"
-    },
-    {
-        "name": "Defeat Steven",
-        "type": "toggle",
-        "img": "/images/events/defeatsteven.png",
-        "codes": "defeatsteven"
-    },
-    {
-        "name": "Clear Space Center",
-        "type": "toggle",
-        "img": "/images/events/spacecenter.png",
-        "codes": "spacecenter"
-    },
-    {
-        "name": "Receive Gift from Steven",
-        "type": "toggle",
-        "img": "/images/events/stevendive.png",
-        "codes": "stevendive"
-    },
-    {
-        "name": "Release Kyogre",
-        "type": "toggle",
-        "img": "/images/events/releasekyogre.png",
-        "codes": "releasekyogre"
-    },
-    {
-        "name": "Release Rayquaza",
-        "type": "toggle",
-        "img": "/images/events/releaserayquaza.png",
-        "codes": "releaserayquaza"
-    },
-    {
-        "name": "Norman Goal",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/norman_bdg.png",
-                "name": "Norman Goal - Badges",
-                "codes": "op_norm,op_norm_bdg",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/norman_gym.png",
-                "name": "Norman Goal - Gyms",
-                "codes": "op_norm,op_norm_gym",
-                "inherit_codes": false
-            }
-          
-        ]
-    },
-    {
-        "name": "Norman Requirement",
-        "type": "progressive",
-        "img": "images/settings/norman0.png",
-        "initial_stage_idx": 4,
-        "allow_disabled": false,
-        "codes": "normanreq",
-        "stages": [
-            {
-                "img": "images/settings/norman0.png",
-                "name": "Norman Requirement - 0"
-            },
-            {
-                "img": "images/settings/norman1.png",
-                "name": "Norman Requirement - 1"
-            },
-            {
-                "img": "images/settings/norman2.png",
-                "name": "Norman Requirement - 2"
-            },
-            {
-                "img": "images/settings/norman3.png",
-                "name": "Norman Requirement - 3"
-            },
-            {
-                "img": "images/settings/norman4.png",
-                "name": "Norman Requirement - 4"
-            },
-            {
-                "img": "images/settings/norman5.png",
-                "name": "Norman Requirement - 5"
-            },
-            {
-                "img": "images/settings/norman6.png",
-                "name": "Norman Requirement - 6"
-            },
-            {
-                "img": "images/settings/norman7.png",
-                "name": "Norman Requirement - 7"
-            }
-        ]
-    },
-    {
-        "name": "Elite 4 Goal",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/e4_bdg.png",
-                "name": "Elite 4 Goal - Badges",
-                "codes": "op_e4,op_e4_bdg",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/e4_gym.png",
-                "name": "Elite 4 Goal - Gyms",
-                "codes": "op_e4,op_e4_gym",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Elite 4 Requirement",
-        "type": "progressive",
-        "img": "images/settings/e4req0.png",
-        "initial_stage_idx": 8,
-        "allow_disabled": false,
-        "codes": "e4req",
-        "stages": [
-            {
-                "img": "images/settings/e4req0.png",
-                "name": "Elite 4 Requirement - 0"
-            },
-            {
-                "img": "images/settings/e4req1.png",
-                "name": "Elite 4 Requirement - 1"
-            },
-            {
-                "img": "images/settings/e4req2.png",
-                "name": "Elite 4 Requirement - 2"
-            },
-            {
-                "img": "images/settings/e4req3.png",
-                "name": "Elite 4 Requirement - 3"
-            },
-            {
-                "img": "images/settings/e4req4.png",
-                "name": "Elite 4 Requirement - 4"
-            },
-            {
-                "img": "images/settings/e4req5.png",
-                "name": "Elite 4 Requirement - 5"
-            },
-            {
-                "img": "images/settings/e4req6.png",
-                "name": "Elite 4 Requirement - 6"
-            },
-            {
-                "img": "images/settings/e4req7.png",
-                "name": "Elite 4 Requirement - 7"
-            },
-            {
-                "img": "images/settings/e4req8.png",
-                "name": "Elite 4 Requirement - 8"
-            }
-        ]
-    },
-    {
-        "name": "Gyms Beaten",
-        "type": "progressive",
-        "img": "/images/settings/gyms0.png",
-        "allow_disabled": false,
-        "codes": "gyms",
-        "stages": [
-            {
-                "img": "images/settings/gyms0.png",
-                "name": "Gyms Beaten - 0"
-            },
-            {
-                "img": "images/settings/gyms1.png",
-                "name": "Gyms Beaten - 1"
-            },
-            {
-                "img": "images/settings/gyms2.png",
-                "name": "Gyms Beaten - 2"
-            },
-            {
-                "img": "images/settings/gyms3.png",
-                "name": "Gyms Beaten - 3"
-            },
-            {
-                "img": "images/settings/gyms4.png",
-                "name": "Gyms Beaten - 4"
-            },
-            {
-                "img": "images/settings/gyms5.png",
-                "name": "Gyms Beaten - 5"
-            },
-            {
-                "img": "images/settings/gyms6.png",
-                "name": "Gyms Beaten - 6"
-            },
-            {
-                "img": "images/settings/gyms7.png",
-                "name": "Gyms Beaten - 7"
-            },
-            {
-                "img": "images/settings/gyms8.png",
-                "name": "Gyms Beaten - 8"
-            }
-        ]
-    },
-    {
-        "name": "Randomize HMs",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/hms_on.png",
-                "name": "Randomize HMs - On",
-                "codes": "op_hms,op_hms_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/hms_sh.png",
-                "name": "Randomize HMs - Shuffle",
-                "codes": "op_hms,op_hms_sh",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/hms_off.png",
-                "name": "Randomize HMs - Off",
-                "codes": "op_hms,op_hms_off",
-                "inherit_codes": false
-            }
-            
-        ]
-    },
-    {
-        "name": "Randomize Badges",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/badges_on.png",
-                "name": "Randomize Badges - On",
-                "codes": "op_bdg,op_bdg_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/badges_sh.png",
-                "name": "Randomize Badges - Shuffle",
-                "codes": "op_bdg,op_bdg_sh",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/badges_off.png",
-                "name": "Randomize Badges - Off",
-                "codes": "op_bdg,op_bdg_off",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Randomize Overworld Items",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/overworld_on.png",
-                "name": "Randomize Overworld Items - On",
-                "codes": "op_ovw,op_ovw_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/overworld_off.png",
-                "name": "Randomize Overworld Items - Off",
-                "codes": "op_ovw,op_ovw_off",
-                "inherit_codes": false
-            }
-          
-        ]
-    },
-    {
-        "name": "Randomize NPC Gifts",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/npc_off.png",
-                "name": "Randomize NPC Gifts - Off",
-                "codes": "op_npc,op_npc_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/npc_on.png",
-                "name": "Randomize NPC Gifts - On",
-                "codes": "op_npc,op_npc_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Randomize Hidden Items",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/hidden_off.png",
-                "name": "Randomize Hidden Items - Off",
-                "codes": "op_hid,op_hid_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/hidden_on.png",
-                "name": "Randomize Hidden Items - On",
-                "codes": "op_hid,op_hid_on",
-                "inherit_codes": false
-            }
-        
-        ]
-    },
-    {
-        "name": "Randomize Key Items",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/keyitems_on.png",
-                "name": "Randomize Key Items - On",
-                "codes": "op_ki,op_ki_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/keyitems_off.png",
-                "name": "Randomize Key Items - Off",
-                "codes": "op_ki,op_ki_off",
-                "inherit_codes": false
-            }
-            
-        ]
-    },
-    {
-        "name": "Randomize Rods",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/rods_off.png",
-                "name": "Randomize Rods - Off",
-                "codes": "op_rod,op_rod_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/rods_on.png",
-                "name": "Randomize Rods - On",
-                "codes": "op_rod,op_rod_on",
-                "inherit_codes": false
-            }
-            
-        ]
-    },
-    {
-        "name": "Randomize Bikes",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/bikes_off.png",
-                "name": "Randomize Bikes - Off",
-                "codes": "op_bik,op_bik_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/bikes_on.png",
-                "name": "Randomize Bikes - On",
-                "codes": "op_bik,op_bik_on",
-                "inherit_codes": false
-            }
-           
-        ]
-    },
-    {
-        "name": "Require Itemfinder",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/if_on.png",
-                "name": "Require Itemfinder - On",
-                "codes": "op_if,op_if_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/if_off.png",
-                "name": "Require Itemfinder - Off",
-                "codes": "op_if,op_if_off",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Require Flash",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/flash_on.png",
-                "name": "Require Flash - On",
-                "codes": "op_hm5,op_hm5_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/flash_off.png",
-                "name": "Require Flash - Off",
-                "codes": "op_hm5,op_hm5_off",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Enable Ferry",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/ferry_off.png",
-                "name": "Enable Ferry - Off",
-                "codes": "op_fer,op_fer_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/ferry_on.png",
-                "name": "Enable Ferry - On",
-                "codes": "op_fer,op_fer_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Fly Without Badge",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/op_fwb_on.png",
-                "name": "Fly Without Badge - On",
-                "codes": "op_fwb,op_fwb_on",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/op_fwb_on.png",
-                "img_mods": "@disabled",
-                "name": "Fly Without Badge - Off",
-                "codes": "op_fwb,op_fwb_off",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Extra Strength Boulders",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/op_es_off.png",
-                "name": "Extra Strength Boulders - Off",
-                "codes": "op_es,op_es_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/op_es_on.png",
-                "name": "Extra Strength Boulders - On",
-                "codes": "op_es,op_es_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Free Fly Location",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/settings/fly0.png",
-                "name": "Free Fly Location - None",
-                "codes": "op_ff,op_ff_0",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly5.png",
-                "name": "Free Fly Location - Slateport",
-                "codes": "op_ff,op_ff_5",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly6.png",
-                "name": "Free Fly Location - Mauville",
-                "codes": "op_ff,op_ff_6",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly7.png",
-                "name": "Free Fly Location - Verdanturf",
-                "codes": "op_ff,op_ff_7",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly8.png",
-                "name": "Free Fly Location - Fallarbor",
-                "codes": "op_ff,op_ff_8",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly9.png",
-                "name": "Free Fly Location - Lavaridge",
-                "codes": "op_ff,op_ff_9",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly10.png",
-                "name": "Free Fly Location - Fortree",
-                "codes": "op_ff,op_ff_10",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly11.png",
-                "name": "Free Fly Location - Lilycove",
-                "codes": "op_ff,op_ff_11",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly12.png",
-                "name": "Free Fly Location - Mossdeep",
-                "codes": "op_ff,op_ff_12",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly13.png",
-                "name": "Free Fly Location - Sootopolis",
-                "codes": "op_ff,op_ff_13",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/fly15.png",
-                "name": "Free Fly Location - Ever Grande",
-                "codes": "op_ff,op_ff_15",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Remove Rt.110 Grunts",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_sp.png",
-                "img_mods": "@disabled",
-                "codes": "pass_sp,pass_sp_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_sp.png",
-                "codes": "pass_sp,pass_sp_on",
-                "inherit_codes": false
-            }
-        ]
-    }
-    ,
-    {
-        "name": "Remove Rt.112 Grunts",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_cc.png",
+	{
+		"name": "Acro Bike",
+		"type": "toggle",
+		"img": "/images/items/acrobike.png",
+		"codes": "acrobike,acro"
+	},
+	{
+		"name": "Mach Bike",
+		"type": "toggle",
+		"img": "/images/items/machbike.png",
+		"codes": "mach,machbike"
+	},
+	{
+		"name": "Letter",
+		"type": "toggle",
+		"img": "/images/items/letter.png",
+		"codes": "letter"
+	},
+	{
+		"name": "Devon Goods",
+		"type": "toggle",
+		"img": "/images/items/devongoods.png",
+		"codes": "devongoods,goods"
+	},
+	{
+		"name": "Old Rod",
+		"type": "toggle",
+		"img": "/images/items/oldrod.png",
+		"codes": "oldrod"
+	},
+	{
+		"name": "Good Rod",
+		"type": "toggle",
+		"img": "/images/items/goodrod.png",
+		"codes": "goodrod"
+	},
+	{
+		"name": "Super Rod",
+		"type": "toggle",
+		"img": "/images/items/superrod.png",
+		"codes": "superrod"
+	},
+	{
+		"name": "PokéBlock Case",
+		"type": "toggle",
+		"img": "/images/items/pokeblock.png",
+		"codes": "pokeblock"
+	},
+	{
+		"name": "Item Finder",
+		"type": "toggle",
+		"img": "/images/items/itemfinder.png",
+		"codes": "itemfinder"
+	},
+	{
+		"name": "Go-Goggles",
+		"type": "toggle",
+		"img": "/images/items/gogoggles.png",
+		"codes": "gogoggles,goggles"
+	},
+	{
+		"name": "Meteorite",
+		"type": "toggle",
+		"img": "/images/items/meteorite.png",
+		"codes": "meteorite,meteor"
+	},
+	{
+		"name": "Magma Emblem",
+		"type": "toggle",
+		"img": "/images/items/magmaemblem.png",
+		"codes": "magmaemblem,emblem"
+	},
+	{
+		"name": "Scanner",
+		"type": "toggle",
+		"img": "/images/items/scanner.png",
+		"codes": "scanner"
+	},
+	// {
+	//     "name": "Wailmer Pail",
+	//     "type": "toggle",
+	//     "img": "/images/items/wailmerpail.png",
+	//     "codes": "wailmerpail,pail"
+	// },
+	{
+		"name": "Devon Scope",
+		"type": "toggle",
+		"img": "/images/items/devonscope.png",
+		"codes": "devonscope,scope"
+	},
+	{
+		"name": "S.S. Ticket",
+		"type": "toggle",
+		"img": "/images/items/ssticket.png",
+		"codes": "ssticket"
+	},
+	{
+		"name": "Room Key 1",
+		"type": "toggle",
+		"img": "/images/items/roomkey1.png",
+		"codes": "roomkey1"
+	},
+	{
+		"name": "Room Key 2",
+		"type": "toggle",
+		"img": "/images/items/roomkey2.png",
+		"codes": "roomkey2"
+	},
+	{
+		"name": "Room Key 4",
+		"type": "toggle",
+		"img": "/images/items/roomkey4.png",
+		"codes": "roomkey4"
+	},
+	{
+		"name": "Room Key 6",
+		"type": "toggle",
+		"img": "/images/items/roomkey6.png",
+		"codes": "roomkey6"
+	},
+	{
+		"name": "Storage Key",
+		"type": "toggle",
+		"img": "/images/items/storagekey.png",
+		"codes": "storagekey"
+	},
+	{
+		"name": "Basement Key",
+		"type": "toggle",
+		"img": "/images/items/basementkey.png",
+		"codes": "basementkey"
+	},
+	{
+		"name": "Harbor Mail",
+		"type": "toggle",
+		"img": "/images/items/harbormail.png",
+		"codes": "harbormail"
+	},
+	{
+		"name": "Stone Badge",
+		"type": "toggle",
+		"img": "/images/items/stonebadge.png",
+		"codes": "stonebadge"
+	},
+	{
+		"name": "Knuckle Badge",
+		"type": "toggle",
+		"img": "/images/items/knucklebadge.png",
+		"codes": "knucklebadge"
+	},
+	{
+		"name": "Dynamo Badge",
+		"type": "toggle",
+		"img": "/images/items/dynamobadge.png",
+		"codes": "dynamobadge"
+	},
+	{
+		"name": "Heat Badge",
+		"type": "toggle",
+		"img": "/images/items/heatbadge.png",
+		"codes": "heatbadge"
+	},
+	{
+		"name": "Balance Badge",
+		"type": "toggle",
+		"img": "/images/items/balancebadge.png",
+		"codes": "balancebadge"
+	},
+	{
+		"name": "Feather Badge",
+		"type": "toggle",
+		"img": "/images/items/featherbadge.png",
+		"codes": "featherbadge"
+	},
+	{
+		"name": "Mind Badge",
+		"type": "toggle",
+		"img": "/images/items/mindbadge.png",
+		"codes": "mindbadge"
+	},
+	{
+		"name": "Rain Badge",
+		"type": "toggle",
+		"img": "/images/items/rainbadge.png",
+		"codes": "rainbadge"
+	},
+	{
+		"name": "HM01 - Cut",
+		"type": "toggle",
+		"img": "/images/items/hm01.png",
+		"codes": "hm01"
+	},
+	{
+		"name": "HM02 - Fly",
+		"type": "toggle",
+		"img": "/images/items/hm02.png",
+		"codes": "hm02"
+	},
+	{
+		"name": "HM03 - Surf",
+		"type": "toggle",
+		"img": "/images/items/hm03.png",
+		"codes": "hm03"
+	},
+	{
+		"name": "HM04 - Strength",
+		"type": "toggle",
+		"img": "/images/items/hm04.png",
+		"codes": "hm04"
+	},
+	{
+		"name": "HM05 - Flash",
+		"type": "toggle",
+		"img": "/images/items/hm05.png",
+		"codes": "hm05"
+	},
+	{
+		"name": "HM06 - Rock Smash",
+		"type": "toggle",
+		"img": "/images/items/hm06.png",
+		"codes": "hm06"
+	},
+	{
+		"name": "HM07 - Waterfall",
+		"type": "toggle",
+		"img": "/images/items/hm07.png",
+		"codes": "hm07"
+	},
+	{
+		"name": "HM08 - Dive",
+		"type": "toggle",
+		"img": "/images/items/hm08.png",
+		"codes": "hm08"
+	},
+	{
+		"name": "Recover Goods",
+		"type": "toggle",
+		"img": "/images/events/recovergoods.png",
+		"codes": "recovergoods"
+	},
+	{
+		"name": "Deliver Letter",
+		"type": "toggle",
+		"img": "/images/events/stevenletter.png",
+		"codes": "stevenletter"
+	},
+	{
+		"name": "Deliver Goods",
+		"type": "toggle",
+		"img": "/images/events/sterngoods.png",
+		"codes": "sterngoods"
+	},
+	{
+		"name": "Magma - Steal Meteorite",
+		"type": "toggle",
+		"img": "/images/events/stealmeteor.png",
+		"codes": "stealmeteor"
+	},
+	{
+		"name": "Magma - Clear Base",
+		"type": "toggle",
+		"img": "/images/events/clearmagma.png",
+		"codes": "clearmagma"
+	},
+	{
+		"name": "Clear Weather Institute",
+		"type": "toggle",
+		"img": "/images/events/weatherins.png",
+		"codes": "weatherins"
+	},
+	{
+		"name": "Aqua - Steal Submarine",
+		"type": "toggle",
+		"img": "/images/events/stealsub.png",
+		"codes": "stealsub"
+	},
+	{
+		"name": "Aqua - Clear Base",
+		"type": "toggle",
+		"img": "/images/events/clearaqua.png",
+		"codes": "clearaqua"
+	},
+	{
+		"name": "Defeat Norman",
+		"type": "toggle",
+		"img": "/images/settings/norman.png",
+		"codes": "defeatnorman"
+	},
+	{
+		"name": "Become Champion",
+		"type": "toggle",
+		"img": "/images/events/becomechampion.png",
+		"codes": "becomechampion"
+	},
+	{
+		"name": "Defeat Steven",
+		"type": "toggle",
+		"img": "/images/events/defeatsteven.png",
+		"codes": "defeatsteven"
+	},
+	{
+		"name": "Clear Space Center",
+		"type": "toggle",
+		"img": "/images/events/spacecenter.png",
+		"codes": "spacecenter"
+	},
+	{
+		"name": "Receive Gift from Steven",
+		"type": "toggle",
+		"img": "/images/events/stevendive.png",
+		"codes": "stevendive"
+	},
+	{
+		"name": "Release Kyogre",
+		"type": "toggle",
+		"img": "/images/events/releasekyogre.png",
+		"codes": "releasekyogre"
+	},
+	{
+		"name": "Release Rayquaza",
+		"type": "toggle",
+		"img": "/images/events/releaserayquaza.png",
+		"codes": "releaserayquaza"
+	},
+	{
+		"name": "Norman Goal",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/norman_bdg.png",
+				"name": "Norman Goal - Badges",
+				"codes": "op_norm,op_norm_bdg",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/norman_gym.png",
+				"name": "Norman Goal - Gyms",
+				"codes": "op_norm,op_norm_gym",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Norman Requirement",
+		"type": "progressive",
+		"img": "images/settings/norman0.png",
+		"initial_stage_idx": 4,
+		"allow_disabled": false,
+		"codes": "normanreq",
+		"stages": [
+			{
+				"img": "images/settings/norman0.png",
+				"name": "Norman Requirement - 0"
+			},
+			{
+				"img": "images/settings/norman1.png",
+				"name": "Norman Requirement - 1"
+			},
+			{
+				"img": "images/settings/norman2.png",
+				"name": "Norman Requirement - 2"
+			},
+			{
+				"img": "images/settings/norman3.png",
+				"name": "Norman Requirement - 3"
+			},
+			{
+				"img": "images/settings/norman4.png",
+				"name": "Norman Requirement - 4"
+			},
+			{
+				"img": "images/settings/norman5.png",
+				"name": "Norman Requirement - 5"
+			},
+			{
+				"img": "images/settings/norman6.png",
+				"name": "Norman Requirement - 6"
+			},
+			{
+				"img": "images/settings/norman7.png",
+				"name": "Norman Requirement - 7"
+			}
+		]
+	},
+	{
+		"name": "Elite 4 Goal",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/e4_bdg.png",
+				"name": "Elite 4 Goal - Badges",
+				"codes": "op_e4,op_e4_bdg",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/e4_gym.png",
+				"name": "Elite 4 Goal - Gyms",
+				"codes": "op_e4,op_e4_gym",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Elite 4 Requirement",
+		"type": "progressive",
+		"img": "images/settings/e4req0.png",
+		"initial_stage_idx": 8,
+		"allow_disabled": false,
+		"codes": "e4req",
+		"stages": [
+			{
+				"img": "images/settings/e4req0.png",
+				"name": "Elite 4 Requirement - 0"
+			},
+			{
+				"img": "images/settings/e4req1.png",
+				"name": "Elite 4 Requirement - 1"
+			},
+			{
+				"img": "images/settings/e4req2.png",
+				"name": "Elite 4 Requirement - 2"
+			},
+			{
+				"img": "images/settings/e4req3.png",
+				"name": "Elite 4 Requirement - 3"
+			},
+			{
+				"img": "images/settings/e4req4.png",
+				"name": "Elite 4 Requirement - 4"
+			},
+			{
+				"img": "images/settings/e4req5.png",
+				"name": "Elite 4 Requirement - 5"
+			},
+			{
+				"img": "images/settings/e4req6.png",
+				"name": "Elite 4 Requirement - 6"
+			},
+			{
+				"img": "images/settings/e4req7.png",
+				"name": "Elite 4 Requirement - 7"
+			},
+			{
+				"img": "images/settings/e4req8.png",
+				"name": "Elite 4 Requirement - 8"
+			}
+		]
+	},
+	{
+		"name": "Gyms Beaten",
+		"type": "progressive",
+		"img": "/images/settings/gyms0.png",
+		"allow_disabled": false,
+		"codes": "gyms",
+		"stages": [
+			{
+				"img": "images/settings/gyms0.png",
+				"name": "Gyms Beaten - 0"
+			},
+			{
+				"img": "images/settings/gyms1.png",
+				"name": "Gyms Beaten - 1"
+			},
+			{
+				"img": "images/settings/gyms2.png",
+				"name": "Gyms Beaten - 2"
+			},
+			{
+				"img": "images/settings/gyms3.png",
+				"name": "Gyms Beaten - 3"
+			},
+			{
+				"img": "images/settings/gyms4.png",
+				"name": "Gyms Beaten - 4"
+			},
+			{
+				"img": "images/settings/gyms5.png",
+				"name": "Gyms Beaten - 5"
+			},
+			{
+				"img": "images/settings/gyms6.png",
+				"name": "Gyms Beaten - 6"
+			},
+			{
+				"img": "images/settings/gyms7.png",
+				"name": "Gyms Beaten - 7"
+			},
+			{
+				"img": "images/settings/gyms8.png",
+				"name": "Gyms Beaten - 8"
+			}
+		]
+	},
+	{
+		"name": "Randomize HMs",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/hms_on.png",
+				"name": "Randomize HMs - On",
+				"codes": "op_hms,op_hms_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/hms_sh.png",
+				"name": "Randomize HMs - Shuffle",
+				"codes": "op_hms,op_hms_sh",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/hms_off.png",
+				"name": "Randomize HMs - Off",
+				"codes": "op_hms,op_hms_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Badges",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/badges_on.png",
+				"name": "Randomize Badges - On",
+				"codes": "op_bdg,op_bdg_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/badges_sh.png",
+				"name": "Randomize Badges - Shuffle",
+				"codes": "op_bdg,op_bdg_sh",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/badges_off.png",
+				"name": "Randomize Badges - Off",
+				"codes": "op_bdg,op_bdg_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Overworld Items",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/overworld_on.png",
+				"name": "Randomize Overworld Items - On",
+				"codes": "op_ovw,op_ovw_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/overworld_off.png",
+				"name": "Randomize Overworld Items - Off",
+				"codes": "op_ovw,op_ovw_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize NPC Gifts",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/npc_off.png",
+				"name": "Randomize NPC Gifts - Off",
+				"codes": "op_npc,op_npc_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/npc_on.png",
+				"name": "Randomize NPC Gifts - On",
+				"codes": "op_npc,op_npc_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Hidden Items",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/hidden_off.png",
+				"name": "Randomize Hidden Items - Off",
+				"codes": "op_hid,op_hid_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/hidden_on.png",
+				"name": "Randomize Hidden Items - On",
+				"codes": "op_hid,op_hid_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Key Items",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/keyitems_on.png",
+				"name": "Randomize Key Items - On",
+				"codes": "op_ki,op_ki_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/keyitems_off.png",
+				"name": "Randomize Key Items - Off",
+				"codes": "op_ki,op_ki_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Rods",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/rods_off.png",
+				"name": "Randomize Rods - Off",
+				"codes": "op_rod,op_rod_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/rods_on.png",
+				"name": "Randomize Rods - On",
+				"codes": "op_rod,op_rod_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Bikes",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/bikes_off.png",
+				"name": "Randomize Bikes - Off",
+				"codes": "op_bik,op_bik_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/bikes_on.png",
+				"name": "Randomize Bikes - On",
+				"codes": "op_bik,op_bik_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Require Itemfinder",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/if_on.png",
+				"name": "Require Itemfinder - On",
+				"codes": "op_if,op_if_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/if_off.png",
+				"name": "Require Itemfinder - Off",
+				"codes": "op_if,op_if_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Require Flash",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/flash_on.png",
+				"name": "Require Flash - On",
+				"codes": "op_hm5,op_hm5_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/flash_off.png",
+				"name": "Require Flash - Off",
+				"codes": "op_hm5,op_hm5_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Enable Ferry",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/ferry_off.png",
+				"name": "Enable Ferry - Off",
+				"codes": "op_fer,op_fer_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/ferry_on.png",
+				"name": "Enable Ferry - On",
+				"codes": "op_fer,op_fer_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fly Without Badge",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/op_fwb_on.png",
+				"name": "Fly Without Badge - On",
+				"codes": "op_fwb,op_fwb_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/op_fwb_on.png",
+				"img_mods": "@disabled",
+				"name": "Fly Without Badge - Off",
+				"codes": "op_fwb,op_fwb_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Extra Strength Boulders",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/op_es_off.png",
+				"name": "Extra Strength Boulders - Off",
+				"codes": "op_es,op_es_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/op_es_on.png",
+				"name": "Extra Strength Boulders - On",
+				"codes": "op_es,op_es_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Free Fly Location",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/fly0.png",
+				"name": "Free Fly Location - None",
+				"codes": "op_ff,op_ff_0",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly5.png",
+				"name": "Free Fly Location - Slateport",
+				"codes": "op_ff,op_ff_5",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly6.png",
+				"name": "Free Fly Location - Mauville",
+				"codes": "op_ff,op_ff_6",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly7.png",
+				"name": "Free Fly Location - Verdanturf",
+				"codes": "op_ff,op_ff_7",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly8.png",
+				"name": "Free Fly Location - Fallarbor",
+				"codes": "op_ff,op_ff_8",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly9.png",
+				"name": "Free Fly Location - Lavaridge",
+				"codes": "op_ff,op_ff_9",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly10.png",
+				"name": "Free Fly Location - Fortree",
+				"codes": "op_ff,op_ff_10",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly11.png",
+				"name": "Free Fly Location - Lilycove",
+				"codes": "op_ff,op_ff_11",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly12.png",
+				"name": "Free Fly Location - Mossdeep",
+				"codes": "op_ff,op_ff_12",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly13.png",
+				"name": "Free Fly Location - Sootopolis",
+				"codes": "op_ff,op_ff_13",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/fly15.png",
+				"name": "Free Fly Location - Ever Grande",
+				"codes": "op_ff,op_ff_15",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Rt.110 Grunts",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_sp.png",
+				"img_mods": "@disabled",
+				"codes": "pass_sp,pass_sp_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_sp.png",
+				"codes": "pass_sp,pass_sp_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Rt.112 Grunts",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_cc.png",
 				"img_mods": "@disabled",
 				"codes": "pass_cc,pass_cc_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_cc.png",
-                "codes": "pass_cc,pass_cc_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Remove Rt.119 Grunts",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_wi.png",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_cc.png",
+				"codes": "pass_cc,pass_cc_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Rt.119 Grunts",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_wi.png",
 				"img_mods": "@disabled",
 				"codes": "pass_wi,pass_wi_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_wi.png",
-                "codes": "pass_wi,pass_wi_on",
-                "inherit_codes": false
-            }
-        ]
-    }
-    ,
-    {
-        "name": "Remove Safari Workers",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_sa.png",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_wi.png",
+				"codes": "pass_wi,pass_wi_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Safari Workers",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_sa.png",
 				"img_mods": "@disabled",
 				"codes": "pass_sa,pass_sa_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_sa.png",
-                "codes": "pass_sa,pass_sa_on",
-                "inherit_codes": false
-            }
-        ]
-    }
-    ,
-    {
-        "name": "Remove Aqua Hideout Grunts",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_hi.png",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_sa.png",
+				"codes": "pass_sa,pass_sa_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Aqua Hideout Grunts",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_hi.png",
 				"img_mods": "@disabled",
 				"codes": "pass_hi,pass_hi_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_hi.png",
-                "codes": "pass_hi,pass_hi_on",
-                "inherit_codes": false
-            }
-        ]
-    }
-    ,
-    {
-        "name": "Remove Lilycove Wailmer",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_wa.png",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_hi.png",
+				"codes": "pass_hi,pass_hi_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Lilycove Wailmer",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_wa.png",
 				"img_mods": "@disabled",
 				"codes": "pass_wa,pass_wa_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_wa.png",
-                "codes": "pass_wa,pass_wa_on",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Remove Seafloor Cavern Grunt",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/pass_sf.png",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_wa.png",
+				"codes": "pass_wa,pass_wa_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Remove Seafloor Cavern Grunt",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/pass_sf.png",
 				"img_mods": "@disabled",
 				"codes": "pass_sf,pass_sf_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/pass_sf.png",
-                "codes": "pass_sf,pass_sf_on",
-                "inherit_codes": false
-            }
-        ]
-    }
+				"inherit_codes": false
+			},
+			{
+				"img": "images/settings/pass_sf.png",
+				"codes": "pass_sf,pass_sf_on",
+				"inherit_codes": false
+			}
+		]
+	}
 ]

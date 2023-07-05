@@ -1,60 +1,60 @@
 {
-    "setting_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "item_h_alignment": "center",
-                        "h_alignment": "left",
-                        "rows": [             
-                            [
-                                "pass_sp",
-                                "pass_cc",
-                                "pass_wi",
-                                "pass_sa",
-                                "pass_hi",
-                                "pass_wa",
-                                "pass_sf",
-                                "op_fer"
-                            ],           
-                            [
-                                "op_ovw",                        
-                                "op_ki",
-                                "op_hms",
-                                "op_bdg",
-                                "op_hid",
-                                "op_npc",
-                                "op_bik",
-                                "op_rod"
-                            ],
-                            [
-                                "op_if",
-                                "op_hm5",
-                                "op_fwb",
-                                "op_es",
-                                "op_norm",
-                                "normanreq",
-                                "op_e4",
-                                "e4req"
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "item",
-                "item_size": "178,24",
-                "v_alignment": "top",
-                "item": "op_ff"
-            }
-        ]
-    }
+	"setting_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "2, 2",
+						"item_h_alignment": "center",
+						"h_alignment": "left",
+						"rows": [
+							[
+								"pass_sp",
+								"pass_cc",
+								"pass_wi",
+								"pass_sa",
+								"pass_hi",
+								"pass_wa",
+								"pass_sf",
+								"op_fer"
+							],
+							[
+								"op_ovw",
+								"op_ki",
+								"op_hms",
+								"op_bdg",
+								"op_hid",
+								"op_npc",
+								"op_bik",
+								"op_rod"
+							],
+							[
+								"op_if",
+								"op_hm5",
+								"op_fwb",
+								"op_es",
+								"op_norm",
+								"normanreq",
+								"op_e4",
+								"e4req"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "item",
+				"item_size": "178,24",
+				"v_alignment": "top",
+				"item": "op_ff"
+			}
+		]
+	}
 }

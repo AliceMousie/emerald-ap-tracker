@@ -1,4 +1,6 @@
 Tracker:AddItems("items/items.json")
+--Tracker:AddItems("items/trade.json")
+
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 Tracker:AddMaps("maps/maps.json")
@@ -16,6 +18,7 @@ end
 -- Layout
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/trade.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
