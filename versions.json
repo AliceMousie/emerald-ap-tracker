@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.1.7",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.7",
+			"sha256": "40f172949d9b4c41de320beea0f1abcd7132b4b520b59e9e1e7337773b2557f5",
+			"changelog": [
+				"Fixed Rt.115 beach, Rt.118 Fisherman, Slateport Devon Goods logic",
+				"Changed require flash/itemfinder checks to show as obtainable out of logic (yellow) when applicable",
+				"Fixed clearing events on AP connect? again?"
+			]
+		},
+		{
 			"package_version": "0.0.1.6",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.6",
 			"sha256": "5fad154a66a9d581dcadc3de05249e9483794b0ed47e240b5972fa837bad1ba9",
