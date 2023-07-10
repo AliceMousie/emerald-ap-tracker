@@ -159,6 +159,13 @@ function meteorfalls_access()
     )
 end
 
+function rt115_beach_access()
+    return (
+        can_surf() or
+        (fallarbor_access() and (has("op_es_off") or can_strength()))
+    )
+end
+
 function lavaridge_access()
     return (can_freefly("9") or (pass_cablecar() and fallarbor_access()))
 end
@@ -241,7 +248,6 @@ function elite_four()
     return e4_open() 
     and victory_road_access() 
     and can_waterfall()
-    and can_flash()
     and can_strength()
     and can_rocksmash()
 end
