@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.1.8",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.8",
+			"sha256": "e64a88447f08e0352c19ea6d290020963d64ecbd6d3250fc1821c5a87df36478",
+			"changelog": ["Fixed Sootopolis logic"]
+		},
+		{
 			"package_version": "0.0.1.7",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.7",
 			"sha256": "40f172949d9b4c41de320beea0f1abcd7132b4b520b59e9e1e7337773b2557f5",
