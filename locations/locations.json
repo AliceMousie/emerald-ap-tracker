@@ -1731,7 +1731,7 @@
 					},
 					{
 						"name": "Wingull Delivery Reward",
-						"access_rules": ["$can_surf,$lilycove_access,clearaqua"],
+						"access_rules": ["$can_surf,$mossdeep_access"],
 						"visibility_rules": ["op_npc_on"]
 					}
 				],
@@ -2514,7 +2514,9 @@
 			},
 			{
 				"name": "Seafloor Cavern",
-				"access_rules": ["$can_dive,$can_strength,$can_rocksmash,$rt124_access,$pass_seafloor"],
+				"access_rules": [
+					"$can_dive,$can_strength,$can_rocksmash,$rt124_access,$pass_seafloor"
+				],
 				"sections": [
 					{
 						"name": "Item Before Kyogre",
@@ -2706,17 +2708,23 @@
 					},
 					{
 						"name": "B2F - Item Above Waterfall",
-						"access_rules": ["[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"],
+						"access_rules": [
+							"[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"
+						],
 						"visibility_rules": ["op_ovw_on"]
 					},
 					{
 						"name": "B2F - Hidden Item Above Waterfall",
-						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"],
+						"access_rules": [
+							"[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"
+						],
 						"visibility_rules": ["op_hid_on"]
 					},
 					{
 						"name": "B2F - Hidden Item in Northeast Corner",
-						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_surf"],
+						"access_rules": [
+							"[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_surf"
+						],
 						"visibility_rules": ["op_hid_on"]
 					}
 				],
