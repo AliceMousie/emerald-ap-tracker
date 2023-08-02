@@ -5,12 +5,12 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Maps
 if Tracker.ActiveVariantUID ~= "zzzno_hosted" then
-    Tracker:AddItems("items/enable_hosted_items.json")
+	Tracker:AddItems("items/enable_hosted_items.json")
 end  
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 if PopVersion and PopVersion >= "0.23.0" then
-    Tracker:AddLocations("locations/dungeons.json")
+	Tracker:AddLocations("locations/dungeons.json")
 end
 
 -- Layout
@@ -23,5 +23,5 @@ Tracker:AddLayouts("layouts/broadcast.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
+	ScriptHost:LoadScript("scripts/autotracking.lua")
 end

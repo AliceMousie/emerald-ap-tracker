@@ -1,12 +1,14 @@
-[{
-    "name": "Enabled Hosted Items",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-        {
-            "img": "images/settings/overworld_on.png",
-            "codes": "hosted_items"
-        }
-    ]
-}]
+[
+	{
+		"name": "Enabled Hosted Items",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/settings/overworld_on.png",
+				"codes": "hosted_items"
+			}
+		]
+	}
+]
