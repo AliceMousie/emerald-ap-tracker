@@ -1814,7 +1814,7 @@
 			},
 			{
 				"name": "Safari Zone",
-				"access_rules": ["$rt121_access,pokeblock"],
+				"access_rules": ["$lilycove_access,pokeblock"],
 				"sections": [
 					{
 						"name": "SW - Item Behind Pond",
