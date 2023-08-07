@@ -270,7 +270,7 @@
 					},
 					{
 						"name": "Wailmer Pail from Flower Shop Lady",
-						"visibility_rules": ["op_npc_on"]
+						"visibility_rules": ["op_ki_on"]
 					},
 					{
 						"name": "Gift from Woman Near Berries",
