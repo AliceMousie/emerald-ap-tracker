@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.1.9",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.8",
+			"sha256": "02cb08615d9bd1f5d1147466e08a2e9efce98888dcc32102f5a4de6d77772350",
+			"changelog": [
+				"Unrandomized key items now autotrack on supported builds",
+				"Fixed Wingull Reward logic",
+				"Fixed Safari Zone logic when freeflying to Lilycove",
+				"Fixed Wailmer Pail check being categorized as NPC Gift"
+			]
+		},
+		{
 			"package_version": "0.0.1.8",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.8",
 			"sha256": "e64a88447f08e0352c19ea6d290020963d64ecbd6d3250fc1821c5a87df36478",
