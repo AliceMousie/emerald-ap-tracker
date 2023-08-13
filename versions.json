@@ -1,8 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.2.0",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.0",
+			"sha256": "f3682abaa63b241d07418cd41820ed1a090f0a0dd5d224f26d50f31bb55118b5",
+			"changelog": ["Hotfix to key item autotracking update"]
+		},
+		{
 			"package_version": "0.0.1.9",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.8",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.9",
 			"sha256": "02cb08615d9bd1f5d1147466e08a2e9efce98888dcc32102f5a4de6d77772350",
 			"changelog": [
 				"Unrandomized key items now autotrack on supported builds",
