@@ -93,7 +93,7 @@
 					{
 						"name": "Defeat Norman",
 						"hosted_item": "defeatnorman",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"access_rules": ["$norman_open"]
 					},
 					{
@@ -333,7 +333,7 @@
 					},
 					{
 						"name": "Recover Devon Goods",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "recovergoods"
 					},
 					{
@@ -434,13 +434,13 @@
 					},
 					{
 						"name": "Team Magma - Steals Meteorite",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "stealmeteor"
 					},
 					{
 						"name": "Defeat Steven",
 						"access_rules": ["becomechampion"],
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "defeatsteven"
 					}
 				],
@@ -724,7 +724,7 @@
 					{
 						"map": "hoennmap",
 						"x": 76,
-						"y": 20
+						"y": 28
 					}
 				]
 			},
@@ -789,7 +789,7 @@
 				"map_locations": [
 					{
 						"map": "hoennmap",
-						"x": 68,
+						"x": 60,
 						"y": 28
 					}
 				]
@@ -850,14 +850,14 @@
 					{
 						"name": "Team Magma - Clear Hideout",
 						"access_rules": ["magmaemblem,$can_strength"],
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "clearmagma"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "hoennmap",
-						"x": 68,
+						"x": 60,
 						"y": 36
 					}
 				]
@@ -880,7 +880,7 @@
 				"map_locations": [
 					{
 						"map": "hoennmap",
-						"x": 60,
+						"x": 68,
 						"y": 36
 					}
 				]
@@ -1155,7 +1155,7 @@
 					{
 						"name": "Deliver Letter",
 						"access_rules": ["recovergoods,letter,[$can_flash]"],
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "stevenletter"
 					}
 				],
@@ -1432,7 +1432,7 @@
 					{
 						"name": "Deliver Devon Goods",
 						"access_rules": ["devongoods"],
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "sterngoods"
 					},
 					{
@@ -1453,7 +1453,7 @@
 					{
 						"name": "Team Aqua - Steals Submarine",
 						"access_rules": ["clearmagma"],
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "stealsub"
 					}
 				],
@@ -1693,7 +1693,7 @@
 				"sections": [
 					{
 						"name": "Clear Weather Institute",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "weatherins"
 					}
 				],
@@ -2132,7 +2132,7 @@
 					},
 					{
 						"name": "Team Aqua - Clear Hideout",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "clearaqua"
 					}
 				],
@@ -2384,7 +2384,7 @@
 					},
 					{
 						"name": "Clear Space Center",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "spacecenter"
 					},
 					{
@@ -2524,7 +2524,7 @@
 					},
 					{
 						"name": "Release Kyogre",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "releasekyogre"
 					}
 				],
@@ -2578,7 +2578,6 @@
 				"sections": [
 					{
 						"name": "Release Rayquaza",
-						"visibility_rules": ["hosted_items"],
 						"hosted_item": "releaserayquaza"
 					}
 				],
@@ -2742,7 +2741,7 @@
 				"sections": [
 					{
 						"name": "Become Champion",
-						"visibility_rules": ["hosted_items"],
+						"visibility_rules": [""],
 						"hosted_item": "becomechampion"
 					}
 				],
