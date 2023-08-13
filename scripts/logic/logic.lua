@@ -1,17 +1,3 @@
-function has(item, amount)
-	local count = Tracker:ProviderCountForCode(item)
-	amount = tonumber(amount)
-	if not amount then
-		return count > 0
-	else
-		return count >= amount
-	end
-end
-
-function progCount(code)
-	return Tracker:FindObjectForCode(code).CurrentStage
-end
-
 function badges()
 	return Tracker:ProviderCountForCode("stonebadge") + Tracker:ProviderCountForCode("knucklebadge") + Tracker:ProviderCountForCode("dynamobadge") + Tracker:ProviderCountForCode("heatbadge") + Tracker:ProviderCountForCode("balancebadge") + Tracker:ProviderCountForCode("featherbadge") + Tracker:ProviderCountForCode("rainbadge") + Tracker:ProviderCountForCode("mindbadge")
 end

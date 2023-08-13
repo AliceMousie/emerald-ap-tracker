@@ -1,12 +1,11 @@
+--Items
 Tracker:AddItems("items/items.json")
 -- Logic
+ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
-Tracker:AddMaps("maps/maps.json")
 
 -- Maps
-if Tracker.ActiveVariantUID ~= "zzzno_hosted" then
-	Tracker:AddItems("items/enable_hosted_items.json")
-end  
+Tracker:AddMaps("maps/maps.json")
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 if PopVersion and PopVersion >= "0.23.0" then
