@@ -224,6 +224,21 @@
 				"name": "",
 				"sections": [
 					{
+						"ref": "Hoenn/Meteor Falls/Defeat Steven"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "meteorfalls",
+						"x": 1912,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
 						"ref": "Hoenn/Jagged Pass/Magma Hideout 1F - Item on Ledge"
 					}
 				],
