@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.2.1",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.1",
+			"sha256": "1a65a07db1f4d2f47aaf64218526321b4b8c450f1aad7e57908ed2426d31d988",
+			"changelog": [
+				"Added Rt. 132-134 detail map",
+				"Added Steven's room to Meteor Falls detail map",
+				"Fixed items not resetting when connecting to AP",
+				"Various other fixes"
+			]
+		},
+		{
 			"package_version": "0.0.2.0",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.0",
 			"sha256": "f3682abaa63b241d07418cd41820ed1a090f0a0dd5d224f26d50f31bb55118b5",
