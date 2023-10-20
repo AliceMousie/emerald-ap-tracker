@@ -1,6 +1,6 @@
 function resetItems() 
 	for _, v in pairs(ITEM_MAPPING) do
-		if v[1] and v[2] then
+		if v[1] then
 			local obj = Tracker:FindObjectForCode(v[1])
 			if obj then
 				obj.Active = false

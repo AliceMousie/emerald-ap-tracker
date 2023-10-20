@@ -2695,16 +2695,12 @@
 					},
 					{
 						"name": "B2F - Item Above Waterfall",
-						"access_rules": [
-							"[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"
-						],
+						"access_rules": ["[$can_flash],$can_strength,$can_rocksmash"],
 						"visibility_rules": ["op_ovw_on"]
 					},
 					{
 						"name": "B2F - Hidden Item Above Waterfall",
-						"access_rules": [
-							"[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_waterfall"
-						],
+						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash"],
 						"visibility_rules": ["op_hid_on"]
 					},
 					{

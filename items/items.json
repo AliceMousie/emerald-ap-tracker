@@ -850,12 +850,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Rt.110 Grunts - Off",
 				"img": "images/settings/pass_sp.png",
 				"img_mods": "@disabled",
 				"codes": "pass_sp,pass_sp_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Rt.110 Grunts - On",
 				"img": "images/settings/pass_sp.png",
 				"codes": "pass_sp,pass_sp_on",
 				"inherit_codes": false
@@ -869,12 +871,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Rt.112 Grunts - Off",
 				"img": "images/settings/pass_cc.png",
 				"img_mods": "@disabled",
 				"codes": "pass_cc,pass_cc_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Rt.112 Grunts - On",
 				"img": "images/settings/pass_cc.png",
 				"codes": "pass_cc,pass_cc_on",
 				"inherit_codes": false
@@ -888,12 +892,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Rt.119 Grunts - Off",
 				"img": "images/settings/pass_wi.png",
 				"img_mods": "@disabled",
 				"codes": "pass_wi,pass_wi_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Rt.119 Grunts - On",
 				"img": "images/settings/pass_wi.png",
 				"codes": "pass_wi,pass_wi_on",
 				"inherit_codes": false
@@ -907,12 +913,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Safari Workers - Off",
 				"img": "images/settings/pass_sa.png",
 				"img_mods": "@disabled",
 				"codes": "pass_sa,pass_sa_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Safari Workers - On",
 				"img": "images/settings/pass_sa.png",
 				"codes": "pass_sa,pass_sa_on",
 				"inherit_codes": false
@@ -926,12 +934,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Aqua Hideout Grunts - Off",
 				"img": "images/settings/pass_hi.png",
 				"img_mods": "@disabled",
 				"codes": "pass_hi,pass_hi_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Aqua Hideout Grunts - On",
 				"img": "images/settings/pass_hi.png",
 				"codes": "pass_hi,pass_hi_on",
 				"inherit_codes": false
@@ -945,12 +955,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Lilycove Wailmer - Off",
 				"img": "images/settings/pass_wa.png",
 				"img_mods": "@disabled",
 				"codes": "pass_wa,pass_wa_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Lilycove Wailmer - On",
 				"img": "images/settings/pass_wa.png",
 				"codes": "pass_wa,pass_wa_on",
 				"inherit_codes": false
@@ -964,12 +976,14 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Remove Seafloor Cavern Grunt - Off",
 				"img": "images/settings/pass_sf.png",
 				"img_mods": "@disabled",
 				"codes": "pass_sf,pass_sf_off",
 				"inherit_codes": false
 			},
 			{
+				"name": "Remove Seafloor Cavern Grunt - On",
 				"img": "images/settings/pass_sf.png",
 				"codes": "pass_sf,pass_sf_on",
 				"inherit_codes": false

@@ -224,6 +224,21 @@
 				"name": "",
 				"sections": [
 					{
+						"ref": "Hoenn/Meteor Falls/Defeat Steven"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "meteorfalls",
+						"x": 1908,
+						"y": 54
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
 						"ref": "Hoenn/Jagged Pass/Magma Hideout 1F - Item on Ledge"
 					}
 				],
@@ -1147,6 +1162,118 @@
 						"map": "victoryroad",
 						"x": 1352,
 						"y": 552
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 132 - Item 1",
+						"ref": "Hoenn/Route 132/Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 2580,
+						"y": 440
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 132 - Item 2",
+						"ref": "Hoenn/Route 132/Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 2316,
+						"y": 218
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 133 - Item 1",
+						"ref": "Hoenn/Route 133/Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 1820,
+						"y": 192
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 133 - Item 2",
+						"ref": "Hoenn/Route 133/Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 1740,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 133 - Item 3",
+						"ref": "Hoenn/Route 133/Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 1112,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 134 - Item 1",
+						"ref": "Hoenn/Route 134/Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 512,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Route 134 - Item 2",
+						"ref": "Hoenn/Route 134/Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "rt132_134",
+						"x": 40,
+						"y": 440
 					}
 				]
 			}

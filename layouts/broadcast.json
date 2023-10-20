@@ -13,6 +13,10 @@
 					{
 						"type": "layout",
 						"key": "shared_item_grid"
+					},
+					{
+						"type": "layout",
+						"key": "event_grid"
 					}
 				]
 			}

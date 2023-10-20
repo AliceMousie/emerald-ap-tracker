@@ -64,5 +64,11 @@
 		"location_size": 26,
 		"location_border_thickness": 3,
 		"img": "images/maps/victoryroad.png"
+	},
+	{
+		"name": "rt132_134",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "images/maps/rt132_134.png"
 	}
 ]

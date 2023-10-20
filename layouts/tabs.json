@@ -45,14 +45,14 @@
 				}
 			},
 			{
-				"title": "Mt Pyre (Int.)",
+				"title": "Mt Pyre Int",
 				"content": {
 					"type": "map",
 					"maps": ["mtpyre_int"]
 				}
 			},
 			{
-				"title": "Mt Pyre (Ext.)",
+				"title": "Mt Pyre Ext",
 				"content": {
 					"type": "map",
 					"maps": ["mtpyre_ext"]
@@ -77,6 +77,13 @@
 				"content": {
 					"type": "map",
 					"maps": ["victoryroad"]
+				}
+			},
+			{
+				"title": "Rt. 132-134",
+				"content": {
+					"type": "map",
+					"maps": ["rt132_134"]
 				}
 			}
 		]

@@ -233,7 +233,6 @@ end
 function elite_four()
 	return e4_open() 
 	and victory_road_access() 
-	and can_waterfall()
 	and can_strength()
 	and can_rocksmash()
 end

@@ -15,7 +15,7 @@ function onClear(slot_data)
 	resetLocations()
 	resetItems()
 
-	if slot_data == nil  then
+	if slot_data == nil then
 		print("its fucked")
 		return
 	end
