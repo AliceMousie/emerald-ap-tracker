@@ -611,7 +611,7 @@
 						"access_rules": ["[$hid]"]
 					},
 					{
-						"name": "TM27 from Cozmo",
+						"name": "TM27 from Cozmo (Clear Mt. Chimney)",
 						"access_rules": ["meteorite,stealmeteor"],
 						"visibility_rules": ["op_npc_on"]
 					}
