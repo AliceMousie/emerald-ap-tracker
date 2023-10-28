@@ -1247,12 +1247,12 @@
 					{
 						"name": "HF - Hidden Item in Room 1",
 						"visibility_rules": ["op_ki_on"],
-						"access_rules": ["[$hid],$can_dive,roomkey1"]
+						"access_rules": ["$can_dive,roomkey1"]
 					},
 					{
 						"name": "​HF - Hidden Item in Room 1",
 						"visibility_rules": ["op_ki_off"],
-						"access_rules": ["[$hid],$can_dive,roomkey1"],
+						"access_rules": ["$can_dive,roomkey1"],
 						"hosted_item": "roomkey4"
 					},
 					{
@@ -1279,29 +1279,29 @@
 					{
 						"name": "​HF - Hidden Item in Room 3",
 						"visibility_rules": ["op_ki_off"],
-						"access_rules": ["[$hid],$can_dive"],
+						"access_rules": ["$can_dive"],
 						"hosted_item": "roomkey1"
 					},
 					{
 						"name": "HF - Hidden Item in Room 4",
 						"visibility_rules": ["op_ki_on"],
-						"access_rules": ["[$hid],$can_dive,roomkey4"]
+						"access_rules": ["$can_dive,roomkey4"]
 					},
 					{
 						"name": "​HF - Hidden Item in Room 4",
 						"visibility_rules": ["op_ki_off"],
-						"access_rules": ["[$hid],$can_dive,roomkey4"],
+						"access_rules": ["$can_dive,roomkey4"],
 						"hosted_item": "roomkey6"
 					},
 					{
 						"name": "HF - Hidden Item in Room 5",
 						"visibility_rules": ["op_ki_on"],
-						"access_rules": ["[$hid],$can_dive,roomkey6"]
+						"access_rules": ["$can_dive,roomkey6"]
 					},
 					{
 						"name": "​HF - Hidden Item in Room 5",
 						"visibility_rules": ["op_ki_off"],
-						"access_rules": ["[$hid],$can_dive,roomkey6"],
+						"access_rules": ["$can_dive,roomkey6"],
 						"hosted_item": "roomkey2"
 					},
 					{
