@@ -50,10 +50,25 @@
 				]
 			},
 			{
-				"type": "item",
-				"item_size": "178,24",
-				"v_alignment": "top",
-				"item": "op_ff"
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "2, 2",
+						"margin": "0,0",
+						"v_alignment": "top",
+						"rows": [["goal"]]
+					},
+					{
+						"type": "item",
+						"item_size": "178,24",
+						"margin": "2,2",
+						"v_alignment": "top",
+						"item": "op_ff"
+					}
+				]
 			}
 		]
 	}
