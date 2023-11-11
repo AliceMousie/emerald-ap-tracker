@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.2.2",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.2",
+			"sha256": "f8cc73238ab8b5c4e1c9f4a486a33c26496f3c86f8feaba167559d8aa9bcaa0f",
+			"changelog": [
+				"Added goal to settings",
+				"Adjusted Meteor Falls map",
+				"Fixed Abandoned Ship keys requiring itemfinder",
+				"Changed Deliver Devon Goods to have Dock sprite"
+			]
+		},
+		{
 			"package_version": "0.0.2.1",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.1",
 			"sha256": "1a65a07db1f4d2f47aaf64218526321b4b8c450f1aad7e57908ed2426d31d988",
