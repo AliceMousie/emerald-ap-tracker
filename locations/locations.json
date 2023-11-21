@@ -1644,10 +1644,7 @@
 					{
 						"name": "Hidden Item Next to Waterfall",
 						"visibility_rules": ["op_hid_on"],
-						"access_rules": [
-							"[$hid],$rt119_south_access,$can_surf",
-							"[$hid],$rt121_access,$can_surf"
-						]
+						"access_rules": ["[$hid],$rt119_south_access,$can_surf", "[$hid],$rt121_access,$can_surf"]
 					},
 					{
 						"name": "Hidden Item in East Tall Grass",
@@ -2503,9 +2500,7 @@
 			},
 			{
 				"name": "Seafloor Cavern",
-				"access_rules": [
-					"$can_dive,$can_strength,$can_rocksmash,$rt124_access,$pass_seafloor"
-				],
+				"access_rules": ["$can_dive,$can_strength,$can_rocksmash,$rt124_access,$pass_seafloor"],
 				"sections": [
 					{
 						"name": "Item Before Kyogre",
@@ -2695,19 +2690,17 @@
 					},
 					{
 						"name": "B2F - Item Above Waterfall",
-						"access_rules": ["[$can_flash],$can_strength,$can_rocksmash"],
+						"access_rules": ["[$can_flash],$can_strength,$can_rocksmash,$can_surf"],
 						"visibility_rules": ["op_ovw_on"]
 					},
 					{
 						"name": "B2F - Hidden Item Above Waterfall",
-						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash"],
+						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_surf"],
 						"visibility_rules": ["op_hid_on"]
 					},
 					{
 						"name": "B2F - Hidden Item in Northeast Corner",
-						"access_rules": [
-							"[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_surf"
-						],
+						"access_rules": ["[$hid],[$can_flash],$can_strength,$can_rocksmash,$can_surf"],
 						"visibility_rules": ["op_hid_on"]
 					}
 				],

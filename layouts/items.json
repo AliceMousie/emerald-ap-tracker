@@ -46,14 +46,7 @@
 								"ssticket",
 								"harbormail"
 							],
-							[
-								"roomkey1",
-								"roomkey2",
-								"roomkey4",
-								"roomkey6",
-								"basementkey",
-								"storagekey"
-							]
+							["roomkey1", "roomkey2", "roomkey4", "roomkey6", "basementkey", "storagekey"]
 						]
 					}
 				]

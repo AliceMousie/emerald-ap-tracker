@@ -235,4 +235,5 @@ function elite_four()
 	and victory_road_access() 
 	and can_strength()
 	and can_rocksmash()
+	and can_surf()
 end
