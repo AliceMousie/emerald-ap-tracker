@@ -1719,7 +1719,7 @@
 					},
 					{
 						"name": "Wingull Delivery Reward",
-						"access_rules": ["$can_surf,$mossdeep_access"],
+						"access_rules": ["$mossdeep_access"],
 						"visibility_rules": ["op_npc_on"]
 					}
 				],
