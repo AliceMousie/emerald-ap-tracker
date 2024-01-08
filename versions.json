@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.2.3",
+			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.3",
+			"sha256": "47f477a00935d4654de275098f756904e7aa318f38ad69562968ee2bf2915efa",
+			"changelog": ["Fixed victory road waterfall items logic", "Fixed wingull delivery reward for free fly"]
+		},
+		{
 			"package_version": "0.0.2.2",
 			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.2",
 			"sha256": "f8cc73238ab8b5c4e1c9f4a486a33c26496f3c86f8feaba167559d8aa9bcaa0f",
