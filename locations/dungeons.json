@@ -1415,8 +1415,8 @@
 				"map_locations": [
 					{
 						"map": "waterroutes",
-						"x": 1265,
-						"y": 870
+						"x": 1285,
+						"y": 905
 					}
 				]
 			},
@@ -1430,8 +1430,8 @@
 				"map_locations": [
 					{
 						"map": "waterroutes",
-						"x": 1305,
-						"y": 860
+						"x": 1265,
+						"y": 870
 					}
 				]
 			},
@@ -1445,8 +1445,8 @@
 				"map_locations": [
 					{
 						"map": "waterroutes",
-						"x": 1285,
-						"y": 905
+						"x": 1305,
+						"y": 860
 					}
 				]
 			},
