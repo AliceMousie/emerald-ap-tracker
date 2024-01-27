@@ -1469,21 +1469,6 @@
 				"name": "",
 				"sections": [
 					{
-						"ref": "Hoenn/Mossdeep City/Item"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "waterroutes",
-						"x": 1070,
-						"y": 565
-					}
-				]
-			},
-			{
-				"name": "",
-				"sections": [
-					{
 						"ref": "Hoenn/Route 127/Item East"
 					}
 				],
