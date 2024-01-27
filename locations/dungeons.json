@@ -1169,6 +1169,501 @@
 				"name": "",
 				"sections": [
 					{
+						"ref": "Hoenn/Route 124/Item in Southwest Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 230,
+						"y": 410
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/Item in Northwest Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 210,
+						"y": 105
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/Item in Northeast Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 430,
+						"y": 90
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in Big Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1310,
+						"y": 300
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in North Tunnel 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1520,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in North Tunnel 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1542,
+						"y": 273
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in Small Area Middle"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1685,
+						"y": 400
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in Small Area North"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1700,
+						"y": 253
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in Small Area South"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1732,
+						"y": 485
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 124/UW - Hidden Item in Tunnel Alcove"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1510,
+						"y": 390
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/Item in Separated Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 105,
+						"y": 610
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item Northeast"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1680,
+						"y": 745
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in North Alcove"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1508,
+						"y": 745
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in Northwest Alcove"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1430,
+						"y": 730
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in Southeast"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1690,
+						"y": 1050
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in Southwest Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1270,
+						"y": 1175
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in West Area 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1265,
+						"y": 870
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in West Area 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1305,
+						"y": 860
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 126/UW - Hidden Item in West Area 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1285,
+						"y": 905
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 125/Item Between Trainers"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 945,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Mossdeep City/Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1070,
+						"y": 565
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/Item East"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1087,
+						"y": 900
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/Item North"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 705,
+						"y": 650
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/Item Between Trainers"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 700,
+						"y": 750
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/UW - Hidden Item in Center Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 2060,
+						"y": 1150
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/UW - Hidden Item in East Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 2185,
+						"y": 875
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/UW - Hidden Item in Northeast Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 2347,
+						"y": 750
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 127/UW - Hidden Item in West Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1895,
+						"y": 920
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 128/Hidden Item North Island"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 970,
+						"y": 1275
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 128/Hidden Item Center Island"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 1030,
+						"y": 1360
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 128/Hidden Item Southwest Island"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 835,
+						"y": 1450
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 128/UW - Hidden Item in East Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 2320,
+						"y": 1340
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "Hoenn/Route 128/UW - Hidden Item in Small Area"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterroutes",
+						"x": 2087,
+						"y": 1343
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
 						"name": "Route 132 - Item 1",
 						"ref": "Hoenn/Route 132/Item 1"
 					}

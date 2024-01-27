@@ -80,6 +80,13 @@
 				}
 			},
 			{
+				"title": "Eastern Water Routes",
+				"content": {
+					"type": "map",
+					"maps": ["waterroutes"]
+				}
+			},
+			{
 				"title": "Rt. 132-134",
 				"content": {
 					"type": "map",
